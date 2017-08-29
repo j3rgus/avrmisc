@@ -1,0 +1,306 @@
+GAS LISTING /tmp/ccm9YmKo.s 			page 1
+
+
+   1               		.file	"rspok.c"
+   2               	__SREG__ = 0x3f
+   3               	__SP_H__ = 0x3e
+   4               	__SP_L__ = 0x3d
+   5               	__CCP__  = 0x34
+   6               	__tmp_reg__ = 0
+   7               	__zero_reg__ = 1
+   8               		.global __do_copy_data
+   9               		.global __do_clear_bss
+  10               		.stabs	"/home/jergus/Plocha/tests/232/",100,0,2,.Ltext0
+  11               		.stabs	"rspok.c",100,0,2,.Ltext0
+  12               		.text
+  13               	.Ltext0:
+  14               		.stabs	"gcc2_compiled.",60,0,0,0
+  15               		.stabs	"int:t(0,1)=r(0,1);-32768;32767;",128,0,1,0
+  16               		.stabs	"char:t(0,2)=@s8;r(0,2);0;255;",128,0,1,0
+  17               		.stabs	"long int:t(0,3)=@s32;r(0,3);020000000000;017777777777;",128,0,1,0
+  18               		.stabs	"unsigned int:t(0,4)=r(0,4);0;0177777;",128,0,1,0
+  19               		.stabs	"long unsigned int:t(0,5)=@s32;r(0,5);0;037777777777;",128,0,1,0
+  20               		.stabs	"long long int:t(0,6)=@s64;r(0,6);01000000000000000000000;0777777777777777777777;",128,0,1,
+  21               		.stabs	"long long unsigned int:t(0,7)=@s64;r(0,7);0;01777777777777777777777;",128,0,1,0
+  22               		.stabs	"short int:t(0,8)=r(0,8);-32768;32767;",128,0,1,0
+  23               		.stabs	"short unsigned int:t(0,9)=r(0,9);0;0177777;",128,0,1,0
+  24               		.stabs	"signed char:t(0,10)=@s8;r(0,10);-128;127;",128,0,1,0
+  25               		.stabs	"unsigned char:t(0,11)=@s8;r(0,11);0;255;",128,0,1,0
+  26               		.stabs	"float:t(0,12)=r(0,1);4;0;",128,0,1,0
+  27               		.stabs	"double:t(0,13)=r(0,1);4;0;",128,0,1,0
+  28               		.stabs	"long double:t(0,14)=r(0,1);4;0;",128,0,1,0
+  29               		.stabs	"void:t(0,15)=(0,15)",128,0,1,0
+  30               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/avr/io.h",130,0,0,0
+  31               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/avr/sfr_defs.h",130,0,0,0
+  32               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/inttypes.h",130,0,0,0
+  33               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/stdint.h",130,0,0,0
+  34               		.stabs	"int8_t:t(4,1)=(0,10)",128,0,121,0
+  35               		.stabs	"uint8_t:t(4,2)=(0,11)",128,0,122,0
+  36               		.stabs	"int16_t:t(4,3)=(0,1)",128,0,123,0
+  37               		.stabs	"uint16_t:t(4,4)=(0,4)",128,0,124,0
+  38               		.stabs	"int32_t:t(4,5)=(0,3)",128,0,125,0
+  39               		.stabs	"uint32_t:t(4,6)=(0,5)",128,0,126,0
+  40               		.stabs	"int64_t:t(4,7)=(0,6)",128,0,128,0
+  41               		.stabs	"uint64_t:t(4,8)=(0,7)",128,0,129,0
+  42               		.stabs	"intptr_t:t(4,9)=(4,3)",128,0,142,0
+  43               		.stabs	"uintptr_t:t(4,10)=(4,4)",128,0,147,0
+  44               		.stabs	"int_least8_t:t(4,11)=(4,1)",128,0,159,0
+  45               		.stabs	"uint_least8_t:t(4,12)=(4,2)",128,0,164,0
+  46               		.stabs	"int_least16_t:t(4,13)=(4,3)",128,0,169,0
+  47               		.stabs	"uint_least16_t:t(4,14)=(4,4)",128,0,174,0
+  48               		.stabs	"int_least32_t:t(4,15)=(4,5)",128,0,179,0
+  49               		.stabs	"uint_least32_t:t(4,16)=(4,6)",128,0,184,0
+  50               		.stabs	"int_least64_t:t(4,17)=(4,7)",128,0,192,0
+  51               		.stabs	"uint_least64_t:t(4,18)=(4,8)",128,0,199,0
+  52               		.stabs	"int_fast8_t:t(4,19)=(4,1)",128,0,213,0
+  53               		.stabs	"uint_fast8_t:t(4,20)=(4,2)",128,0,218,0
+  54               		.stabs	"int_fast16_t:t(4,21)=(4,3)",128,0,223,0
+  55               		.stabs	"uint_fast16_t:t(4,22)=(4,4)",128,0,228,0
+  56               		.stabs	"int_fast32_t:t(4,23)=(4,5)",128,0,233,0
+  57               		.stabs	"uint_fast32_t:t(4,24)=(4,6)",128,0,238,0
+GAS LISTING /tmp/ccm9YmKo.s 			page 2
+
+
+  58               		.stabs	"int_fast64_t:t(4,25)=(4,7)",128,0,246,0
+  59               		.stabs	"uint_fast64_t:t(4,26)=(4,8)",128,0,253,0
+  60               		.stabs	"intmax_t:t(4,27)=(4,7)",128,0,273,0
+  61               		.stabs	"uintmax_t:t(4,28)=(4,8)",128,0,278,0
+  62               		.stabn	162,0,0,0
+  63               		.stabs	"int_farptr_t:t(3,1)=(4,5)",128,0,77,0
+  64               		.stabs	"uint_farptr_t:t(3,2)=(4,6)",128,0,81,0
+  65               		.stabn	162,0,0,0
+  66               		.stabn	162,0,0,0
+  67               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/avr/fuse.h",130,0,0,0
+  68               		.stabs	"__fuse_t:t(5,1)=(5,2)=s3low:(0,11),0,8;high:(0,11),8,8;extended:(0,11),16,8;;",128,0,239,0
+  69               		.stabn	162,0,0,0
+  70               		.stabn	162,0,0,0
+  71               		.stabs	"USART_Transmit:F(0,15)",36,0,7,USART_Transmit
+  72               		.stabs	"data:P(0,11)",64,0,6,24
+  73               	.global	USART_Transmit
+  74               		.type	USART_Transmit, @function
+  75               	USART_Transmit:
+  76               		.stabd	46,0,0
+   0:rspok.c       **** #define F_CPU 4000000
+   1:rspok.c       **** 
+   2:rspok.c       **** #include <avr/io.h>
+   3:rspok.c       **** #include <avr/interrupt.h>
+   4:rspok.c       **** 
+   5:rspok.c       **** void USART_Transmit(unsigned char data)
+   6:rspok.c       **** {
+  77               		.stabn	68,0,7,.LM0-.LFBB1
+  78               	.LM0:
+  79               	.LFBB1:
+  80               	/* prologue: function */
+  81               	/* frame size = 0 */
+  82               	.L2:
+   7:rspok.c       **** /* Wait for empty transmit buffer */
+   8:rspok.c       **** while ( !( UCSRA & (1<<UDRE)) )
+  83               		.stabn	68,0,9,.LM1-.LFBB1
+  84               	.LM1:
+  85 0000 5D9B      		sbis 43-32,5
+  86 0002 00C0      		rjmp .L2
+   9:rspok.c       **** ;
+  10:rspok.c       **** /* Put data into buffer, sends the data */
+  11:rspok.c       **** UDR = data;
+  87               		.stabn	68,0,12,.LM2-.LFBB1
+  88               	.LM2:
+  89 0004 8CB9      		out 44-32,r24
+  90               	/* epilogue start */
+  12:rspok.c       **** }
+  91               		.stabn	68,0,13,.LM3-.LFBB1
+  92               	.LM3:
+  93 0006 0895      		ret
+  94               		.size	USART_Transmit, .-USART_Transmit
+  95               	.Lscope1:
+  96               		.stabs	"",36,0,0,.Lscope1-.LFBB1
+  97               		.stabd	78,0,0
+  98               		.stabs	"USART_Receive:F(0,11)",36,0,16,USART_Receive
+  99               	.global	USART_Receive
+ 100               		.type	USART_Receive, @function
+ 101               	USART_Receive:
+GAS LISTING /tmp/ccm9YmKo.s 			page 3
+
+
+ 102               		.stabd	46,0,0
+  13:rspok.c       **** 
+  14:rspok.c       **** unsigned char USART_Receive(void)
+  15:rspok.c       **** {
+ 103               		.stabn	68,0,16,.LM4-.LFBB2
+ 104               	.LM4:
+ 105               	.LFBB2:
+ 106               	/* prologue: function */
+ 107               	/* frame size = 0 */
+ 108               	.L6:
+  16:rspok.c       **** /* Wait for data to be received */
+  17:rspok.c       **** while ( !(UCSRA & (1<<RXC)) )
+ 109               		.stabn	68,0,18,.LM5-.LFBB2
+ 110               	.LM5:
+ 111 0008 5F9B      		sbis 43-32,7
+ 112 000a 00C0      		rjmp .L6
+  18:rspok.c       **** ;
+  19:rspok.c       **** /* Get and return received data from buffer */
+  20:rspok.c       **** return UDR;
+ 113               		.stabn	68,0,21,.LM6-.LFBB2
+ 114               	.LM6:
+ 115 000c 8CB1      		in r24,44-32
+ 116               	/* epilogue start */
+  21:rspok.c       **** }
+ 117               		.stabn	68,0,22,.LM7-.LFBB2
+ 118               	.LM7:
+ 119 000e 0895      		ret
+ 120               		.size	USART_Receive, .-USART_Receive
+ 121               	.Lscope2:
+ 122               		.stabs	"",36,0,0,.Lscope2-.LFBB2
+ 123               		.stabd	78,0,0
+ 124               		.stabs	"USART_Init:F(0,15)",36,0,25,USART_Init
+ 125               	.global	USART_Init
+ 126               		.type	USART_Init, @function
+ 127               	USART_Init:
+ 128               		.stabd	46,0,0
+  22:rspok.c       **** 
+  23:rspok.c       **** void USART_Init(void)
+  24:rspok.c       **** {
+ 129               		.stabn	68,0,25,.LM8-.LFBB3
+ 130               	.LM8:
+ 131               	.LFBB3:
+ 132               	/* prologue: function */
+ 133               	/* frame size = 0 */
+  25:rspok.c       **** /* Set baud rate 19200 */
+  26:rspok.c       **** UBRRH = 0;
+ 134               		.stabn	68,0,27,.LM9-.LFBB3
+ 135               	.LM9:
+ 136 0010 12B8      		out 34-32,__zero_reg__
+  27:rspok.c       **** UBRRL = 12;
+ 137               		.stabn	68,0,28,.LM10-.LFBB3
+ 138               	.LM10:
+ 139 0012 8CE0      		ldi r24,lo8(12)
+ 140 0014 89B9      		out 41-32,r24
+  28:rspok.c       **** /* Enable receiver and transmitter */
+  29:rspok.c       **** UCSRB = 0x18;
+ 141               		.stabn	68,0,30,.LM11-.LFBB3
+GAS LISTING /tmp/ccm9YmKo.s 			page 4
+
+
+ 142               	.LM11:
+ 143 0016 88E1      		ldi r24,lo8(24)
+ 144 0018 8AB9      		out 42-32,r24
+  30:rspok.c       **** /* Set frame format: 8N1 */
+  31:rspok.c       **** UCSRC = 0x06;
+ 145               		.stabn	68,0,32,.LM12-.LFBB3
+ 146               	.LM12:
+ 147 001a 86E0      		ldi r24,lo8(6)
+ 148 001c 83B9      		out 35-32,r24
+ 149               	/* epilogue start */
+  32:rspok.c       **** }
+ 150               		.stabn	68,0,33,.LM13-.LFBB3
+ 151               	.LM13:
+ 152 001e 0895      		ret
+ 153               		.size	USART_Init, .-USART_Init
+ 154               	.Lscope3:
+ 155               		.stabs	"",36,0,0,.Lscope3-.LFBB3
+ 156               		.stabd	78,0,0
+ 157               		.stabs	"main:F(0,1)",36,0,36,main
+ 158               	.global	main
+ 159               		.type	main, @function
+ 160               	main:
+ 161               		.stabd	46,0,0
+  33:rspok.c       **** 
+  34:rspok.c       **** int main(void)
+  35:rspok.c       **** {
+ 162               		.stabn	68,0,36,.LM14-.LFBB4
+ 163               	.LM14:
+ 164               	.LFBB4:
+ 165               	/* prologue: function */
+ 166               	/* frame size = 0 */
+ 167               	.LBB10:
+ 168               	.LBB11:
+  27:rspok.c       **** UBRRH = 0;
+ 169               		.stabn	68,0,27,.LM15-.LFBB4
+ 170               	.LM15:
+ 171 0020 12B8      		out 34-32,__zero_reg__
+  28:rspok.c       **** UBRRL = 12;
+ 172               		.stabn	68,0,28,.LM16-.LFBB4
+ 173               	.LM16:
+ 174 0022 8CE0      		ldi r24,lo8(12)
+ 175 0024 89B9      		out 41-32,r24
+  30:rspok.c       **** UCSRB = 0x18;
+ 176               		.stabn	68,0,30,.LM17-.LFBB4
+ 177               	.LM17:
+ 178 0026 88E1      		ldi r24,lo8(24)
+ 179 0028 8AB9      		out 42-32,r24
+  32:rspok.c       **** UCSRC = 0x06;
+ 180               		.stabn	68,0,32,.LM18-.LFBB4
+ 181               	.LM18:
+ 182 002a 86E0      		ldi r24,lo8(6)
+ 183 002c 83B9      		out 35-32,r24
+ 184               	.L12:
+ 185               	.LBE11:
+ 186               	.LBE10:
+ 187               	.LBB12:
+ 188               	.LBB13:
+GAS LISTING /tmp/ccm9YmKo.s 			page 5
+
+
+   9:rspok.c       **** while ( !( UCSRA & (1<<UDRE)) )
+ 189               		.stabn	68,0,9,.LM19-.LFBB4
+ 190               	.LM19:
+ 191 002e 5D9B      		sbis 43-32,5
+ 192 0030 00C0      		rjmp .L12
+  12:rspok.c       **** UDR = data;
+ 193               		.stabn	68,0,12,.LM20-.LFBB4
+ 194               	.LM20:
+ 195 0032 81E6      		ldi r24,lo8(97)
+ 196               	.L21:
+ 197 0034 8CB9      		out 44-32,r24
+ 198               	.L20:
+ 199               	.LBE13:
+ 200               	.LBE12:
+ 201               	.LBB14:
+ 202               	.LBB15:
+  18:rspok.c       **** while ( !(UCSRA & (1<<RXC)) )
+ 203               		.stabn	68,0,18,.LM21-.LFBB4
+ 204               	.LM21:
+ 205 0036 5F9B      		sbis 43-32,7
+ 206 0038 00C0      		rjmp .L20
+  21:rspok.c       **** return UDR;
+ 207               		.stabn	68,0,21,.LM22-.LFBB4
+ 208               	.LM22:
+ 209 003a 8CB1      		in r24,44-32
+ 210               	.L14:
+ 211               	.LBE15:
+ 212               	.LBE14:
+ 213               	.LBB16:
+ 214               	.LBB17:
+   9:rspok.c       **** while ( !( UCSRA & (1<<UDRE)) )
+ 215               		.stabn	68,0,9,.LM23-.LFBB4
+ 216               	.LM23:
+ 217 003c 5D9B      		sbis 43-32,5
+ 218 003e 00C0      		rjmp .L14
+ 219 0040 00C0      		rjmp .L21
+ 220               	.LBE17:
+ 221               	.LBE16:
+ 222               		.size	main, .-main
+ 223               	.Lscope4:
+ 224               		.stabs	"",36,0,0,.Lscope4-.LFBB4
+ 225               		.stabd	78,0,0
+ 226               		.stabs	"",100,0,0,.Letext0
+ 227               	.Letext0:
+GAS LISTING /tmp/ccm9YmKo.s 			page 6
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 rspok.c
+     /tmp/ccm9YmKo.s:2      *ABS*:0000003f __SREG__
+     /tmp/ccm9YmKo.s:3      *ABS*:0000003e __SP_H__
+     /tmp/ccm9YmKo.s:4      *ABS*:0000003d __SP_L__
+     /tmp/ccm9YmKo.s:5      *ABS*:00000034 __CCP__
+     /tmp/ccm9YmKo.s:6      *ABS*:00000000 __tmp_reg__
+     /tmp/ccm9YmKo.s:7      *ABS*:00000001 __zero_reg__
+     /tmp/ccm9YmKo.s:75     .text:00000000 USART_Transmit
+     /tmp/ccm9YmKo.s:101    .text:00000008 USART_Receive
+     /tmp/ccm9YmKo.s:127    .text:00000010 USART_Init
+     /tmp/ccm9YmKo.s:160    .text:00000020 main
+
+UNDEFINED SYMBOLS
+__do_copy_data
+__do_clear_bss

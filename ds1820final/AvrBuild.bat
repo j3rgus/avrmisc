@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Program Files\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\labels.tmp" -fI -W+ie -o "C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds1820final.hex" -d "C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds1820final.obj" -e "C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds1820final.eep" -m "C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds1820final.map" "C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm"

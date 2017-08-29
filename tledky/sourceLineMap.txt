@@ -1,0 +1,29 @@
+Address = 0x00000034  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tledky\default/../led.c:7:0:-1
+Address = 0x00000034  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tledky\default/../led.c:8:0:-1
+Address = 0x00000038  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tledky\default/../led.c:11:0:-1
+Address = 0x0000003a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x0000003e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tledky\default/../led.c:11:0:-1
+Address = 0x00000044  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x0000004a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:124:0:-1
+Address = 0x0000004c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:120:0:-1
+Address = 0x0000004e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tledky\default/../led.c:13:0:-1
+Address = 0x00000054  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x0000005a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:124:0:-1
+Address = 0x0000005c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:120:0:-1
+Address = 0x0000005e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tledky\default/../led.c:15:0:-1
+Address = 0x00000064  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x0000006a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:124:0:-1
+Address = 0x0000006c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:120:0:-1
+Address = 0x0000006e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tledky\default/../led.c:17:0:-1
+Address = 0x00000074  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x0000007a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:124:0:-1
+Address = 0x0000007c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:120:0:-1
+Address = 0x0000007e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tledky\default/../led.c:19:0:-1
+Address = 0x00000084  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x0000008a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:124:0:-1
+Address = 0x0000008c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:120:0:-1
+Address = 0x0000008e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tledky\default/../led.c:21:0:-1
+Address = 0x00000094  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x0000009a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:124:0:-1
+Address = 0x0000009c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:120:0:-1
+Address = 0x000000a0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:120:0:-1

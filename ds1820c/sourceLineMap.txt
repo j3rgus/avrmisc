@@ -1,0 +1,306 @@
+Address = 0x000000a6  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:26:0:-1
+Address = 0x000000a8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:27:0:-1
+Address = 0x000000aa  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x000000b2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:29:0:-1
+Address = 0x000000b4  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000000ba  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:31:0:-1
+Address = 0x000000bc  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x000000c6  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:34:0:-1
+Address = 0x000000ce  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:43:0:-1
+Address = 0x000000ce  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:43:0:-1
+Address = 0x000000d2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000000d6  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:47:0:-1
+Address = 0x000000d8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:48:0:-1
+Address = 0x000000da  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000000e0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:50:0:-1
+Address = 0x000000e2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000000e8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:52:0:-1
+Address = 0x000000f0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000000f6  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:45:0:-1
+Address = 0x000000fc  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:56:0:-1
+Address = 0x00000100  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:65:0:-1
+Address = 0x00000102  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000106  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:68:0:-1
+Address = 0x00000108  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:69:0:-1
+Address = 0x0000010a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:70:0:-1
+Address = 0x0000010e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000114  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:72:0:-1
+Address = 0x00000116  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000120  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:77:0:-1
+Address = 0x00000122  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000128  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:67:0:-1
+Address = 0x0000012e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:80:0:-1
+Address = 0x00000134  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:91:0:-1
+Address = 0x0000013a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:92:0:-1
+Address = 0x00000140  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:93:0:-1
+Address = 0x00000142  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:103:0:-1
+Address = 0x00000148  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:104:0:-1
+Address = 0x0000014e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:105:0:-1
+Address = 0x00000150  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:19:0:-1
+Address = 0x00000152  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:20:0:-1
+Address = 0x00000154  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:21:0:-1
+Address = 0x00000156  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:22:0:-1
+Address = 0x00000158  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:23:0:-1
+Address = 0x0000015c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:25:0:-1
+Address = 0x00000160  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000168  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:28:0:-1
+Address = 0x0000016a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:29:0:-1
+Address = 0x0000016c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000170  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:31:0:-1
+Address = 0x00000172  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:32:0:-1
+Address = 0x00000178  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:33:0:-1
+Address = 0x0000017a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:34:0:-1
+Address = 0x0000017c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:44:0:-1
+Address = 0x0000017e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:45:0:-1
+Address = 0x00000180  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:46:0:-1
+Address = 0x00000182  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:47:0:-1
+Address = 0x00000184  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000018a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:49:0:-1
+Address = 0x0000018c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000192  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:51:0:-1
+Address = 0x00000194  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:52:0:-1
+Address = 0x00000196  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:61:0:-1
+Address = 0x00000198  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000019c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:65:0:-1
+Address = 0x000001a0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:66:0:-1
+Address = 0x000001a2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:67:0:-1
+Address = 0x000001a6  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:70:0:-1
+Address = 0x000001a8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000001ae  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:73:0:-1
+Address = 0x000001b0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000001b6  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:75:0:-1
+Address = 0x000001ba  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000001c0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:78:0:-1
+Address = 0x000001c2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:79:0:-1
+Address = 0x000001c4  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:64:0:-1
+Address = 0x000001ca  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:80:0:-1
+Address = 0x000001ce  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:82:0:-1
+Address = 0x000001d0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000001d6  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:84:0:-1
+Address = 0x000001d8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000001de  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:86:0:-1
+Address = 0x000001e0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:88:0:-1
+Address = 0x000001e2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:89:0:-1
+Address = 0x000001ec  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:91:0:-1
+Address = 0x000001f0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:100:0:-1
+Address = 0x000001f4  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000001f8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:104:0:-1
+Address = 0x000001fa  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:105:0:-1
+Address = 0x000001fc  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:106:0:-1
+Address = 0x00000200  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000206  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:109:0:-1
+Address = 0x00000208  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:111:0:-1
+Address = 0x0000020a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000210  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:113:0:-1
+Address = 0x00000212  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:114:0:-1
+Address = 0x00000214  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000021a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:103:0:-1
+Address = 0x00000220  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:117:0:-1
+Address = 0x00000222  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000022a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:119:0:-1
+Address = 0x0000022c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000232  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:121:0:-1
+Address = 0x00000234  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:122:0:-1
+Address = 0x00000236  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000023c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:124:0:-1
+Address = 0x0000023e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000242  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:127:0:-1
+Address = 0x00000246  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:135:0:-1
+Address = 0x0000024e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:136:0:-1
+Address = 0x00000252  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:137:0:-1
+Address = 0x00000258  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:138:0:-1
+Address = 0x0000025e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:139:0:-1
+Address = 0x00000264  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:140:0:-1
+Address = 0x00000268  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:141:0:-1
+Address = 0x0000026e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:150:0:-1
+Address = 0x00000272  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:152:0:-1
+Address = 0x00000276  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:153:0:-1
+Address = 0x0000027c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:154:0:-1
+Address = 0x00000282  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:155:0:-1
+Address = 0x00000286  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:156:0:-1
+Address = 0x0000028c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:157:0:-1
+Address = 0x00000292  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:158:0:-1
+Address = 0x00000296  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1307\/ds1307.c:160:0:-1
+Address = 0x0000029c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:22:0:-1
+Address = 0x000002a2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:23:0:-1
+Address = 0x000002a4  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:24:0:-1
+Address = 0x000002a6  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x000002b0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:26:0:-1
+Address = 0x000002b2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:27:0:-1
+Address = 0x000002b4  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x000002ba  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:29:0:-1
+Address = 0x000002c8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:30:0:-1
+Address = 0x000002ca  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:31:0:-1
+Address = 0x000002cc  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x000002d2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:33:0:-1
+Address = 0x000002d4  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:34:0:-1
+Address = 0x000002d6  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x000002dc  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:36:0:-1
+Address = 0x000002de  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:39:0:-1
+Address = 0x000002e4  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:40:0:-1
+Address = 0x000002e6  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x000002f0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:42:0:-1
+Address = 0x000002f2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x000002f8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:44:0:-1
+Address = 0x00000306  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:45:0:-1
+Address = 0x00000308  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x0000030e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:47:0:-1
+Address = 0x00000310  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x00000316  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:49:0:-1
+Address = 0x00000318  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x00000320  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:53:0:-1
+Address = 0x00000322  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:54:0:-1
+Address = 0x00000324  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:55:0:-1
+Address = 0x0000032a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:56:0:-1
+Address = 0x00000330  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:58:0:-1
+Address = 0x00000334  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:59:0:-1
+Address = 0x00000336  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x00000340  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:61:0:-1
+Address = 0x00000342  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x00000348  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:64:0:-1
+Address = 0x0000034a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:65:0:-1
+Address = 0x0000034c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x00000352  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:67:0:-1
+Address = 0x00000354  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x0000035a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:70:0:-1
+Address = 0x0000035e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:71:0:-1
+Address = 0x00000360  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x00000366  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:73:0:-1
+Address = 0x00000368  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x0000036e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:76:0:-1
+Address = 0x00000374  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:78:0:-1
+Address = 0x0000037a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:81:0:-1
+Address = 0x0000037c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:84:0:-1
+Address = 0x00000382  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:85:0:-1
+Address = 0x00000384  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:88:0:-1
+Address = 0x0000038a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:89:0:-1
+Address = 0x0000038c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:91:0:-1
+Address = 0x00000396  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:95:0:-1
+Address = 0x000003a0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:100:0:-1
+Address = 0x000003a6  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:98:0:-1
+Address = 0x000003ac  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:102:0:-1
+Address = 0x000003b6  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:107:0:-1
+Address = 0x000003c2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:110:0:-1
+Address = 0x000003c6  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:111:0:-1
+Address = 0x000003ca  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:112:0:-1
+Address = 0x000003cc  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:116:0:-1
+Address = 0x000003d2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:118:0:-1
+Address = 0x000003d4  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:123:0:-1
+Address = 0x000003de  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:125:0:-1
+Address = 0x000003e8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:128:0:-1
+Address = 0x000003ec  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:126:0:-1
+Address = 0x000003fa  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:130:0:-1
+Address = 0x00000402  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:146:0:-1
+Address = 0x00000412  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:149:0:-1
+Address = 0x0000041e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:151:0:-1
+Address = 0x00000426  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:152:0:-1
+Address = 0x0000042e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:153:0:-1
+Address = 0x00000434  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:150:0:-1
+Address = 0x0000043c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:155:0:-1
+Address = 0x0000044a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:158:0:-1
+Address = 0x00000450  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:158:0:-1
+Address = 0x00000454  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:161:0:-1
+Address = 0x0000045a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:159:0:-1
+Address = 0x00000460  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:163:0:-1
+Address = 0x00000466  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:165:0:-1
+Address = 0x0000046c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:165:0:-1
+Address = 0x00000470  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:168:0:-1
+Address = 0x00000476  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:166:0:-1
+Address = 0x0000047c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:170:0:-1
+Address = 0x00000482  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:173:0:-1
+Address = 0x00000488  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:174:0:-1
+Address = 0x0000048a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:177:0:-1
+Address = 0x00000490  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:178:0:-1
+Address = 0x00000492  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:181:0:-1
+Address = 0x00000498  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:182:0:-1
+Address = 0x0000049a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:185:0:-1
+Address = 0x000004a0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:186:0:-1
+Address = 0x000004a2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:189:0:-1
+Address = 0x000004a8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:190:0:-1
+Address = 0x000004aa  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:192:0:-1
+Address = 0x000004b0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:192:0:-1
+Address = 0x000004b4  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:195:0:-1
+Address = 0x000004ba  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:193:0:-1
+Address = 0x000004c0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:197:0:-1
+Address = 0x000004c6  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:199:0:-1
+Address = 0x000004cc  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:199:0:-1
+Address = 0x000004d0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:202:0:-1
+Address = 0x000004d6  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:200:0:-1
+Address = 0x000004dc  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/lcd/lcd_lib.c:204:0:-1
+Address = 0x000004e2  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:83:0:-1
+Address = 0x000004ee  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:84:0:-1
+Address = 0x000004f6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:85:0:-1
+Address = 0x000004f8  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:89:0:-1
+Address = 0x00000504  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:90:0:-1
+Address = 0x0000050c  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:91:0:-1
+Address = 0x0000050e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:94:0:-1
+Address = 0x00000510  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:94:0:-1
+Address = 0x00000522  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:96:0:-1
+Address = 0x00000528  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:99:0:-1
+Address = 0x00000538  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:101:0:-1
+Address = 0x0000053c  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:104:0:-1
+Address = 0x0000053c  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:109:0:-1
+Address = 0x00000540  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:100:0:-1
+Address = 0x0000055a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:111:0:-1
+Address = 0x0000055c  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:110:0:-1
+Address = 0x00000560  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:113:0:-1
+Address = 0x0000056e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:115:0:-1
+Address = 0x00000576  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:117:0:-1
+Address = 0x0000057a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:118:0:-1
+Address = 0x0000059e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:119:0:-1
+Address = 0x000005bc  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:118:0:-1
+Address = 0x000005c8  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:120:0:-1
+Address = 0x000005e6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:121:0:-1
+Address = 0x000005ea  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:122:0:-1
+Address = 0x00000608  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:124:0:-1
+Address = 0x0000060c  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:125:0:-1
+Address = 0x0000060e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:49:0:-1
+Address = 0x00000622  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:26:0:-1
+Address = 0x00000624  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:27:0:-1
+Address = 0x00000626  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x0000062e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:29:0:-1
+Address = 0x00000630  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000636  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:31:0:-1
+Address = 0x00000638  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x00000640  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:51:0:-1
+Address = 0x0000064e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:53:0:-1
+Address = 0x00000662  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:52:0:-1
+Address = 0x0000066a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:54:0:-1
+Address = 0x0000066e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:55:0:-1
+Address = 0x000006e8  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:56:0:-1
+Address = 0x0000073e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x00000748  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:124:0:-1
+Address = 0x0000074c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:120:0:-1
+Address = 0x00000752  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x0000075c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:124:0:-1
+Address = 0x0000075e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:120:0:-1
+Address = 0x00000760  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:26:0:-1
+Address = 0x00000762  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:27:0:-1
+Address = 0x00000764  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x00000772  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:29:0:-1
+Address = 0x00000774  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000077e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:31:0:-1
+Address = 0x00000780  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x0000078a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:60:0:-1
+Address = 0x0000078e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:61:0:-1
+Address = 0x00000796  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:62:0:-1
+Address = 0x0000079a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:26:0:-1
+Address = 0x0000079c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:27:0:-1
+Address = 0x0000079e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x000007a4  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:29:0:-1
+Address = 0x000007a6  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000007aa  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820\/ds1820.c:31:0:-1
+Address = 0x000007ac  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x000007b2  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:64:0:-1
+Address = 0x000007b6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:67:0:-1
+Address = 0x000007ce  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:68:0:-1
+Address = 0x000007e0  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:71:0:-1
+Address = 0x000007e4  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:72:0:-1
+Address = 0x000007e8  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:73:0:-1
+Address = 0x000007ec  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:74:0:-1
+Address = 0x00000806  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:75:0:-1
+Address = 0x00000812  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:76:0:-1
+Address = 0x0000081a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:77:0:-1
+Address = 0x00000834  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:78:0:-1
+Address = 0x0000083a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:42:0:-1
+Address = 0x00000840  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\ds1820c\default/../ds1820ctest.c:42:0:-1

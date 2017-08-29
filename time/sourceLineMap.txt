@@ -1,0 +1,8 @@
+Address = 0x00000038  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\time\default/../timer.c:5:0:-1
+Address = 0x00000044  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\time\default/../timer.c:6:0:-1
+Address = 0x00000048  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\time\default/../timer.c:7:0:-1
+Address = 0x00000054  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\time\default/../timer.c:11:0:-1
+Address = 0x00000058  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\time\default/../timer.c:12:0:-1
+Address = 0x0000005c  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\time\default/../timer.c:13:0:-1
+Address = 0x0000005e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\time\default/../timer.c:14:0:-1
+Address = 0x00000062  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\time\default/../timer.c:14:0:-1

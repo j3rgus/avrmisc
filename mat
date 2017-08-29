@@ -1,0 +1,66 @@
+void twi_start(void)
+{
+  PORTD &= ~SCL;
+  DDRD &= ~SDA;
+  PORTD |= SCL;
+  asm("nop");
+  DDRD |= SDA;
+  asm("nop");
+  PORTD &= ~SCL;
+}
+
+void twi_stop(void)
+{
+  PORTD &= ~SDA;
+  DDRD |= SDA;
+  asm("nop");
+  PORTD |= SCL;
+  DDRD &= ~SCL;
+  asm("nop");
+  PORTD |= SDA;
+  DDRD &= ~SDA;
+}
+
+char twi_write(char data)
+{
+  char i, res;
+
+  DDRD |= SDA;
+  for (i = 0; i < 8; i++) {
+    if ((data & 0x80) == 0x80) {
+  	  DDRD &= ~SDA;	
+	  PORTD |= SCL;
+	}
+	else {
+	  PORTD |= SCL;
+	}
+	PORTD &= ~SCL;
+	data <<= 1;
+	delay_us(8);
+  }
+  DDRD &= ~SDA;
+  res = ((PIND & SDA) == SDA) ? 0 : 1;
+  PORTD &= ~SCL;
+  return res;
+}
+
+char twi_read(void)
+{
+  char i, data = 0x00;
+  
+  DDRD &= ~SDA;
+  for (i = 0; i < 8; i++) {
+    data <<= 1;
+    PORTD |= SCL;
+    asm("nop");
+    asm("nop");
+    data |= ((PIND & SDA) == 0) ? 0 : 1;
+    PORTD &= ~SCL;
+    delay_us(8);
+  }
+  DDRD &= ~SDA;
+  PORTD |= SCL;
+  asm("nop");
+  PORTD &= ~SCL;
+  return data;
+}

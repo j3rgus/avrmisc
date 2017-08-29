@@ -1,0 +1,93 @@
+{
+  // Packet parser settings
+  "pktparser":
+  {
+    // Daemon settings
+    // The application will try to launch the daemon if it is not running, or 
+    // it will restart te daemon if 'force-restart' is set to true
+    "daemon":
+    {
+      "core-mask"       : "0xf",
+      "memory-channels" : 2,
+      "driver"          : "dpdk",
+      "interface"       : "0",
+      "queues"          : 1,
+      "clients"         : 10,
+      "port"            : 6000,
+      "force-restart"   : false
+    },
+
+    // Application specific parser settings
+    "application":
+    {
+      "buffer-size" : 256,
+      "port"        : 6000,
+      "queue"       : 0,
+      "copy-packet" : true
+    }
+  },
+
+  // Buffer configuration
+  // Parameters:
+  //
+  // size: size of buffer in bytes
+  "buffers":
+  {
+    "default":
+    {
+      "size" : 2048,
+      "btchSize" : 256
+    },
+
+    "buf_1":
+    {
+      "size" : 8192,
+      "btchSize" : 1
+    }
+  },
+
+  // Applications configuration
+  // Any application that is present here and not commented out will be
+  // instantiated to be a part of the running framework.
+  //
+  // Parameters:
+  //
+  // type: the name of an application as it itself presents to the framework.
+  //       A bit like class name.
+  //
+  // input: name of the input buffer. 'parser-interface' application is allowed
+  //        to have the name empty as it directly reads packets from the parser.
+  //        Every other application must have input specified, otherwise an
+  //        error is reported.
+  //
+  // outputs: an array of output buffers. These buffers must not appear as
+  //          output buffers of other applications. Each of these buffers must
+  //          be connected as an input to some other application.
+  //          This array can be empty if the application is the last in the
+  //          processing chain.
+  //
+  // mutates: set this to true if the application somehow modifies the packet
+  //          record. Non-mutating applications do not require packet copying,
+  //          thus saving required computational power.
+  "applications":
+  {
+    "parser-interface":
+    {
+      "type"    : "ParserInterface",
+      "input"   : "",
+      "outputs" :
+      [
+        "buf_1"
+      ]
+    },
+
+    "buffer-test":
+    {
+      "type"    : "BufferTest",
+      "input"   : "buf_1",
+      "outputs" : [],
+      "mutates" : false,
+      "sample-size" : 0
+    }
+  }
+}

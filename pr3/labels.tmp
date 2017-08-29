@@ -1,0 +1,27 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.30</VERSION>
+ <DEVICE>ATtiny2313</DEVICE>
+ <WORKING_DIR>C:\Documents and Settings\Jergus\Plocha\tests</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Documents and Settings\Jergus\Plocha\tests\pok3.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\tn2313def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Documents and Settings\Jergus\Plocha\tests\pok3.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Documents and Settings\Jergus\Plocha\tests\pok3.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Documents and Settings\Jergus\Plocha\tests\pok3.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <START><FILE>C:\Documents and Settings\Jergus\Plocha\tests\pok3.asm</FILE><LINE>24</LINE></START>
+  <IInt0><FILE>C:\Documents and Settings\Jergus\Plocha\tests\pok3.asm</FILE><LINE>14</LINE></IInt0>
+  <IInt1><FILE>C:\Documents and Settings\Jergus\Plocha\tests\pok3.asm</FILE><LINE>19</LINE></IInt1>
+  <MAIN><FILE>C:\Documents and Settings\Jergus\Plocha\tests\pok3.asm</FILE><LINE>39</LINE></MAIN>
+ </LABELS>
+</ASSEMBLER_INFO>

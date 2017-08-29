@@ -1,0 +1,654 @@
+Address = 0x00000038  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:41:0:-1
+Address = 0x0000003a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:42:0:-1
+Address = 0x0000003c  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:43:0:-1
+Address = 0x0000003e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:44:0:-1
+Address = 0x00000040  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:45:0:-1
+Address = 0x00000042  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:49:0:-1
+Address = 0x00000044  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:50:0:-1
+Address = 0x00000046  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000004e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:52:0:-1
+Address = 0x00000050  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000056  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:54:0:-1
+Address = 0x00000058  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000005c  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:56:0:-1
+Address = 0x0000005e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:60:0:-1
+Address = 0x00000060  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:61:0:-1
+Address = 0x00000062  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000006a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:63:0:-1
+Address = 0x0000006c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000070  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:65:0:-1
+Address = 0x00000072  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:68:0:-1
+Address = 0x00000074  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x00000078  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x0000007a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000082  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x00000084  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000008a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x0000008c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000090  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x00000098  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x0000009a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000000a2  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x000000a4  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000000aa  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x000000ac  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000000b0  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x000000b8  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x000000ba  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000000c2  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x000000c4  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000000ca  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x000000cc  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000000d0  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x000000d8  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x000000da  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000000e2  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x000000e4  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000000ea  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x000000ec  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000000f0  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x000000f8  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x000000fa  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000102  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x00000104  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000010a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x0000010c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000110  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x00000118  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x0000011a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000122  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x00000124  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000012a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x0000012c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000130  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x00000138  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x0000013a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000142  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x00000144  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000014a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x0000014c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000150  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x00000154  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x00000156  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000015e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x00000160  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000168  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x0000016a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000016e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:83:0:-1
+Address = 0x00000170  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:84:0:-1
+Address = 0x00000172  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:85:0:-1
+Address = 0x00000174  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000017a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:87:0:-1
+Address = 0x0000017c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000180  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:89:0:-1
+Address = 0x00000182  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:91:0:-1
+Address = 0x0000018c  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:93:0:-1
+Address = 0x00000190  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:75:0:-1
+Address = 0x000001b0  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:101:0:-1
+Address = 0x000001b2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000001b8  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:103:0:-1
+Address = 0x000001c2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000001ca  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:107:0:-1
+Address = 0x000001cc  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000001d2  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:100:0:-1
+Address = 0x000001d4  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:101:0:-1
+Address = 0x000001d6  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000001da  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:103:0:-1
+Address = 0x000001e0  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:104:0:-1
+Address = 0x000001e2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000001ea  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:107:0:-1
+Address = 0x000001ec  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000001f2  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:100:0:-1
+Address = 0x000001f4  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:101:0:-1
+Address = 0x000001f6  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000001fa  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:103:0:-1
+Address = 0x00000200  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:104:0:-1
+Address = 0x00000202  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000020a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:107:0:-1
+Address = 0x0000020c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000212  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:100:0:-1
+Address = 0x00000214  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:101:0:-1
+Address = 0x00000216  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000021a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:103:0:-1
+Address = 0x00000220  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:104:0:-1
+Address = 0x00000222  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000022a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:107:0:-1
+Address = 0x0000022c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000232  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:100:0:-1
+Address = 0x00000234  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:101:0:-1
+Address = 0x00000236  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000023a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:103:0:-1
+Address = 0x00000240  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:104:0:-1
+Address = 0x00000242  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000024a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:107:0:-1
+Address = 0x0000024c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000252  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:100:0:-1
+Address = 0x00000254  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:101:0:-1
+Address = 0x00000256  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000025a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:103:0:-1
+Address = 0x00000260  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:104:0:-1
+Address = 0x00000262  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000026a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:107:0:-1
+Address = 0x0000026c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000272  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:100:0:-1
+Address = 0x00000274  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:101:0:-1
+Address = 0x00000276  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000027a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:103:0:-1
+Address = 0x00000280  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:104:0:-1
+Address = 0x00000282  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000028a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:107:0:-1
+Address = 0x0000028c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000292  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:100:0:-1
+Address = 0x00000296  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:101:0:-1
+Address = 0x00000298  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000029c  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:103:0:-1
+Address = 0x000002a2  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:104:0:-1
+Address = 0x000002a4  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000002ac  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:107:0:-1
+Address = 0x000002ae  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000002b6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:110:0:-1
+Address = 0x000002b8  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:111:0:-1
+Address = 0x000002ba  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:112:0:-1
+Address = 0x000002bc  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000002c2  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:114:0:-1
+Address = 0x000002c4  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000002c8  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:116:0:-1
+Address = 0x000002ca  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000002d0  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:118:0:-1
+Address = 0x000002d2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000002d6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:121:0:-1
+Address = 0x000002da  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:146:0:-1
+Address = 0x000002da  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:148:0:-1
+Address = 0x000002e0  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:157:0:-1
+Address = 0x000002e2  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:161:0:-1
+Address = 0x000002e8  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:169:0:-1
+Address = 0x000002ea  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:173:0:-1
+Address = 0x000002fc  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:184:0:-1
+Address = 0x000002fe  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:124:0:-1
+Address = 0x00000300  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:49:0:-1
+Address = 0x00000302  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:50:0:-1
+Address = 0x00000304  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000030c  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:52:0:-1
+Address = 0x0000030e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000314  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:54:0:-1
+Address = 0x00000316  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000031c  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:75:0:-1
+Address = 0x0000031e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000324  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x00000326  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000032e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x00000330  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000336  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:75:0:-1
+Address = 0x00000338  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000033e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x00000340  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000346  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x00000348  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000034e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x00000350  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000356  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x00000358  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000035e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x00000360  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000366  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:75:0:-1
+Address = 0x00000368  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000036e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x00000370  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000376  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x00000378  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000037e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x00000380  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000386  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x00000388  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000038e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x00000390  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000396  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x00000398  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000039e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x000003a0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000003a6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x000003a8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000003ae  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x000003b0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000003b6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x000003b8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000003be  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x000003c0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000003c6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x000003c8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000003ce  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x000003d0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000003d6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x000003d8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000003dc  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:83:0:-1
+Address = 0x000003de  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:84:0:-1
+Address = 0x000003e0  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:85:0:-1
+Address = 0x000003e2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000003e8  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:87:0:-1
+Address = 0x000003ea  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000003ee  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:89:0:-1
+Address = 0x000003f0  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:91:0:-1
+Address = 0x000003f2  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x000003f6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x000003f8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000400  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x00000402  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000408  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x0000040a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000040e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x00000416  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x00000418  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000420  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x00000422  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000428  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x0000042a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000042e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x00000436  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x00000438  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000440  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x00000442  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000448  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x0000044a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000044e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x00000456  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x00000458  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000460  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x00000462  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000468  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x0000046a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000046e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x00000476  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x00000478  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000480  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x00000482  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000488  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x0000048a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000048e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x00000496  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x00000498  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000004a0  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x000004a2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000004a8  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x000004aa  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000004ae  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x000004b6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x000004b8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000004c0  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x000004c2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000004c8  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x000004ca  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000004ce  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x000004d2  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x000004d4  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000004dc  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x000004de  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000004e6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x000004e8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000004ec  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:83:0:-1
+Address = 0x000004ee  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:84:0:-1
+Address = 0x000004f0  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:85:0:-1
+Address = 0x000004f2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000004f8  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:87:0:-1
+Address = 0x000004fa  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000004fe  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:89:0:-1
+Address = 0x00000500  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:91:0:-1
+Address = 0x00000502  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x00000506  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x00000508  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000510  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x00000512  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000518  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x0000051a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000051e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x00000526  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x00000528  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000530  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x00000532  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000538  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x0000053a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000053e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x00000546  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x00000548  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000550  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x00000552  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000558  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x0000055a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000055e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x00000566  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x00000568  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000570  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x00000572  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000578  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x0000057a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000057e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x00000586  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x00000588  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000590  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x00000592  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000598  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x0000059a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000059e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x000005a6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x000005a8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000005b0  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x000005b2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000005b8  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x000005ba  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000005be  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x000005c6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x000005c8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000005d0  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x000005d2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000005d8  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x000005da  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000005de  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x000005e2  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x000005e4  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000005ec  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x000005ee  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000005f6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x000005f8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000005fe  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:83:0:-1
+Address = 0x00000600  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:84:0:-1
+Address = 0x00000602  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:85:0:-1
+Address = 0x00000604  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000060a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:87:0:-1
+Address = 0x0000060c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000610  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:89:0:-1
+Address = 0x00000612  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:91:0:-1
+Address = 0x00000614  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:60:0:-1
+Address = 0x00000616  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:61:0:-1
+Address = 0x00000618  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000061e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:63:0:-1
+Address = 0x00000620  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000624  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:130:0:-1
+Address = 0x00000626  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:75:0:-1
+Address = 0x00000666  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:133:0:-1
+Address = 0x00000668  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:49:0:-1
+Address = 0x0000066a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:50:0:-1
+Address = 0x0000066c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000674  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:52:0:-1
+Address = 0x00000676  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000067c  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:54:0:-1
+Address = 0x0000067e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000684  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:75:0:-1
+Address = 0x00000686  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000068c  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x0000068e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000696  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x00000698  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000069e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:75:0:-1
+Address = 0x000006a0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000006a6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x000006a8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000006ae  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x000006b0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000006b6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x000006b8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000006be  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x000006c0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000006c6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x000006c8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000006ce  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:75:0:-1
+Address = 0x000006d0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000006d6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x000006d8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000006de  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x000006e0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000006e6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x000006e8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000006ee  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x000006f0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000006f6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x000006f8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000006fe  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x00000700  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000706  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x00000708  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000070e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x00000710  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000716  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x00000718  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000071e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x00000720  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000726  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x00000728  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000072e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x00000730  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000736  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x00000738  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000073e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x00000740  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000744  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:83:0:-1
+Address = 0x00000746  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:84:0:-1
+Address = 0x00000748  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:85:0:-1
+Address = 0x0000074a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000750  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:87:0:-1
+Address = 0x00000752  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000756  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:89:0:-1
+Address = 0x00000758  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:91:0:-1
+Address = 0x0000075a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x0000075e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x00000760  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000768  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x0000076a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000770  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x00000772  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000776  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x0000077e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x00000780  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000788  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x0000078a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000790  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x00000792  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000796  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x0000079e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x000007a0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000007a8  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x000007aa  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000007b0  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x000007b2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000007b6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x000007be  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x000007c0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000007c8  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x000007ca  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000007d0  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x000007d2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000007d6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x000007de  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x000007e0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000007e8  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x000007ea  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000007f0  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x000007f2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000007f6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x000007fe  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x00000800  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000808  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x0000080a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000810  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x00000812  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000816  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x0000081e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x00000820  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000828  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x0000082a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000830  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x00000832  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000836  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:72:0:-1
+Address = 0x0000083a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x0000083c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000844  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x00000846  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000084e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x00000850  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000856  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:83:0:-1
+Address = 0x00000858  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:84:0:-1
+Address = 0x0000085a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:85:0:-1
+Address = 0x0000085c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000864  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:87:0:-1
+Address = 0x00000866  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000086c  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:89:0:-1
+Address = 0x0000086e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:91:0:-1
+Address = 0x00000870  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:49:0:-1
+Address = 0x00000872  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:50:0:-1
+Address = 0x00000874  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000087a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:52:0:-1
+Address = 0x0000087c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000882  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:54:0:-1
+Address = 0x00000884  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000088a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:75:0:-1
+Address = 0x0000088c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000892  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x00000894  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000089a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x0000089c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000008a2  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:75:0:-1
+Address = 0x000008a4  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000008aa  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x000008ac  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000008b2  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x000008b4  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000008ba  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x000008bc  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000008c2  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x000008c4  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000008ca  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x000008cc  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000008d2  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:75:0:-1
+Address = 0x000008d4  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000008da  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x000008dc  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000008e2  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x000008e4  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000008ea  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x000008ec  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000008f2  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x000008f4  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000008fa  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x000008fc  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000902  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x00000904  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000090a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x0000090c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000912  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x00000914  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000091a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:73:0:-1
+Address = 0x0000091c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000922  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x00000924  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000092a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x0000092c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000932  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:75:0:-1
+Address = 0x00000934  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000093a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:77:0:-1
+Address = 0x0000093c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000942  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:79:0:-1
+Address = 0x00000944  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000094a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:83:0:-1
+Address = 0x0000094c  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:84:0:-1
+Address = 0x0000094e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:85:0:-1
+Address = 0x00000950  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000954  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:87:0:-1
+Address = 0x00000956  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000095a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:89:0:-1
+Address = 0x0000095c  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:91:0:-1
+Address = 0x0000095e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:101:0:-1
+Address = 0x00000960  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000964  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:103:0:-1
+Address = 0x0000096e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000976  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:107:0:-1
+Address = 0x00000978  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000097e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:100:0:-1
+Address = 0x00000980  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:101:0:-1
+Address = 0x00000982  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000986  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:103:0:-1
+Address = 0x0000098c  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:104:0:-1
+Address = 0x0000098e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000996  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:107:0:-1
+Address = 0x00000998  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000099e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:100:0:-1
+Address = 0x000009a0  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:101:0:-1
+Address = 0x000009a2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000009a6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:103:0:-1
+Address = 0x000009ac  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:104:0:-1
+Address = 0x000009ae  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000009b6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:107:0:-1
+Address = 0x000009b8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000009be  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:100:0:-1
+Address = 0x000009c0  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:101:0:-1
+Address = 0x000009c2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000009c6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:103:0:-1
+Address = 0x000009cc  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:104:0:-1
+Address = 0x000009ce  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000009d6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:107:0:-1
+Address = 0x000009d8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000009de  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:100:0:-1
+Address = 0x000009e0  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:101:0:-1
+Address = 0x000009e2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000009e6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:103:0:-1
+Address = 0x000009ec  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:104:0:-1
+Address = 0x000009ee  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000009f6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:107:0:-1
+Address = 0x000009f8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000009fe  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:100:0:-1
+Address = 0x00000a00  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:101:0:-1
+Address = 0x00000a02  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000a06  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:103:0:-1
+Address = 0x00000a0c  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:104:0:-1
+Address = 0x00000a0e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000a16  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:107:0:-1
+Address = 0x00000a18  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000a1e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:100:0:-1
+Address = 0x00000a20  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:101:0:-1
+Address = 0x00000a22  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000a26  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:103:0:-1
+Address = 0x00000a2c  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:104:0:-1
+Address = 0x00000a2e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000a36  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:107:0:-1
+Address = 0x00000a38  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000a3e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:100:0:-1
+Address = 0x00000a42  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:101:0:-1
+Address = 0x00000a44  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000a48  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:103:0:-1
+Address = 0x00000a4e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:104:0:-1
+Address = 0x00000a50  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000a58  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:107:0:-1
+Address = 0x00000a5a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000a62  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:110:0:-1
+Address = 0x00000a64  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:111:0:-1
+Address = 0x00000a66  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:112:0:-1
+Address = 0x00000a68  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000a6e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:114:0:-1
+Address = 0x00000a70  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000a74  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:116:0:-1
+Address = 0x00000a76  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000a7c  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:118:0:-1
+Address = 0x00000a7e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000a84  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:60:0:-1
+Address = 0x00000a86  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:61:0:-1
+Address = 0x00000a88  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000a8e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:63:0:-1
+Address = 0x00000a90  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000a94  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:143:0:-1
+Address = 0x00000a98  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:75:0:-1
+Address = 0x00000ab8  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:22:0:-1
+Address = 0x00000abc  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:41:0:-1
+Address = 0x00000abe  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:42:0:-1
+Address = 0x00000ac0  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:43:0:-1
+Address = 0x00000ac2  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:44:0:-1
+Address = 0x00000ac4  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:173:0:-1
+Address = 0x00000ad6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:28:0:-1
+Address = 0x00000adc  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x00000ae0  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:30:0:-1
+Address = 0x00000ae4  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\i2c\default/../i2c.c:161:0:-1
+Address = 0x00000aee  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x00000af8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:120:0:-1
+Address = 0x00000b04  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x00000b0e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:120:0:-1
+Address = 0x00000b1a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x00000b24  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:120:0:-1
+Address = 0x00000b30  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x00000b3a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:120:0:-1
+Address = 0x00000b44  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:120:0:-1

@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Program Files\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "C:\Documents and Settings\Jergus\Plocha\tests\casasm\labels.tmp" -fI -W+ie -o "C:\Documents and Settings\Jergus\Plocha\tests\casasm\casasm.hex" -d "C:\Documents and Settings\Jergus\Plocha\tests\casasm\casasm.obj" -e "C:\Documents and Settings\Jergus\Plocha\tests\casasm\casasm.eep" -m "C:\Documents and Settings\Jergus\Plocha\tests\casasm\casasm.map" "C:\Documents and Settings\Jergus\Plocha\tests\casasm\casasm.asm"

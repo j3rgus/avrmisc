@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Program Files\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "C:\Documents and Settings\Jergus\Plocha\tests\testasm\labels.tmp" -fI -W+ie -o "C:\Documents and Settings\Jergus\Plocha\tests\testasm\pok.hex" -d "C:\Documents and Settings\Jergus\Plocha\tests\testasm\pok.obj" -e "C:\Documents and Settings\Jergus\Plocha\tests\testasm\pok.eep" -m "C:\Documents and Settings\Jergus\Plocha\tests\testasm\pok.map" "C:\Documents and Settings\Jergus\Plocha\tests\testasm\pok.asm"

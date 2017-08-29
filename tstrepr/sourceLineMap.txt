@@ -1,0 +1,50 @@
+Address = 0x00000034  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:12:0:-1
+Address = 0x00000034  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:14:0:-1
+Address = 0x00000036  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:15:0:-1
+Address = 0x00000038  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:74:0:-1
+Address = 0x0000004c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:17:0:-1
+Address = 0x0000004e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:74:0:-1
+Address = 0x00000062  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:19:0:-1
+Address = 0x00000064  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:74:0:-1
+Address = 0x0000007a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:22:0:-1
+Address = 0x00000082  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:25:0:-1
+Address = 0x00000086  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:74:0:-1
+Address = 0x0000008a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:29:0:-1
+Address = 0x0000008c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:30:0:-1
+Address = 0x0000008e  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:74:0:-1
+Address = 0x000000a0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:32:0:-1
+Address = 0x000000a2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:74:0:-1
+Address = 0x000000b4  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:34:0:-1
+Address = 0x000000bc  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:74:0:-1
+Address = 0x000000ce  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:27:0:-1
+Address = 0x000000d6  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:38:0:-1
+Address = 0x000000da  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:41:0:-1
+Address = 0x000000dc  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:74:0:-1
+Address = 0x000000e0  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:44:0:-1
+Address = 0x000000e2  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:45:0:-1
+Address = 0x000000e4  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:46:0:-1
+Address = 0x000000e8  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:74:0:-1
+Address = 0x000000fa  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:48:0:-1
+Address = 0x000000fc  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:74:0:-1
+Address = 0x00000122  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:53:0:-1
+Address = 0x00000124  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:74:0:-1
+Address = 0x00000136  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:43:0:-1
+Address = 0x0000013c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:56:0:-1
+Address = 0x00000142  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:62:0:-1
+Address = 0x00000146  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:63:0:-1
+Address = 0x0000014a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:64:0:-1
+Address = 0x0000014c  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:68:0:-1
+Address = 0x00000150  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:69:0:-1
+Address = 0x00000154  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:70:0:-1
+Address = 0x00000156  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:74:0:-1
+Address = 0x00000168  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:88:0:-1
+Address = 0x0000016a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tstrepr\default/../testreprak.c:7:0:-1
+Address = 0x00000178  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tstrepr\default/../testreprak.c:8:0:-1
+Address = 0x00000180  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tstrepr\default/../testreprak.c:9:0:-1
+Address = 0x0000018e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tstrepr\default/../testreprak.c:14:0:-1
+Address = 0x00000192  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tstrepr\default/../testreprak.c:15:0:-1
+Address = 0x00000196  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tstrepr\default/../testreprak.c:16:0:-1
+Address = 0x0000019a  File:line:col:begin = c:/program files/winavr-20090313/lib/gcc/../../avr/include/ds1820/ds1820.c:74:0:-1
+Address = 0x000001ac  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tstrepr\default/../testreprak.c:18:0:-1
+Address = 0x000001b0  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tstrepr\default/../testreprak.c:19:0:-1
+Address = 0x000001b4  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tstrepr\default/../testreprak.c:19:0:-1

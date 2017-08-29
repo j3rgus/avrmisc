@@ -1,0 +1,49 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.30</VERSION>
+ <DEVICE>ATtiny2313</DEVICE>
+ <WORKING_DIR>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\tn2313def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds1820final.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds1820final.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds1820final.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <main><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm</FILE><LINE>34</LINE></main>
+  <zobraz_teplotu><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm</FILE><LINE>39</LINE></zobraz_teplotu>
+  <one_reset><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm</FILE><LINE>93</LINE></one_reset>
+  <send_convert><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm</FILE><LINE>160</LINE></send_convert>
+  <convert_time><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm</FILE><LINE>137</LINE></convert_time>
+  <send_getTemp><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm</FILE><LINE>168</LINE></send_getTemp>
+  <get_temp><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm</FILE><LINE>176</LINE></get_temp>
+  <one_read_byte><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm</FILE><LINE>49</LINE></one_read_byte>
+  <opak5><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm</FILE><LINE>51</LINE></opak5>
+  <cas_12us><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm</FILE><LINE>110</LINE></cas_12us>
+  <nav5><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm</FILE><LINE>62</LINE></nav5>
+  <nav6><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm</FILE><LINE>64</LINE></nav6>
+  <cas_60us><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm</FILE><LINE>117</LINE></cas_60us>
+  <one_write_byte><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm</FILE><LINE>71</LINE></one_write_byte>
+  <opak6><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm</FILE><LINE>73</LINE></opak6>
+  <nav3><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm</FILE><LINE>82</LINE></nav3>
+  <nav4><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm</FILE><LINE>86</LINE></nav4>
+  <cas_500us><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm</FILE><LINE>125</LINE></cas_500us>
+  <nav1><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm</FILE><LINE>104</LINE></nav1>
+  <nav2><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm</FILE><LINE>107</LINE></nav2>
+  <opak1><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm</FILE><LINE>112</LINE></opak1>
+  <opak2><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm</FILE><LINE>119</LINE></opak2>
+  <opak3><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm</FILE><LINE>128</LINE></opak3>
+  <opak4><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm</FILE><LINE>139</LINE></opak4>
+  <cas_12ms><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm</FILE><LINE>146</LINE></cas_12ms>
+  <opak7><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1820final\ds.asm</FILE><LINE>150</LINE></opak7>
+ </LABELS>
+</ASSEMBLER_INFO>

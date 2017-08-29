@@ -1,0 +1,14 @@
+Address = 0x00000022  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tspin\default/../tomas_spin.c:5:0:-1
+Address = 0x00000022  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tspin\default/../tomas_spin.c:6:0:-1
+Address = 0x00000024  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tspin\default/../tomas_spin.c:8:0:-1
+Address = 0x0000002c  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tspin\default/../tomas_spin.c:10:0:-1
+Address = 0x0000002e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tspin\default/../tomas_spin.c:12:0:-1
+Address = 0x00000034  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tspin\default/../tomas_spin.c:14:0:-1
+Address = 0x00000038  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tspin\default/../tomas_spin.c:16:0:-1
+Address = 0x0000003a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tspin\default/../tomas_spin.c:18:0:-1
+Address = 0x00000042  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tspin\default/../tomas_spin.c:21:0:-1
+Address = 0x00000044  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tspin\default/../tomas_spin.c:27:0:-1
+Address = 0x00000046  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tspin\default/../tomas_spin.c:28:0:-1
+Address = 0x00000048  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tspin\default/../tomas_spin.c:31:0:-1
+Address = 0x0000004c  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tspin\default/../tomas_spin.c:33:0:-1
+Address = 0x00000052  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tspin\default/../tomas_spin.c:33:0:-1

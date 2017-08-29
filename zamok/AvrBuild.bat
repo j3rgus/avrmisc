@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Program Files\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "C:\Documents and Settings\Jergus\Plocha\tests\zamok\labels.tmp" -fI -W+ie -o "C:\Documents and Settings\Jergus\Plocha\tests\zamok\ledky.hex" -d "C:\Documents and Settings\Jergus\Plocha\tests\zamok\ledky.obj" -e "C:\Documents and Settings\Jergus\Plocha\tests\zamok\ledky.eep" -m "C:\Documents and Settings\Jergus\Plocha\tests\zamok\ledky.map" "C:\Documents and Settings\Jergus\Plocha\tests\zamok\ledky.asm"

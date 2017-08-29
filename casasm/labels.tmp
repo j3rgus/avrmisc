@@ -1,0 +1,27 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.30</VERSION>
+ <DEVICE>ATtiny2313</DEVICE>
+ <WORKING_DIR>C:\Documents and Settings\Jergus\Plocha\tests\casasm</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Documents and Settings\Jergus\Plocha\tests\casasm\casasm.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\tn2313def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Documents and Settings\Jergus\Plocha\tests\casasm\casasm.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Documents and Settings\Jergus\Plocha\tests\casasm\casasm.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Documents and Settings\Jergus\Plocha\tests\casasm\casasm.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>C:\Documents and Settings\Jergus\Plocha\tests\casasm\casasm.asm</FILE><LINE>23</LINE></MAIN>
+  <CAKAJ1><FILE>C:\Documents and Settings\Jergus\Plocha\tests\casasm\casasm.asm</FILE><LINE>29</LINE></CAKAJ1>
+  <opak1><FILE>C:\Documents and Settings\Jergus\Plocha\tests\casasm\casasm.asm</FILE><LINE>32</LINE></opak1>
+  <CISTI><FILE>C:\Documents and Settings\Jergus\Plocha\tests\casasm\casasm.asm</FILE><LINE>42</LINE></CISTI>
+ </LABELS>
+</ASSEMBLER_INFO>

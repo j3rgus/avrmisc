@@ -1,0 +1,787 @@
+
+ds1820casm.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         000002d2  00000000  00000000  00000054  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .debug_aranges 00000020  00000000  00000000  00000326  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  2 .debug_pubnames 000000b1  00000000  00000000  00000346  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  3 .debug_info   000004e2  00000000  00000000  000003f7  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  4 .debug_abbrev 00000245  00000000  00000000  000008d9  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_line   0000054a  00000000  00000000  00000b1e  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_frame  000000b0  00000000  00000000  00001068  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_str    0000014f  00000000  00000000  00001118  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_loc    000000d6  00000000  00000000  00001267  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_ranges 00000150  00000000  00000000  0000133d  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	12 c0       	rjmp	.+36     	; 0x26 <__ctors_end>
+   2:	17 c0       	rjmp	.+46     	; 0x32 <__bad_interrupt>
+   4:	16 c0       	rjmp	.+44     	; 0x32 <__bad_interrupt>
+   6:	15 c0       	rjmp	.+42     	; 0x32 <__bad_interrupt>
+   8:	14 c0       	rjmp	.+40     	; 0x32 <__bad_interrupt>
+   a:	13 c0       	rjmp	.+38     	; 0x32 <__bad_interrupt>
+   c:	12 c0       	rjmp	.+36     	; 0x32 <__bad_interrupt>
+   e:	11 c0       	rjmp	.+34     	; 0x32 <__bad_interrupt>
+  10:	10 c0       	rjmp	.+32     	; 0x32 <__bad_interrupt>
+  12:	0f c0       	rjmp	.+30     	; 0x32 <__bad_interrupt>
+  14:	0e c0       	rjmp	.+28     	; 0x32 <__bad_interrupt>
+  16:	0d c0       	rjmp	.+26     	; 0x32 <__bad_interrupt>
+  18:	0c c0       	rjmp	.+24     	; 0x32 <__bad_interrupt>
+  1a:	0b c0       	rjmp	.+22     	; 0x32 <__bad_interrupt>
+  1c:	0a c0       	rjmp	.+20     	; 0x32 <__bad_interrupt>
+  1e:	09 c0       	rjmp	.+18     	; 0x32 <__bad_interrupt>
+  20:	08 c0       	rjmp	.+16     	; 0x32 <__bad_interrupt>
+  22:	07 c0       	rjmp	.+14     	; 0x32 <__bad_interrupt>
+  24:	06 c0       	rjmp	.+12     	; 0x32 <__bad_interrupt>
+
+00000026 <__ctors_end>:
+  26:	11 24       	eor	r1, r1
+  28:	1f be       	out	0x3f, r1	; 63
+  2a:	cf ed       	ldi	r28, 0xDF	; 223
+  2c:	cd bf       	out	0x3d, r28	; 61
+  2e:	a1 d0       	rcall	.+322    	; 0x172 <main>
+  30:	4e c1       	rjmp	.+668    	; 0x2ce <_exit>
+
+00000032 <__bad_interrupt>:
+  32:	e6 cf       	rjmp	.-52     	; 0x0 <__vectors>
+
+00000034 <one_reset>:
+//*****************************************************************************
+
+uchar one_reset(void)
+{
+  uchar r;
+  DDR |= DQ;
+  34:	8e 9a       	sbi	0x11, 6	; 17
+  PORT &= ~DQ;
+  36:	96 98       	cbi	0x12, 6	; 18
+  one_write_byte(0xbe);
+}
+
+void delay_us(uchar us)
+{
+  asm volatile (
+  38:	8f ef       	ldi	r24, 0xFF	; 255
+  3a:	00 27       	eor	r16, r16
+  3c:	18 2f       	mov	r17, r24
+  3e:	03 95       	inc	r16
+	...
+  48:	01 17       	cp	r16, r17
+  4a:	c9 f7       	brne	.-14     	; 0x3e <__SP_H__>
+{
+  uchar r;
+  DDR |= DQ;
+  PORT &= ~DQ;
+  delay_us(255);
+  DDR &= ~DQ;
+  4c:	8e 98       	cbi	0x11, 6	; 17
+  one_write_byte(0xbe);
+}
+
+void delay_us(uchar us)
+{
+  asm volatile (
+  4e:	84 e1       	ldi	r24, 0x14	; 20
+  50:	00 27       	eor	r16, r16
+  52:	18 2f       	mov	r17, r24
+  54:	03 95       	inc	r16
+	...
+  5e:	01 17       	cp	r16, r17
+  60:	c9 f7       	brne	.-14     	; 0x54 <__SREG__+0x15>
+  DDR |= DQ;
+  PORT &= ~DQ;
+  delay_us(255);
+  DDR &= ~DQ;
+  delay_us(20);
+  r = (DDR & DQ) ? 0 : 1;
+  62:	81 b3       	in	r24, 0x11	; 17
+  one_write_byte(0xbe);
+}
+
+void delay_us(uchar us)
+{
+  asm volatile (
+  64:	98 e7       	ldi	r25, 0x78	; 120
+  66:	00 27       	eor	r16, r16
+  68:	19 2f       	mov	r17, r25
+  6a:	03 95       	inc	r16
+	...
+  74:	01 17       	cp	r16, r17
+  76:	c9 f7       	brne	.-14     	; 0x6a <__SREG__+0x2b>
+  78:	82 95       	swap	r24
+  7a:	86 95       	lsr	r24
+  7c:	86 95       	lsr	r24
+  7e:	83 70       	andi	r24, 0x03	; 3
+  80:	80 95       	com	r24
+  DDR &= ~DQ;
+  delay_us(20);
+  r = (DDR & DQ) ? 0 : 1;
+  delay_us(120);
+  return r;
+}
+  82:	81 70       	andi	r24, 0x01	; 1
+  84:	08 95       	ret
+
+00000086 <one_read_byte>:
+
+uchar one_read_byte(void)
+{
+  86:	20 e0       	ldi	r18, 0x00	; 0
+  88:	80 e0       	ldi	r24, 0x00	; 0
+  one_write_byte(0xbe);
+}
+
+void delay_us(uchar us)
+{
+  asm volatile (
+  8a:	35 e0       	ldi	r19, 0x05	; 5
+uchar one_read_byte(void)
+{
+  uchar i, data = 0;
+  for (i = 0; i < 8; i++) {
+    data >>= 1;
+    DDR |= DQ;
+  8c:	4e e1       	ldi	r20, 0x1E	; 30
+  8e:	8e 9a       	sbi	0x11, 6	; 17
+    PORT &= ~DQ;
+  90:	96 98       	cbi	0x12, 6	; 18
+  one_write_byte(0xbe);
+}
+
+void delay_us(uchar us)
+{
+  asm volatile (
+  92:	00 27       	eor	r16, r16
+  94:	13 2f       	mov	r17, r19
+  96:	03 95       	inc	r16
+	...
+  a0:	01 17       	cp	r16, r17
+  a2:	c9 f7       	brne	.-14     	; 0x96 <one_read_byte+0x10>
+  for (i = 0; i < 8; i++) {
+    data >>= 1;
+    DDR |= DQ;
+    PORT &= ~DQ;
+    delay_us(5);
+    DDR &= ~DQ;
+  a4:	8e 98       	cbi	0x11, 6	; 17
+  one_write_byte(0xbe);
+}
+
+void delay_us(uchar us)
+{
+  asm volatile (
+  a6:	00 27       	eor	r16, r16
+  a8:	13 2f       	mov	r17, r19
+  aa:	03 95       	inc	r16
+	...
+  b4:	01 17       	cp	r16, r17
+  b6:	c9 f7       	brne	.-14     	; 0xaa <one_read_byte+0x24>
+    DDR |= DQ;
+    PORT &= ~DQ;
+    delay_us(5);
+    DDR &= ~DQ;
+    delay_us(5);
+    data |= (PIN & DQ) ? 0b10000000 : 0;
+  b8:	86 99       	sbic	0x10, 6	; 16
+  ba:	02 c0       	rjmp	.+4      	; 0xc0 <one_read_byte+0x3a>
+  bc:	90 e0       	ldi	r25, 0x00	; 0
+  be:	01 c0       	rjmp	.+2      	; 0xc2 <one_read_byte+0x3c>
+  c0:	90 e8       	ldi	r25, 0x80	; 128
+  c2:	86 95       	lsr	r24
+  c4:	89 2b       	or	r24, r25
+  one_write_byte(0xbe);
+}
+
+void delay_us(uchar us)
+{
+  asm volatile (
+  c6:	00 27       	eor	r16, r16
+  c8:	14 2f       	mov	r17, r20
+  ca:	03 95       	inc	r16
+	...
+  d4:	01 17       	cp	r16, r17
+  d6:	c9 f7       	brne	.-14     	; 0xca <one_read_byte+0x44>
+}
+
+uchar one_read_byte(void)
+{
+  uchar i, data = 0;
+  for (i = 0; i < 8; i++) {
+  d8:	2f 5f       	subi	r18, 0xFF	; 255
+  da:	28 30       	cpi	r18, 0x08	; 8
+  dc:	09 f0       	breq	.+2      	; 0xe0 <__stack+0x1>
+  de:	d7 cf       	rjmp	.-82     	; 0x8e <one_read_byte+0x8>
+    delay_us(5);
+    data |= (PIN & DQ) ? 0b10000000 : 0;
+    delay_us(30);
+  }   
+  return data;
+}
+  e0:	08 95       	ret
+
+000000e2 <one_write_byte>:
+
+void one_write_byte(uchar data)
+{
+  e2:	90 e0       	ldi	r25, 0x00	; 0
+  one_write_byte(0xbe);
+}
+
+void delay_us(uchar us)
+{
+  asm volatile (
+  e4:	35 e0       	ldi	r19, 0x05	; 5
+
+void one_write_byte(uchar data)
+{
+  uchar i;
+  for (i = 0; i < 8; i++) {
+    DDR |= DQ;
+  e6:	29 e1       	ldi	r18, 0x19	; 25
+  e8:	8e 9a       	sbi	0x11, 6	; 17
+    PORT &= ~DQ;
+  ea:	96 98       	cbi	0x12, 6	; 18
+    if ((data & 1) == 0) {
+  ec:	80 fd       	sbrc	r24, 0
+  ee:	14 c0       	rjmp	.+40     	; 0x118 <one_write_byte+0x36>
+  one_write_byte(0xbe);
+}
+
+void delay_us(uchar us)
+{
+  asm volatile (
+  f0:	00 27       	eor	r16, r16
+  f2:	12 2f       	mov	r17, r18
+  f4:	03 95       	inc	r16
+	...
+  fe:	01 17       	cp	r16, r17
+ 100:	c9 f7       	brne	.-14     	; 0xf4 <one_write_byte+0x12>
+  for (i = 0; i < 8; i++) {
+    DDR |= DQ;
+    PORT &= ~DQ;
+    if ((data & 1) == 0) {
+      delay_us(25);
+      DDR &= ~DQ;
+ 102:	8e 98       	cbi	0x11, 6	; 17
+  one_write_byte(0xbe);
+}
+
+void delay_us(uchar us)
+{
+  asm volatile (
+ 104:	00 27       	eor	r16, r16
+ 106:	13 2f       	mov	r17, r19
+ 108:	03 95       	inc	r16
+	...
+ 112:	01 17       	cp	r16, r17
+ 114:	c9 f7       	brne	.-14     	; 0x108 <one_write_byte+0x26>
+ 116:	13 c0       	rjmp	.+38     	; 0x13e <one_write_byte+0x5c>
+ 118:	00 27       	eor	r16, r16
+ 11a:	13 2f       	mov	r17, r19
+ 11c:	03 95       	inc	r16
+	...
+ 126:	01 17       	cp	r16, r17
+ 128:	c9 f7       	brne	.-14     	; 0x11c <one_write_byte+0x3a>
+      DDR &= ~DQ;
+      delay_us(5);
+    }
+    else {
+      delay_us(5);
+      DDR &= ~DQ;
+ 12a:	8e 98       	cbi	0x11, 6	; 17
+  one_write_byte(0xbe);
+}
+
+void delay_us(uchar us)
+{
+  asm volatile (
+ 12c:	00 27       	eor	r16, r16
+ 12e:	12 2f       	mov	r17, r18
+ 130:	03 95       	inc	r16
+	...
+ 13a:	01 17       	cp	r16, r17
+ 13c:	c9 f7       	brne	.-14     	; 0x130 <one_write_byte+0x4e>
+}
+
+void one_write_byte(uchar data)
+{
+  uchar i;
+  for (i = 0; i < 8; i++) {
+ 13e:	9f 5f       	subi	r25, 0xFF	; 255
+ 140:	98 30       	cpi	r25, 0x08	; 8
+ 142:	11 f0       	breq	.+4      	; 0x148 <one_write_byte+0x66>
+    else {
+      delay_us(5);
+      DDR &= ~DQ;
+      delay_us(25);
+    }
+    data >>= 1;
+ 144:	86 95       	lsr	r24
+ 146:	d0 cf       	rjmp	.-96     	; 0xe8 <one_write_byte+0x6>
+ 148:	08 95       	ret
+
+0000014a <send_convert>:
+  }
+}
+
+void send_convert(void)
+{
+  one_write_byte(0xcc);
+ 14a:	8c ec       	ldi	r24, 0xCC	; 204
+ 14c:	ca df       	rcall	.-108    	; 0xe2 <one_write_byte>
+  one_write_byte(0x44);
+ 14e:	84 e4       	ldi	r24, 0x44	; 68
+ 150:	c8 df       	rcall	.-112    	; 0xe2 <one_write_byte>
+}
+ 152:	08 95       	ret
+
+00000154 <send_getTemp>:
+
+void send_getTemp(void)
+{
+  one_write_byte(0xcc);
+ 154:	8c ec       	ldi	r24, 0xCC	; 204
+ 156:	c5 df       	rcall	.-118    	; 0xe2 <one_write_byte>
+  one_write_byte(0xbe);
+ 158:	8e eb       	ldi	r24, 0xBE	; 190
+ 15a:	c3 df       	rcall	.-122    	; 0xe2 <one_write_byte>
+}
+ 15c:	08 95       	ret
+
+0000015e <delay_us>:
+
+void delay_us(uchar us)
+{
+  asm volatile (
+ 15e:	00 27       	eor	r16, r16
+ 160:	18 2f       	mov	r17, r24
+ 162:	03 95       	inc	r16
+	...
+ 16c:	01 17       	cp	r16, r17
+ 16e:	c9 f7       	brne	.-14     	; 0x162 <delay_us+0x4>
+	"cp r16,r17"  "\n\t"
+	"brne 1b"	  "\n\t"
+	:
+	: "r" (us)
+  );
+ 170:	08 95       	ret
+
+00000172 <main>:
+void USART_Transmit(uchar data);
+uchar USART_Receive(void);
+void USART_Init(void);
+
+int main()
+{
+ 172:	ef 92       	push	r14
+ 174:	ff 92       	push	r15
+ 176:	0f 93       	push	r16
+ 178:	1f 93       	push	r17
+ 17a:	cf 93       	push	r28
+ 17c:	df 93       	push	r29
+  return UDR;
+}
+
+void USART_Init(void)
+{
+  UBRRH = 0;
+ 17e:	12 b8       	out	0x02, r1	; 2
+  UBRRL = 12;		/* 19200kbps 8N1 */
+ 180:	8c e0       	ldi	r24, 0x0C	; 12
+ 182:	89 b9       	out	0x09, r24	; 9
+  UCSRB = 0x18;
+ 184:	88 e1       	ldi	r24, 0x18	; 24
+ 186:	8a b9       	out	0x0a, r24	; 10
+  UCSRC = 0x06;
+ 188:	86 e0       	ldi	r24, 0x06	; 6
+ 18a:	83 b9       	out	0x03, r24	; 3
+  one_write_byte(0xbe);
+}
+
+void delay_us(uchar us)
+{
+  asm volatile (
+ 18c:	ff 24       	eor	r15, r15
+ 18e:	fa 94       	dec	r15
+    milliseconds can be achieved.
+ */
+void
+_delay_loop_2(uint16_t __count)
+{
+	__asm__ volatile (
+ 190:	04 e1       	ldi	r16, 0x14	; 20
+ 192:	18 e7       	ldi	r17, 0x78	; 120
+ 194:	c4 e6       	ldi	r28, 0x64	; 100
+ 196:	d0 e0       	ldi	r29, 0x00	; 0
+
+void USART_Transmit(uchar data)
+{
+  while ( !( UCSRA & (1<<UDRE)) )
+    ;
+  UDR = data;
+ 198:	80 e2       	ldi	r24, 0x20	; 32
+ 19a:	e8 2e       	mov	r14, r24
+//*****************************************************************************
+
+uchar one_reset(void)
+{
+  uchar r;
+  DDR |= DQ;
+ 19c:	8e 9a       	sbi	0x11, 6	; 17
+  PORT &= ~DQ;
+ 19e:	96 98       	cbi	0x12, 6	; 18
+  one_write_byte(0xbe);
+}
+
+void delay_us(uchar us)
+{
+  asm volatile (
+ 1a0:	00 27       	eor	r16, r16
+ 1a2:	1f 2d       	mov	r17, r15
+ 1a4:	03 95       	inc	r16
+	...
+ 1ae:	01 17       	cp	r16, r17
+ 1b0:	c9 f7       	brne	.-14     	; 0x1a4 <main+0x32>
+{
+  uchar r;
+  DDR |= DQ;
+  PORT &= ~DQ;
+  delay_us(255);
+  DDR &= ~DQ;
+ 1b2:	8e 98       	cbi	0x11, 6	; 17
+  one_write_byte(0xbe);
+}
+
+void delay_us(uchar us)
+{
+  asm volatile (
+ 1b4:	00 27       	eor	r16, r16
+ 1b6:	10 2f       	mov	r17, r16
+ 1b8:	03 95       	inc	r16
+	...
+ 1c2:	01 17       	cp	r16, r17
+ 1c4:	c9 f7       	brne	.-14     	; 0x1b8 <main+0x46>
+  DDR |= DQ;
+  PORT &= ~DQ;
+  delay_us(255);
+  DDR &= ~DQ;
+  delay_us(20);
+  r = (DDR & DQ) ? 0 : 1;
+ 1c6:	81 b3       	in	r24, 0x11	; 17
+  one_write_byte(0xbe);
+}
+
+void delay_us(uchar us)
+{
+  asm volatile (
+ 1c8:	00 27       	eor	r16, r16
+ 1ca:	11 2f       	mov	r17, r17
+ 1cc:	03 95       	inc	r16
+	...
+ 1d6:	01 17       	cp	r16, r17
+ 1d8:	c9 f7       	brne	.-14     	; 0x1cc <main+0x5a>
+  uchar lsb, msb;
+
+  USART_Init();
+  while (1) {
+    one_reset();
+	send_convert();
+ 1da:	b7 df       	rcall	.-146    	; 0x14a <send_convert>
+ 1dc:	80 ed       	ldi	r24, 0xD0	; 208
+ 1de:	97 e0       	ldi	r25, 0x07	; 7
+ 1e0:	fe 01       	movw	r30, r28
+ 1e2:	31 97       	sbiw	r30, 0x01	; 1
+ 1e4:	f1 f7       	brne	.-4      	; 0x1e2 <main+0x70>
+		__ticks = (uint16_t) (__ms * 10.0);
+		while(__ticks)
+		{
+			// wait 1/10 ms
+			_delay_loop_2(((F_CPU) / 4e3) / 10);
+			__ticks --;
+ 1e6:	01 97       	sbiw	r24, 0x01	; 1
+		__ticks = 1;
+	else if (__tmp > 65535)
+	{
+		//	__ticks = requested delay in 1/10 ms
+		__ticks = (uint16_t) (__ms * 10.0);
+		while(__ticks)
+ 1e8:	d9 f7       	brne	.-10     	; 0x1e0 <main+0x6e>
+ 1ea:	80 ed       	ldi	r24, 0xD0	; 208
+ 1ec:	97 e0       	ldi	r25, 0x07	; 7
+ 1ee:	fe 01       	movw	r30, r28
+ 1f0:	31 97       	sbiw	r30, 0x01	; 1
+ 1f2:	f1 f7       	brne	.-4      	; 0x1f0 <main+0x7e>
+		{
+			// wait 1/10 ms
+			_delay_loop_2(((F_CPU) / 4e3) / 10);
+			__ticks --;
+ 1f4:	01 97       	sbiw	r24, 0x01	; 1
+		__ticks = 1;
+	else if (__tmp > 65535)
+	{
+		//	__ticks = requested delay in 1/10 ms
+		__ticks = (uint16_t) (__ms * 10.0);
+		while(__ticks)
+ 1f6:	d9 f7       	brne	.-10     	; 0x1ee <main+0x7c>
+ 1f8:	80 ed       	ldi	r24, 0xD0	; 208
+ 1fa:	97 e0       	ldi	r25, 0x07	; 7
+ 1fc:	fe 01       	movw	r30, r28
+ 1fe:	31 97       	sbiw	r30, 0x01	; 1
+ 200:	f1 f7       	brne	.-4      	; 0x1fe <main+0x8c>
+		{
+			// wait 1/10 ms
+			_delay_loop_2(((F_CPU) / 4e3) / 10);
+			__ticks --;
+ 202:	01 97       	sbiw	r24, 0x01	; 1
+		__ticks = 1;
+	else if (__tmp > 65535)
+	{
+		//	__ticks = requested delay in 1/10 ms
+		__ticks = (uint16_t) (__ms * 10.0);
+		while(__ticks)
+ 204:	d9 f7       	brne	.-10     	; 0x1fc <main+0x8a>
+//*****************************************************************************
+
+uchar one_reset(void)
+{
+  uchar r;
+  DDR |= DQ;
+ 206:	8e 9a       	sbi	0x11, 6	; 17
+  PORT &= ~DQ;
+ 208:	96 98       	cbi	0x12, 6	; 18
+  one_write_byte(0xbe);
+}
+
+void delay_us(uchar us)
+{
+  asm volatile (
+ 20a:	00 27       	eor	r16, r16
+ 20c:	1f 2d       	mov	r17, r15
+ 20e:	03 95       	inc	r16
+	...
+ 218:	01 17       	cp	r16, r17
+ 21a:	c9 f7       	brne	.-14     	; 0x20e <main+0x9c>
+{
+  uchar r;
+  DDR |= DQ;
+  PORT &= ~DQ;
+  delay_us(255);
+  DDR &= ~DQ;
+ 21c:	8e 98       	cbi	0x11, 6	; 17
+  one_write_byte(0xbe);
+}
+
+void delay_us(uchar us)
+{
+  asm volatile (
+ 21e:	00 27       	eor	r16, r16
+ 220:	10 2f       	mov	r17, r16
+ 222:	03 95       	inc	r16
+	...
+ 22c:	01 17       	cp	r16, r17
+ 22e:	c9 f7       	brne	.-14     	; 0x222 <main+0xb0>
+  DDR |= DQ;
+  PORT &= ~DQ;
+  delay_us(255);
+  DDR &= ~DQ;
+  delay_us(20);
+  r = (DDR & DQ) ? 0 : 1;
+ 230:	81 b3       	in	r24, 0x11	; 17
+  one_write_byte(0xbe);
+}
+
+void delay_us(uchar us)
+{
+  asm volatile (
+ 232:	00 27       	eor	r16, r16
+ 234:	11 2f       	mov	r17, r17
+ 236:	03 95       	inc	r16
+	...
+ 240:	01 17       	cp	r16, r17
+ 242:	c9 f7       	brne	.-14     	; 0x236 <main+0xc4>
+	_delay_ms(200);
+	_delay_ms(200);
+	_delay_ms(200);
+	one_reset();
+	send_getTemp();
+ 244:	87 df       	rcall	.-242    	; 0x154 <send_getTemp>
+	lsb = one_read_byte();
+ 246:	1f df       	rcall	.-450    	; 0x86 <one_read_byte>
+ 248:	98 2f       	mov	r25, r24
+//*****************************************************************************
+
+uchar one_reset(void)
+{
+  uchar r;
+  DDR |= DQ;
+ 24a:	8e 9a       	sbi	0x11, 6	; 17
+  PORT &= ~DQ;
+ 24c:	96 98       	cbi	0x12, 6	; 18
+  one_write_byte(0xbe);
+}
+
+void delay_us(uchar us)
+{
+  asm volatile (
+ 24e:	00 27       	eor	r16, r16
+ 250:	1f 2d       	mov	r17, r15
+ 252:	03 95       	inc	r16
+	...
+ 25c:	01 17       	cp	r16, r17
+ 25e:	c9 f7       	brne	.-14     	; 0x252 <main+0xe0>
+{
+  uchar r;
+  DDR |= DQ;
+  PORT &= ~DQ;
+  delay_us(255);
+  DDR &= ~DQ;
+ 260:	8e 98       	cbi	0x11, 6	; 17
+  one_write_byte(0xbe);
+}
+
+void delay_us(uchar us)
+{
+  asm volatile (
+ 262:	00 27       	eor	r16, r16
+ 264:	10 2f       	mov	r17, r16
+ 266:	03 95       	inc	r16
+	...
+ 270:	01 17       	cp	r16, r17
+ 272:	c9 f7       	brne	.-14     	; 0x266 <main+0xf4>
+  DDR |= DQ;
+  PORT &= ~DQ;
+  delay_us(255);
+  DDR &= ~DQ;
+  delay_us(20);
+  r = (DDR & DQ) ? 0 : 1;
+ 274:	81 b3       	in	r24, 0x11	; 17
+  one_write_byte(0xbe);
+}
+
+void delay_us(uchar us)
+{
+  asm volatile (
+ 276:	00 27       	eor	r16, r16
+ 278:	11 2f       	mov	r17, r17
+ 27a:	03 95       	inc	r16
+	...
+ 284:	01 17       	cp	r16, r17
+ 286:	c9 f7       	brne	.-14     	; 0x27a <main+0x108>
+ 288:	20 e0       	ldi	r18, 0x00	; 0
+ 28a:	30 e0       	ldi	r19, 0x00	; 0
+  }
+}
+
+void USART_Transmit(uchar data)
+{
+  while ( !( UCSRA & (1<<UDRE)) )
+ 28c:	5d 9b       	sbis	0x0b, 5	; 11
+ 28e:	fe cf       	rjmp	.-4      	; 0x28c <main+0x11a>
+	send_getTemp();
+	lsb = one_read_byte();
+	//msb = one_read_byte();
+	one_reset();
+	for (i = 0; i < 8; i++) {
+	  USART_Transmit((lsb & 1)+'0');
+ 290:	89 2f       	mov	r24, r25
+ 292:	81 70       	andi	r24, 0x01	; 1
+ 294:	80 5d       	subi	r24, 0xD0	; 208
+
+void USART_Transmit(uchar data)
+{
+  while ( !( UCSRA & (1<<UDRE)) )
+    ;
+  UDR = data;
+ 296:	8c b9       	out	0x0c, r24	; 12
+	one_reset();
+	send_getTemp();
+	lsb = one_read_byte();
+	//msb = one_read_byte();
+	one_reset();
+	for (i = 0; i < 8; i++) {
+ 298:	2f 5f       	subi	r18, 0xFF	; 255
+ 29a:	3f 4f       	sbci	r19, 0xFF	; 255
+ 29c:	28 30       	cpi	r18, 0x08	; 8
+ 29e:	31 05       	cpc	r19, r1
+ 2a0:	11 f0       	breq	.+4      	; 0x2a6 <main+0x134>
+	  USART_Transmit((lsb & 1)+'0');
+	  lsb >>= 1;
+ 2a2:	96 95       	lsr	r25
+ 2a4:	f3 cf       	rjmp	.-26     	; 0x28c <main+0x11a>
+  }
+}
+
+void USART_Transmit(uchar data)
+{
+  while ( !( UCSRA & (1<<UDRE)) )
+ 2a6:	5d 9b       	sbis	0x0b, 5	; 11
+ 2a8:	fe cf       	rjmp	.-4      	; 0x2a6 <main+0x134>
+    ;
+  UDR = data;
+ 2aa:	ec b8       	out	0x0c, r14	; 12
+ 2ac:	77 cf       	rjmp	.-274    	; 0x19c <main+0x2a>
+
+000002ae <USART_Transmit>:
+  }
+}
+
+void USART_Transmit(uchar data)
+{
+  while ( !( UCSRA & (1<<UDRE)) )
+ 2ae:	5d 9b       	sbis	0x0b, 5	; 11
+ 2b0:	fe cf       	rjmp	.-4      	; 0x2ae <USART_Transmit>
+    ;
+  UDR = data;
+ 2b2:	8c b9       	out	0x0c, r24	; 12
+}
+ 2b4:	08 95       	ret
+
+000002b6 <USART_Receive>:
+
+uchar USART_Receive(void)
+{
+  while ( !(UCSRA & (1<<RXC)) )
+ 2b6:	5f 9b       	sbis	0x0b, 7	; 11
+ 2b8:	fe cf       	rjmp	.-4      	; 0x2b6 <USART_Receive>
+    ;
+  return UDR;
+ 2ba:	8c b1       	in	r24, 0x0c	; 12
+}
+ 2bc:	08 95       	ret
+
+000002be <USART_Init>:
+
+void USART_Init(void)
+{
+  UBRRH = 0;
+ 2be:	12 b8       	out	0x02, r1	; 2
+  UBRRL = 12;		/* 19200kbps 8N1 */
+ 2c0:	8c e0       	ldi	r24, 0x0C	; 12
+ 2c2:	89 b9       	out	0x09, r24	; 9
+  UCSRB = 0x18;
+ 2c4:	88 e1       	ldi	r24, 0x18	; 24
+ 2c6:	8a b9       	out	0x0a, r24	; 10
+  UCSRC = 0x06;
+ 2c8:	86 e0       	ldi	r24, 0x06	; 6
+ 2ca:	83 b9       	out	0x03, r24	; 3
+}
+ 2cc:	08 95       	ret
+
+000002ce <_exit>:
+ 2ce:	f8 94       	cli
+
+000002d0 <__stop_program>:
+ 2d0:	ff cf       	rjmp	.-2      	; 0x2d0 <__stop_program>

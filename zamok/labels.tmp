@@ -1,0 +1,28 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.30</VERSION>
+ <DEVICE>ATtiny2313</DEVICE>
+ <WORKING_DIR>C:\Documents and Settings\Jergus\Plocha\tests\zamok</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Documents and Settings\Jergus\Plocha\tests\zamok\ledky.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\tn2313def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Documents and Settings\Jergus\Plocha\tests\zamok\ledky.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Documents and Settings\Jergus\Plocha\tests\zamok\ledky.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Documents and Settings\Jergus\Plocha\tests\zamok\ledky.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <tabulka><FILE>C:\Documents and Settings\Jergus\Plocha\tests\zamok\ledky.asm</FILE><LINE>72</LINE></tabulka>
+  <RESET><FILE>C:\Documents and Settings\Jergus\Plocha\tests\zamok\ledky.asm</FILE><LINE>28</LINE></RESET>
+  <Delay><FILE>C:\Documents and Settings\Jergus\Plocha\tests\zamok\ledky.asm</FILE><LINE>51</LINE></Delay>
+  <rovna1><FILE>C:\Documents and Settings\Jergus\Plocha\tests\zamok\ledky.asm</FILE><LINE>46</LINE></rovna1>
+  <opak><FILE>C:\Documents and Settings\Jergus\Plocha\tests\zamok\ledky.asm</FILE><LINE>54</LINE></opak>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,138 @@
+void twi_init(void)
+{
+  asm volatile (
+    "cbi 0x12,6""\n\t"
+	"cbi 0x12,5""\n\t"
+	"sbi 0x11,6""\n\t"
+	"cbi 0x11,5""\n\t"
+  );
+  delay_us(2);
+
+}
+
+char twi_start(void)
+{
+  asm("cbi 0x11,5");
+  asm("cbi 0x11,6");
+  asm("nop");
+  if (bit_is_clear(PIND, nSDA))
+    return 0;
+  if (bit_is_clear(PIND, nSCL))
+    return 0;
+  delay_us(2);
+  asm("sbi 0x11,5");
+  delay_us(2);
+  asm("sbi 0x11,6");
+  return 1;
+}
+
+void twi_stop(void)
+{
+  asm("sbi 0x11,5");//DDRD |= SDA;
+  asm("sbi 0x11,6");//DDRD |= SCL;
+  delay_us(4);
+  asm("cbi 0x11,6");//DDRD &= ~SCL;
+  delay_us(2);
+  asm("cbi 0x11,5");//DDRD &= ~SDA;
+}
+
+char twi_write(char data)
+{
+  char i, res;
+
+  for (i = 0; i < 8; i++) {
+    if ((data & 0x80) == 0x80) 
+	  asm("cbi 0x11,5");//DDRD &= ~SDA;
+	else
+	  asm("sbi 0x11,5");//DDRD |= SDA;
+	delay_us(4);
+	asm("cbi 0x11,6");//DDRD &= ~SCL;
+	delay_us(2);
+	while (bit_is_clear(PIND, nSCL))
+	  ;
+	delay_us(2);
+	asm("sbi 0x11,6");//DDRD |= SCL;
+    data <<= 1;
+  }
+  asm("cbi 0x11,5");//DDRD &= ~SDA;
+  delay_us(2);
+  asm("cbi 0x11,6");//DDRD &= ~SCL;
+  delay_us(4);
+  if (bit_is_clear(PIND, nSDA))
+    res = 1;
+  else
+    res = 0;
+  return res;
+}
+
+char twi_read(void)
+{
+  char i, data = 0x00;
+  
+  for (i = 0; i < 8; i++) {
+    data <<= 1;
+    asm("cbi 0x11,6");//DDRD &= ~SCL;
+	delay_us(2);
+    while (bit_is_clear(PIND, nSCL))
+	  ;
+    delay_us(2);
+    if (bit_is_set(PIND, nSDA))
+	  data |= 1;
+	else data |= 0;
+	asm("sbi 0x11,6");//DDRD |= SCL;
+	delay_us(4);
+  }
+  if (i != 8) {
+    asm("sbi 0x11,5");//DDRD |= SDA;
+  }
+  else
+    asm("cbi 0x11,5");//DDRD &= ~SDA;
+  
+  delay_us(2);
+  asm("cbi 0x11,6");//DDRD &= ~SCL;
+  delay_us(4);
+  asm("sbi 0x11,6");//DDRD |= SCL;
+  delay_us(2);
+  asm("cbi 0x11,5");//DDRD &= ~SDA;
+  //delay_us(2);
+  return data;
+}
+
+
+void write_ds1307(char addr, char data)
+{
+  twi_start();
+  twi_write(0xd0);
+  twi_write(addr);
+  twi_write(data);
+  twi_stop();
+  //_delay_ms(20);
+}
+
+char read_ds1307(char addr)
+{
+  char data;
+
+  twi_start();
+  twi_write(0xd0);
+  twi_write(addr);
+  twi_start();
+  twi_write(0xd1);
+  data = twi_read();
+  twi_stop();
+  return data;
+}
+
+void refresh_temp(void)
+{
+  one_reset();
+  send_convert();
+  _delay_ms(200);
+  _delay_ms(200);
+  _delay_ms(200);
+  one_reset();
+  send_getTemp();
+  udaje.teplota = one_read_byte();
+  one_reset();
+  udaje.teplota >>= 1;
+}

@@ -1,0 +1,7 @@
+Address = 0x00000034  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\testc\default/../pok.c:5:0:-1
+Address = 0x0000003c  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\testc\default/../pok.c:12:0:-1
+Address = 0x0000003e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\testc\default/../pok.c:15:0:-1
+Address = 0x0000003e  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\testc\default/../pok.c:16:0:-1
+Address = 0x00000042  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\testc\default/../pok.c:5:0:-1
+Address = 0x0000004a  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\testc\default/../pok.c:18:0:-1
+Address = 0x00000050  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\testc\default/../pok.c:18:0:-1

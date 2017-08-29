@@ -1,0 +1,2766 @@
+GAS LISTING /tmp/ccnrqgD2.s 			page 1
+
+
+   1               		.file	"klima.c"
+   2               	__SREG__ = 0x3f
+   3               	__SP_H__ = 0x3e
+   4               	__SP_L__ = 0x3d
+   5               	__CCP__  = 0x34
+   6               	__tmp_reg__ = 0
+   7               	__zero_reg__ = 1
+   8               		.global __do_copy_data
+   9               		.global __do_clear_bss
+  10               		.stabs	"/home/jergus/Plocha/tests/klima/",100,0,2,.Ltext0
+  11               		.stabs	"klima.c",100,0,2,.Ltext0
+  12               		.text
+  13               	.Ltext0:
+  14               		.stabs	"gcc2_compiled.",60,0,0,0
+  15               		.stabs	"int:t(0,1)=r(0,1);-32768;32767;",128,0,1,0
+  16               		.stabs	"char:t(0,2)=@s8;r(0,2);0;255;",128,0,1,0
+  17               		.stabs	"long int:t(0,3)=@s32;r(0,3);020000000000;017777777777;",128,0,1,0
+  18               		.stabs	"unsigned int:t(0,4)=r(0,4);0;0177777;",128,0,1,0
+  19               		.stabs	"long unsigned int:t(0,5)=@s32;r(0,5);0;037777777777;",128,0,1,0
+  20               		.stabs	"long long int:t(0,6)=@s64;r(0,6);01000000000000000000000;0777777777777777777777;",128,0,1,
+  21               		.stabs	"long long unsigned int:t(0,7)=@s64;r(0,7);0;01777777777777777777777;",128,0,1,0
+  22               		.stabs	"short int:t(0,8)=r(0,8);-32768;32767;",128,0,1,0
+  23               		.stabs	"short unsigned int:t(0,9)=r(0,9);0;0177777;",128,0,1,0
+  24               		.stabs	"signed char:t(0,10)=@s8;r(0,10);-128;127;",128,0,1,0
+  25               		.stabs	"unsigned char:t(0,11)=@s8;r(0,11);0;255;",128,0,1,0
+  26               		.stabs	"float:t(0,12)=r(0,1);4;0;",128,0,1,0
+  27               		.stabs	"double:t(0,13)=r(0,1);4;0;",128,0,1,0
+  28               		.stabs	"long double:t(0,14)=r(0,1);4;0;",128,0,1,0
+  29               		.stabs	"void:t(0,15)=(0,15)",128,0,1,0
+  30               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/stdlib.h",130,0,0,0
+  31               		.stabs	"/usr/lib/gcc/avr/4.3.4/include/stddef.h",130,0,0,0
+  32               		.stabs	"size_t:t(2,1)=(0,4)",128,0,214,0
+  33               		.stabs	"wchar_t:t(2,2)=(0,1)",128,0,326,0
+  34               		.stabn	162,0,0,0
+  35               		.stabs	"div_t:t(1,1)=(1,2)=s4quot:(0,1),0,16;rem:(0,1),16,16;;",128,0,71,0
+  36               		.stabs	"ldiv_t:t(1,3)=(1,4)=s8quot:(0,3),0,32;rem:(0,3),32,32;;",128,0,77,0
+  37               		.stabs	"__compar_fn_t:t(1,5)=(1,6)=*(1,7)=f(0,1)",128,0,80,0
+  38               		.stabn	162,0,0,0
+  39               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/avr/io.h",130,0,0,0
+  40               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/avr/sfr_defs.h",130,0,0,0
+  41               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/inttypes.h",130,0,0,0
+  42               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/stdint.h",130,0,0,0
+  43               		.stabs	"int8_t:t(6,1)=(0,10)",128,0,121,0
+  44               		.stabs	"uint8_t:t(6,2)=(0,11)",128,0,122,0
+  45               		.stabs	"int16_t:t(6,3)=(0,1)",128,0,123,0
+  46               		.stabs	"uint16_t:t(6,4)=(0,4)",128,0,124,0
+  47               		.stabs	"int32_t:t(6,5)=(0,3)",128,0,125,0
+  48               		.stabs	"uint32_t:t(6,6)=(0,5)",128,0,126,0
+  49               		.stabs	"int64_t:t(6,7)=(0,6)",128,0,128,0
+  50               		.stabs	"uint64_t:t(6,8)=(0,7)",128,0,129,0
+  51               		.stabs	"intptr_t:t(6,9)=(6,3)",128,0,142,0
+  52               		.stabs	"uintptr_t:t(6,10)=(6,4)",128,0,147,0
+  53               		.stabs	"int_least8_t:t(6,11)=(6,1)",128,0,159,0
+  54               		.stabs	"uint_least8_t:t(6,12)=(6,2)",128,0,164,0
+  55               		.stabs	"int_least16_t:t(6,13)=(6,3)",128,0,169,0
+  56               		.stabs	"uint_least16_t:t(6,14)=(6,4)",128,0,174,0
+  57               		.stabs	"int_least32_t:t(6,15)=(6,5)",128,0,179,0
+GAS LISTING /tmp/ccnrqgD2.s 			page 2
+
+
+  58               		.stabs	"uint_least32_t:t(6,16)=(6,6)",128,0,184,0
+  59               		.stabs	"int_least64_t:t(6,17)=(6,7)",128,0,192,0
+  60               		.stabs	"uint_least64_t:t(6,18)=(6,8)",128,0,199,0
+  61               		.stabs	"int_fast8_t:t(6,19)=(6,1)",128,0,213,0
+  62               		.stabs	"uint_fast8_t:t(6,20)=(6,2)",128,0,218,0
+  63               		.stabs	"int_fast16_t:t(6,21)=(6,3)",128,0,223,0
+  64               		.stabs	"uint_fast16_t:t(6,22)=(6,4)",128,0,228,0
+  65               		.stabs	"int_fast32_t:t(6,23)=(6,5)",128,0,233,0
+  66               		.stabs	"uint_fast32_t:t(6,24)=(6,6)",128,0,238,0
+  67               		.stabs	"int_fast64_t:t(6,25)=(6,7)",128,0,246,0
+  68               		.stabs	"uint_fast64_t:t(6,26)=(6,8)",128,0,253,0
+  69               		.stabs	"intmax_t:t(6,27)=(6,7)",128,0,273,0
+  70               		.stabs	"uintmax_t:t(6,28)=(6,8)",128,0,278,0
+  71               		.stabn	162,0,0,0
+  72               		.stabs	"int_farptr_t:t(5,1)=(6,5)",128,0,77,0
+  73               		.stabs	"uint_farptr_t:t(5,2)=(6,6)",128,0,81,0
+  74               		.stabn	162,0,0,0
+  75               		.stabn	162,0,0,0
+  76               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/avr/fuse.h",130,0,0,0
+  77               		.stabs	"__fuse_t:t(7,1)=(7,2)=s3low:(0,11),0,8;high:(0,11),8,8;extended:(0,11),16,8;;",128,0,239,0
+  78               		.stabn	162,0,0,0
+  79               		.stabn	162,0,0,0
+  80               		.stabs	"moje.c",130,0,0,0
+  81               		.stabs	"TEPLOTY:t(8,1)=(8,2)=s6von_L:(8,3)=B(0,11),0,8;von_H:(8,3),8,8;vnut_L:(8,3),16,8;vnut_H:(8
+  82               		.stabs	"FLAGS:t(8,4)=(8,5)=s1tep:(0,11),0,1;init:(0,11),1,1;btn1:(0,11),2,1;start:(0,11),3,1;nasta
+  83               		.stabn	162,0,0,0
+  84               		.stabs	"one_reset:F(0,2)",36,0,24,one_reset
+  85               		.stabs	"DQ:P(0,2)",64,0,23,24
+  86               	.global	one_reset
+  87               		.type	one_reset, @function
+  88               	one_reset:
+  89               		.stabd	46,0,0
+  90               		.stabs	"_ds1820.c",132,0,0,.Ltext1
+  91               	.Ltext1:
+   0:_ds1820.c     **** //*****************************************************************************
+   1:_ds1820.c     **** //									      *
+   2:_ds1820.c     **** // Meno súboru		: 'ds1820.c'					      *
+   3:_ds1820.c     **** // Úèel			: Funkcie pre obsluhu DS1820			      *
+   4:_ds1820.c     **** // Autor		: Jerguš Lysý					      *
+   5:_ds1820.c     **** // Vytvorené		: 15.8.2009					      *
+   6:_ds1820.c     **** //									      *
+   7:_ds1820.c     **** //									      *
+   8:_ds1820.c     **** //*****************************************************************************
+   9:_ds1820.c     **** 
+  10:_ds1820.c     **** /* Oneskorenie pracuje spravne pri frekvencii 4MHz
+  11:_ds1820.c     ****    Pre inu frekvenciu treba funkciu upravit alebo pouzit kniznicu 
+  12:_ds1820.c     ****    WinAvr (util/delay.h)
+  13:_ds1820.c     **** */
+  14:_ds1820.c     **** 
+  15:_ds1820.c     **** /*
+  16:_ds1820.c     ****    Funkcia:	 char one_reset(void)
+  17:_ds1820.c     ****    Tato funkcia vysle reset na slave.
+  18:_ds1820.c     ****    Vrati 0 ak sa senzor nenachadza na zbernici.
+  19:_ds1820.c     **** */
+  20:_ds1820.c     **** #include <util/delay.h>
+  21:_ds1820.c     **** 
+  22:_ds1820.c     **** char one_reset(uchar DQ)
+GAS LISTING /tmp/ccnrqgD2.s 			page 3
+
+
+  23:_ds1820.c     **** {
+  92               		.stabn	68,0,24,.LM0-.LFBB1
+  93               	.LM0:
+  94               	.LFBB1:
+  95               	/* prologue: function */
+  96               	/* frame size = 0 */
+  24:_ds1820.c     ****   char r;
+  25:_ds1820.c     ****   asm("cli");
+  97               		.stabn	68,0,26,.LM1-.LFBB1
+  98               	.LM1:
+  99               	/* #APP */
+ 100               	 ;  26 "_ds1820.c" 1
+ 101 0000 F894      		cli
+ 102               	 ;  0 "" 2
+  26:_ds1820.c     ****   DDR |= DQ;
+ 103               		.stabn	68,0,27,.LM2-.LFBB1
+ 104               	.LM2:
+ 105               	/* #NOAPP */
+ 106 0002 97B3      		in r25,55-32
+ 107 0004 982B      		or r25,r24
+ 108 0006 97BB      		out 55-32,r25
+  27:_ds1820.c     ****   PORT &= ~DQ;
+ 109               		.stabn	68,0,28,.LM3-.LFBB1
+ 110               	.LM3:
+ 111 0008 98B3      		in r25,56-32
+ 112 000a 282F      		mov r18,r24
+ 113 000c 2095      		com r18
+ 114 000e 9223      		and r25,r18
+ 115 0010 98BB      		out 56-32,r25
+ 116               	.LBB140:
+ 117               	.LBB141:
+ 118               	.LBB142:
+ 119               	.LBB143:
+ 120               	.LBB144:
+ 121               	.LBB145:
+ 122               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h",132,0,0,.Ltext2
+ 123               	.Ltext2:
+   0:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** /* Copyright (c) 2002, Marek Michalkiewicz
+   1:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****    Copyright (c) 2007 Joerg Wunsch
+   2:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****    All rights reserved.
+   3:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 
+   4:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****    Redistribution and use in source and binary forms, with or without
+   5:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****    modification, are permitted provided that the following conditions are met:
+   6:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 
+   7:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****    * Redistributions of source code must retain the above copyright
+   8:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****      notice, this list of conditions and the following disclaimer.
+   9:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 
+  10:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****    * Redistributions in binary form must reproduce the above copyright
+  11:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****      notice, this list of conditions and the following disclaimer in
+  12:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****      the documentation and/or other materials provided with the
+  13:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****      distribution.
+  14:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 
+  15:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****    * Neither the name of the copyright holders nor the names of
+  16:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****      contributors may be used to endorse or promote products derived
+  17:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****      from this software without specific prior written permission.
+  18:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 
+  19:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+GAS LISTING /tmp/ccnrqgD2.s 			page 4
+
+
+  20:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****   AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+  21:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****   IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+  22:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****   ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+  23:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****   LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+  24:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****   CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+  25:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****   SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+  26:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****   INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+  27:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****   CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+  28:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****   ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+  29:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****   POSSIBILITY OF SUCH DAMAGE. */
+  30:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 
+  31:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** /* $Id: delay_basic.h,v 1.1 2007/05/13 21:23:20 joerg_wunsch Exp $ */
+  32:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 
+  33:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** #ifndef _UTIL_DELAY_BASIC_H_
+  34:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** #define _UTIL_DELAY_BASIC_H_ 1
+  35:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 
+  36:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** #include <inttypes.h>
+  37:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 
+  38:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** /** \file */
+  39:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** /** \defgroup util_delay_basic <util/delay_basic.h>: Basic busy-wait delay loops
+  40:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     \code
+  41:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     #include <util/delay_basic.h>
+  42:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     \endcode
+  43:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 
+  44:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     The functions in this header file implement simple delay loops
+  45:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     that perform a busy-waiting.  They are typically used to
+  46:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     facilitate short delays in the program execution.  They are
+  47:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     implemented as count-down loops with a well-known CPU cycle
+  48:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     count per loop iteration.  As such, no other processing can
+  49:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     occur simultaneously.  It should be kept in mind that the
+  50:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     functions described here do not disable interrupts.
+  51:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 
+  52:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     In general, for long delays, the use of hardware timers is
+  53:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     much preferrable, as they free the CPU, and allow for
+  54:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     concurrent processing of other events while the timer is
+  55:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     running.  However, in particular for very short delays, the
+  56:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     overhead of setting up a hardware timer is too much compared
+  57:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     to the overall delay time.
+  58:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 
+  59:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     Two inline functions are provided for the actual delay algorithms.
+  60:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 
+  61:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** */
+  62:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 
+  63:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** #if !defined(__DOXYGEN__)
+  64:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** static inline void _delay_loop_1(uint8_t __count) __attribute__((always_inline));
+  65:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** static inline void _delay_loop_2(uint16_t __count) __attribute__((always_inline));
+  66:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** #endif
+  67:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 
+  68:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** /** \ingroup util_delay_basic
+  69:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 
+  70:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     Delay loop using an 8-bit counter \c __count, so up to 256
+  71:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     iterations are possible.  (The value 256 would have to be passed
+  72:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     as 0.)  The loop executes three CPU cycles per iteration, not
+  73:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     including the overhead the compiler needs to setup the counter
+  74:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     register.
+  75:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 
+  76:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     Thus, at a CPU speed of 1 MHz, delays of up to 768 microseconds
+GAS LISTING /tmp/ccnrqgD2.s 			page 5
+
+
+  77:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     can be achieved.
+  78:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** */
+  79:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** void
+  80:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** _delay_loop_1(uint8_t __count)
+  81:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** {
+  82:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 	__asm__ volatile (
+  83:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 		"1: dec %0" "\n\t"
+  84:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 		"brne 1b"
+  85:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 		: "=r" (__count)
+  86:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 		: "0" (__count)
+  87:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 	);
+  88:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** }
+  89:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 
+  90:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** /** \ingroup util_delay_basic
+  91:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 
+  92:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     Delay loop using a 16-bit counter \c __count, so up to 65536
+  93:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     iterations are possible.  (The value 65536 would have to be
+  94:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     passed as 0.)  The loop executes four CPU cycles per iteration,
+  95:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     not including the overhead the compiler requires to setup the
+  96:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     counter register pair.
+  97:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 
+  98:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     Thus, at a CPU speed of 1 MHz, delays of up to about 262.1
+  99:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****     milliseconds can be achieved.
+ 100:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h ****  */
+ 101:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** void
+ 102:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** _delay_loop_2(uint16_t __count)
+ 103:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** {
+ 104:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 	__asm__ volatile (
+ 124               		.stabn	68,0,105,.LM4-.LFBB1
+ 125               	.LM4:
+ 126 0012 E4EF      		ldi r30,lo8(500)
+ 127 0014 F1E0      		ldi r31,hi8(500)
+ 128               	/* #APP */
+ 129               	 ;  105 "/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h" 1
+ 130 0016 3197      		1: sbiw r30,1
+ 131 0018 01F4      		brne 1b
+ 132               	 ;  0 "" 2
+ 133               	/* #NOAPP */
+ 134               	.LBE145:
+ 135               	.LBE144:
+ 136               	.LBE143:
+ 137               	.LBE142:
+ 138               	.LBE141:
+ 139               	.LBE140:
+ 140               		.stabs	"_ds1820.c",132,0,0,.Ltext3
+ 141               	.Ltext3:
+  28:_ds1820.c     ****   _delay_us(500);
+  29:_ds1820.c     ****   DDR &= ~DQ;
+ 142               		.stabn	68,0,30,.LM5-.LFBB1
+ 143               	.LM5:
+ 144 001a 97B3      		in r25,55-32
+ 145 001c 2923      		and r18,r25
+ 146 001e 27BB      		out 55-32,r18
+ 147               	.LBB146:
+ 148               	.LBB147:
+ 149               	.LBB148:
+ 150               	.LBB149:
+GAS LISTING /tmp/ccnrqgD2.s 			page 6
+
+
+ 151               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h",132,0,0,.Ltext4
+ 152               	.Ltext4:
+  83:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 	__asm__ volatile (
+ 153               		.stabn	68,0,83,.LM6-.LFBB1
+ 154               	.LM6:
+ 155 0020 95E3      		ldi r25,lo8(53)
+ 156               	/* #APP */
+ 157               	 ;  83 "/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h" 1
+ 158 0022 9A95      		1: dec r25
+ 159 0024 01F4      		brne 1b
+ 160               	 ;  0 "" 2
+ 161               	/* #NOAPP */
+ 162               	.LBE149:
+ 163               	.LBE148:
+ 164               	.LBE147:
+ 165               	.LBE146:
+ 166               		.stabs	"_ds1820.c",132,0,0,.Ltext5
+ 167               	.Ltext5:
+  30:_ds1820.c     ****   _delay_us(40);
+  31:_ds1820.c     ****   r = (DDR & DQ) ? 0 : 1;
+ 168               		.stabn	68,0,32,.LM7-.LFBB1
+ 169               	.LM7:
+ 170 0026 97B3      		in r25,55-32
+ 171               	.LBB150:
+ 172               	.LBB151:
+ 173               	.LBB152:
+ 174               	.LBB153:
+ 175               	.LBB154:
+ 176               	.LBB155:
+ 177               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h",132,0,0,.Ltext6
+ 178               	.Ltext6:
+ 179               		.stabn	68,0,105,.LM8-.LFBB1
+ 180               	.LM8:
+ 181 0028 E0EF      		ldi r30,lo8(240)
+ 182 002a F0E0      		ldi r31,hi8(240)
+ 183               	/* #APP */
+ 184               	 ;  105 "/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h" 1
+ 185 002c 3197      		1: sbiw r30,1
+ 186 002e 01F4      		brne 1b
+ 187               	 ;  0 "" 2
+ 188               	/* #NOAPP */
+ 189               	.LBE155:
+ 190               	.LBE154:
+ 191               	.LBE153:
+ 192               	.LBE152:
+ 193               	.LBE151:
+ 194               	.LBE150:
+ 195               		.stabs	"_ds1820.c",132,0,0,.Ltext7
+ 196               	.Ltext7:
+  32:_ds1820.c     ****   _delay_us(240);
+  33:_ds1820.c     ****   asm("sei");
+ 197               		.stabn	68,0,34,.LM9-.LFBB1
+ 198               	.LM9:
+ 199               	/* #APP */
+ 200               	 ;  34 "_ds1820.c" 1
+ 201 0030 7894      		sei
+ 202               	 ;  0 "" 2
+GAS LISTING /tmp/ccnrqgD2.s 			page 7
+
+
+ 203               	/* #NOAPP */
+ 204 0032 20E0      		ldi r18,lo8(0)
+ 205 0034 9823      		and r25,r24
+ 206 0036 01F4      		brne .L2
+ 207 0038 21E0      		ldi r18,lo8(1)
+ 208               	.L2:
+  34:_ds1820.c     ****   return r;
+  35:_ds1820.c     **** }
+ 209               		.stabn	68,0,36,.LM10-.LFBB1
+ 210               	.LM10:
+ 211 003a 822F      		mov r24,r18
+ 212               	/* epilogue start */
+ 213 003c 0895      		ret
+ 214               		.size	one_reset, .-one_reset
+ 215               	.Lscope1:
+ 216               		.stabs	"",36,0,0,.Lscope1-.LFBB1
+ 217               		.stabd	78,0,0
+ 218               		.stabs	"one_read_byte:F(0,2)",36,0,45,one_read_byte
+ 219               		.stabs	"DQ:P(0,2)",64,0,44,19
+ 220               	.global	one_read_byte
+ 221               		.type	one_read_byte, @function
+ 222               	one_read_byte:
+ 223               		.stabd	46,0,0
+  36:_ds1820.c     **** 
+  37:_ds1820.c     **** /*
+  38:_ds1820.c     ****    Funkcia:	 char one_read_byte(void)
+  39:_ds1820.c     ****    Funkcia cita byte zo senzoru
+  40:_ds1820.c     ****    Vrati nacitany byte
+  41:_ds1820.c     **** */
+  42:_ds1820.c     **** 
+  43:_ds1820.c     **** char one_read_byte(uchar DQ)
+  44:_ds1820.c     **** {
+ 224               		.stabn	68,0,45,.LM11-.LFBB2
+ 225               	.LM11:
+ 226               	.LFBB2:
+ 227               	/* prologue: function */
+ 228               	/* frame size = 0 */
+ 229 003e 382F      		mov r19,r24
+  45:_ds1820.c     ****   char i, data = 0;
+  46:_ds1820.c     ****   asm("cli");
+ 230               		.stabn	68,0,47,.LM12-.LFBB2
+ 231               	.LM12:
+ 232               	/* #APP */
+ 233               	 ;  47 "_ds1820.c" 1
+ 234 0040 F894      		cli
+ 235               	 ;  0 "" 2
+ 236               	/* #NOAPP */
+ 237 0042 20E0      		ldi r18,lo8(0)
+ 238 0044 90E0      		ldi r25,lo8(0)
+  47:_ds1820.c     ****   for (i = 0; i < 8; i++) {
+  48:_ds1820.c     ****     data >>= 1;
+  49:_ds1820.c     ****     DDR |= DQ;
+  50:_ds1820.c     ****     PORT &= ~DQ;
+ 239               		.stabn	68,0,51,.LM13-.LFBB2
+ 240               	.LM13:
+ 241 0046 482F      		mov r20,r24
+ 242 0048 4095      		com r20
+GAS LISTING /tmp/ccnrqgD2.s 			page 8
+
+
+ 243               	.LBB156:
+ 244               	.LBB157:
+ 245               	.LBB158:
+ 246               	.LBB159:
+ 247               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h",132,0,0,.Ltext8
+ 248               	.Ltext8:
+  83:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 	__asm__ volatile (
+ 249               		.stabn	68,0,83,.LM14-.LFBB2
+ 250               	.LM14:
+ 251 004a 5DE0      		ldi r21,lo8(13)
+ 252               	.LBE159:
+ 253               	.LBE158:
+ 254               	.LBE157:
+ 255               	.LBE156:
+ 256               	.LBB163:
+ 257               	.LBB164:
+ 258               	.LBB165:
+ 259               	.LBB166:
+ 260 004c 60E5      		ldi r22,lo8(80)
+ 261               	.L7:
+ 262               	.LBE166:
+ 263               	.LBE165:
+ 264               	.LBE164:
+ 265               	.LBE163:
+ 266               		.stabs	"_ds1820.c",132,0,0,.Ltext9
+ 267               	.Ltext9:
+  50:_ds1820.c     ****     DDR |= DQ;
+ 268               		.stabn	68,0,50,.LM15-.LFBB2
+ 269               	.LM15:
+ 270 004e 87B3      		in r24,55-32
+ 271 0050 832B      		or r24,r19
+ 272 0052 87BB      		out 55-32,r24
+ 273               		.stabn	68,0,51,.LM16-.LFBB2
+ 274               	.LM16:
+ 275 0054 88B3      		in r24,56-32
+ 276 0056 8423      		and r24,r20
+ 277 0058 88BB      		out 56-32,r24
+ 278               	.LBB170:
+ 279               	.LBB162:
+ 280               	.LBB161:
+ 281               	.LBB160:
+ 282               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h",132,0,0,.Ltext10
+ 283               	.Ltext10:
+  83:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 	__asm__ volatile (
+ 284               		.stabn	68,0,83,.LM17-.LFBB2
+ 285               	.LM17:
+ 286 005a 852F      		mov r24,r21
+ 287               	/* #APP */
+ 288               	 ;  83 "/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h" 1
+ 289 005c 8A95      		1: dec r24
+ 290 005e 01F4      		brne 1b
+ 291               	 ;  0 "" 2
+ 292               	/* #NOAPP */
+ 293               	.LBE160:
+ 294               	.LBE161:
+ 295               	.LBE162:
+ 296               	.LBE170:
+GAS LISTING /tmp/ccnrqgD2.s 			page 9
+
+
+ 297               		.stabs	"_ds1820.c",132,0,0,.Ltext11
+ 298               	.Ltext11:
+  51:_ds1820.c     ****     _delay_us(10);
+  52:_ds1820.c     ****     DDR &= ~DQ;
+ 299               		.stabn	68,0,53,.LM18-.LFBB2
+ 300               	.LM18:
+ 301 0060 87B3      		in r24,55-32
+ 302 0062 8423      		and r24,r20
+ 303 0064 87BB      		out 55-32,r24
+ 304               	.LBB171:
+ 305               	.LBB172:
+ 306               	.LBB173:
+ 307               	.LBB174:
+ 308               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h",132,0,0,.Ltext12
+ 309               	.Ltext12:
+  83:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 	__asm__ volatile (
+ 310               		.stabn	68,0,83,.LM19-.LFBB2
+ 311               	.LM19:
+ 312 0066 852F      		mov r24,r21
+ 313               	/* #APP */
+ 314               	 ;  83 "/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h" 1
+ 315 0068 8A95      		1: dec r24
+ 316 006a 01F4      		brne 1b
+ 317               	 ;  0 "" 2
+ 318               	/* #NOAPP */
+ 319               	.LBE174:
+ 320               	.LBE173:
+ 321               	.LBE172:
+ 322               	.LBE171:
+ 323               		.stabs	"_ds1820.c",132,0,0,.Ltext13
+ 324               	.Ltext13:
+  53:_ds1820.c     ****     _delay_us(10);
+  54:_ds1820.c     ****     data |= (PIN & DQ) ? 0b10000000 : 0;
+ 325               		.stabn	68,0,55,.LM20-.LFBB2
+ 326               	.LM20:
+ 327 006c 86B3      		in r24,54-32
+ 328 006e 8323      		and r24,r19
+ 329 0070 01F0      		breq .L6
+ 330 0072 80E8      		ldi r24,lo8(-128)
+ 331               	.L6:
+ 332 0074 9695      		lsr r25
+ 333 0076 982B      		or r25,r24
+ 334               	.LBB175:
+ 335               	.LBB169:
+ 336               	.LBB168:
+ 337               	.LBB167:
+ 338               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h",132,0,0,.Ltext14
+ 339               	.Ltext14:
+  83:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 	__asm__ volatile (
+ 340               		.stabn	68,0,83,.LM21-.LFBB2
+ 341               	.LM21:
+ 342 0078 862F      		mov r24,r22
+ 343               	/* #APP */
+ 344               	 ;  83 "/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h" 1
+ 345 007a 8A95      		1: dec r24
+ 346 007c 01F4      		brne 1b
+ 347               	 ;  0 "" 2
+GAS LISTING /tmp/ccnrqgD2.s 			page 10
+
+
+ 348               	/* #NOAPP */
+ 349               	.LBE167:
+ 350               	.LBE168:
+ 351               	.LBE169:
+ 352               	.LBE175:
+ 353               		.stabs	"_ds1820.c",132,0,0,.Ltext15
+ 354               	.Ltext15:
+  48:_ds1820.c     ****   for (i = 0; i < 8; i++) {
+ 355               		.stabn	68,0,48,.LM22-.LFBB2
+ 356               	.LM22:
+ 357 007e 2F5F      		subi r18,lo8(-(1))
+ 358 0080 2830      		cpi r18,lo8(8)
+ 359 0082 01F4      		brne .L7
+  55:_ds1820.c     ****     _delay_us(60);
+  56:_ds1820.c     ****   }   
+  57:_ds1820.c     ****   asm("sei");
+ 360               		.stabn	68,0,58,.LM23-.LFBB2
+ 361               	.LM23:
+ 362               	/* #APP */
+ 363               	 ;  58 "_ds1820.c" 1
+ 364 0084 7894      		sei
+ 365               	 ;  0 "" 2
+  58:_ds1820.c     ****   return data;
+  59:_ds1820.c     **** }
+ 366               		.stabn	68,0,60,.LM24-.LFBB2
+ 367               	.LM24:
+ 368               	/* #NOAPP */
+ 369 0086 892F      		mov r24,r25
+ 370               	/* epilogue start */
+ 371 0088 0895      		ret
+ 372               		.size	one_read_byte, .-one_read_byte
+ 373               		.stabs	"i:r(0,2)",64,0,46,18
+ 374               		.stabn	192,0,0,.LFBB2-.LFBB2
+ 375               		.stabn	224,0,0,.Lscope2-.LFBB2
+ 376               	.Lscope2:
+ 377               		.stabs	"",36,0,0,.Lscope2-.LFBB2
+ 378               		.stabd	78,0,0
+ 379               		.stabs	"one_write_byte:F(0,15)",36,0,69,one_write_byte
+ 380               		.stabs	"DQ:P(0,2)",64,0,68,19
+ 381               		.stabs	"data:P(0,2)",64,0,68,22
+ 382               	.global	one_write_byte
+ 383               		.type	one_write_byte, @function
+ 384               	one_write_byte:
+ 385               		.stabd	46,0,0
+  60:_ds1820.c     **** 
+  61:_ds1820.c     **** /*
+  62:_ds1820.c     ****    Funkcia:	 void one_write_byte(char data)
+  63:_ds1820.c     ****    Funkcia zapisuje byte do senzoru
+  64:_ds1820.c     ****    Posle byte 'data' na zbernicu
+  65:_ds1820.c     **** */
+  66:_ds1820.c     **** 
+  67:_ds1820.c     **** void one_write_byte(uchar DQ, char data)
+  68:_ds1820.c     **** {
+ 386               		.stabn	68,0,69,.LM25-.LFBB3
+ 387               	.LM25:
+ 388               	.LFBB3:
+ 389               	/* prologue: function */
+GAS LISTING /tmp/ccnrqgD2.s 			page 11
+
+
+ 390               	/* frame size = 0 */
+ 391 008a 382F      		mov r19,r24
+  69:_ds1820.c     ****   char i;
+  70:_ds1820.c     ****   asm("cli");
+ 392               		.stabn	68,0,71,.LM26-.LFBB3
+ 393               	.LM26:
+ 394               	/* #APP */
+ 395               	 ;  71 "_ds1820.c" 1
+ 396 008c F894      		cli
+ 397               	 ;  0 "" 2
+ 398               	/* #NOAPP */
+ 399 008e 20E0      		ldi r18,lo8(0)
+  71:_ds1820.c     ****   for (i = 0; i < 8; i++) {
+  72:_ds1820.c     ****     DDR |= DQ;
+  73:_ds1820.c     ****     PORT &= ~DQ;
+ 400               		.stabn	68,0,74,.LM27-.LFBB3
+ 401               	.LM27:
+ 402 0090 982F      		mov r25,r24
+ 403 0092 9095      		com r25
+ 404               	.LBB176:
+ 405               	.LBB177:
+ 406               	.LBB178:
+ 407               	.LBB179:
+ 408               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h",132,0,0,.Ltext16
+ 409               	.Ltext16:
+  83:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 	__asm__ volatile (
+ 410               		.stabn	68,0,83,.LM28-.LFBB3
+ 411               	.LM28:
+ 412 0094 5DE0      		ldi r21,lo8(13)
+ 413               	.LBE179:
+ 414               	.LBE178:
+ 415               	.LBE177:
+ 416               	.LBE176:
+ 417               	.LBB183:
+ 418               	.LBB184:
+ 419               	.LBB185:
+ 420               	.LBB186:
+ 421 0096 42E4      		ldi r20,lo8(66)
+ 422               	.L14:
+ 423               	.LBE186:
+ 424               	.LBE185:
+ 425               	.LBE184:
+ 426               	.LBE183:
+ 427               		.stabs	"_ds1820.c",132,0,0,.Ltext17
+ 428               	.Ltext17:
+  73:_ds1820.c     ****     DDR |= DQ;
+ 429               		.stabn	68,0,73,.LM29-.LFBB3
+ 430               	.LM29:
+ 431 0098 87B3      		in r24,55-32
+ 432 009a 832B      		or r24,r19
+ 433 009c 87BB      		out 55-32,r24
+ 434               		.stabn	68,0,74,.LM30-.LFBB3
+ 435               	.LM30:
+ 436 009e 88B3      		in r24,56-32
+ 437 00a0 8923      		and r24,r25
+ 438 00a2 88BB      		out 56-32,r24
+  74:_ds1820.c     ****     if ((data & 1) == 0) {
+GAS LISTING /tmp/ccnrqgD2.s 			page 12
+
+
+ 439               		.stabn	68,0,75,.LM31-.LFBB3
+ 440               	.LM31:
+ 441 00a4 60FD      		sbrc r22,0
+ 442 00a6 00C0      		rjmp .L11
+ 443               	.LBB190:
+ 444               	.LBB191:
+ 445               	.LBB192:
+ 446               	.LBB193:
+ 447               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h",132,0,0,.Ltext18
+ 448               	.Ltext18:
+  83:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 	__asm__ volatile (
+ 449               		.stabn	68,0,83,.LM32-.LFBB3
+ 450               	.LM32:
+ 451 00a8 842F      		mov r24,r20
+ 452               	/* #APP */
+ 453               	 ;  83 "/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h" 1
+ 454 00aa 8A95      		1: dec r24
+ 455 00ac 01F4      		brne 1b
+ 456               	 ;  0 "" 2
+ 457               	/* #NOAPP */
+ 458               	.LBE193:
+ 459               	.LBE192:
+ 460               	.LBE191:
+ 461               	.LBE190:
+ 462               		.stabs	"_ds1820.c",132,0,0,.Ltext19
+ 463               	.Ltext19:
+  75:_ds1820.c     ****       _delay_us(50);
+  76:_ds1820.c     ****       DDR &= ~DQ;
+ 464               		.stabn	68,0,77,.LM33-.LFBB3
+ 465               	.LM33:
+ 466 00ae 87B3      		in r24,55-32
+ 467 00b0 8923      		and r24,r25
+ 468 00b2 87BB      		out 55-32,r24
+ 469               	.LBB194:
+ 470               	.LBB195:
+ 471               	.LBB196:
+ 472               	.LBB197:
+ 473               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h",132,0,0,.Ltext20
+ 474               	.Ltext20:
+  83:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 	__asm__ volatile (
+ 475               		.stabn	68,0,83,.LM34-.LFBB3
+ 476               	.LM34:
+ 477 00b4 852F      		mov r24,r21
+ 478 00b6 00C0      		rjmp .L16
+ 479               	.L11:
+ 480               	.LBE197:
+ 481               	.LBE196:
+ 482               	.LBE195:
+ 483               	.LBE194:
+ 484               	.LBB198:
+ 485               	.LBB182:
+ 486               	.LBB181:
+ 487               	.LBB180:
+ 488 00b8 852F      		mov r24,r21
+ 489               	/* #APP */
+ 490               	 ;  83 "/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h" 1
+ 491 00ba 8A95      		1: dec r24
+GAS LISTING /tmp/ccnrqgD2.s 			page 13
+
+
+ 492 00bc 01F4      		brne 1b
+ 493               	 ;  0 "" 2
+ 494               	/* #NOAPP */
+ 495               	.LBE180:
+ 496               	.LBE181:
+ 497               	.LBE182:
+ 498               	.LBE198:
+ 499               		.stabs	"_ds1820.c",132,0,0,.Ltext21
+ 500               	.Ltext21:
+  77:_ds1820.c     ****       _delay_us(10);
+  78:_ds1820.c     ****     }
+  79:_ds1820.c     ****     else {
+  80:_ds1820.c     ****       _delay_us(10);
+  81:_ds1820.c     ****       DDR &= ~DQ;
+ 501               		.stabn	68,0,82,.LM35-.LFBB3
+ 502               	.LM35:
+ 503 00be 87B3      		in r24,55-32
+ 504 00c0 8923      		and r24,r25
+ 505 00c2 87BB      		out 55-32,r24
+ 506               	.LBB199:
+ 507               	.LBB189:
+ 508               	.LBB188:
+ 509               	.LBB187:
+ 510               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h",132,0,0,.Ltext22
+ 511               	.Ltext22:
+  83:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h **** 	__asm__ volatile (
+ 512               		.stabn	68,0,83,.LM36-.LFBB3
+ 513               	.LM36:
+ 514 00c4 842F      		mov r24,r20
+ 515               	.L16:
+ 516               	/* #APP */
+ 517               	 ;  83 "/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h" 1
+ 518 00c6 8A95      		1: dec r24
+ 519 00c8 01F4      		brne 1b
+ 520               	 ;  0 "" 2
+ 521               	/* #NOAPP */
+ 522               	.LBE187:
+ 523               	.LBE188:
+ 524               	.LBE189:
+ 525               	.LBE199:
+ 526               		.stabs	"_ds1820.c",132,0,0,.Ltext23
+ 527               	.Ltext23:
+  72:_ds1820.c     ****   for (i = 0; i < 8; i++) {
+ 528               		.stabn	68,0,72,.LM37-.LFBB3
+ 529               	.LM37:
+ 530 00ca 2F5F      		subi r18,lo8(-(1))
+ 531 00cc 2830      		cpi r18,lo8(8)
+ 532 00ce 01F0      		breq .L13
+  82:_ds1820.c     ****       _delay_us(50);
+  83:_ds1820.c     ****     }
+  84:_ds1820.c     ****     data >>= 1;
+ 533               		.stabn	68,0,85,.LM38-.LFBB3
+ 534               	.LM38:
+ 535 00d0 6695      		lsr r22
+ 536 00d2 00C0      		rjmp .L14
+ 537               	.L13:
+  85:_ds1820.c     ****   }
+GAS LISTING /tmp/ccnrqgD2.s 			page 14
+
+
+  86:_ds1820.c     ****   asm("sei");
+ 538               		.stabn	68,0,87,.LM39-.LFBB3
+ 539               	.LM39:
+ 540               	/* #APP */
+ 541               	 ;  87 "_ds1820.c" 1
+ 542 00d4 7894      		sei
+ 543               	 ;  0 "" 2
+ 544               	/* epilogue start */
+  87:_ds1820.c     **** }
+ 545               		.stabn	68,0,88,.LM40-.LFBB3
+ 546               	.LM40:
+ 547               	/* #NOAPP */
+ 548 00d6 0895      		ret
+ 549               		.size	one_write_byte, .-one_write_byte
+ 550               		.stabs	"i:r(0,2)",64,0,70,18
+ 551               		.stabn	192,0,0,.LFBB3-.LFBB3
+ 552               		.stabn	224,0,0,.Lscope3-.LFBB3
+ 553               	.Lscope3:
+ 554               		.stabs	"",36,0,0,.Lscope3-.LFBB3
+ 555               		.stabd	78,0,0
+ 556               		.stabs	"send_convert:F(0,15)",36,0,96,send_convert
+ 557               		.stabs	"DQ:P(0,2)",64,0,95,17
+ 558               	.global	send_convert
+ 559               		.type	send_convert, @function
+ 560               	send_convert:
+ 561               		.stabd	46,0,0
+  88:_ds1820.c     **** 
+  89:_ds1820.c     **** /*
+  90:_ds1820.c     ****    Funkcia:	 void send_convert(void)
+  91:_ds1820.c     ****    Funkcia vysle prikaz pre konvertovanie
+  92:_ds1820.c     **** */
+  93:_ds1820.c     **** 
+  94:_ds1820.c     **** void send_convert(uchar DQ)
+  95:_ds1820.c     **** {
+ 562               		.stabn	68,0,96,.LM41-.LFBB4
+ 563               	.LM41:
+ 564               	.LFBB4:
+ 565 00d8 1F93      		push r17
+ 566               	/* prologue: function */
+ 567               	/* frame size = 0 */
+ 568 00da 182F      		mov r17,r24
+  96:_ds1820.c     ****   one_write_byte(DQ, 0xcc);
+ 569               		.stabn	68,0,97,.LM42-.LFBB4
+ 570               	.LM42:
+ 571 00dc 6CEC      		ldi r22,lo8(-52)
+ 572 00de 00D0      		rcall one_write_byte
+  97:_ds1820.c     ****   one_write_byte(DQ, 0x44);
+ 573               		.stabn	68,0,98,.LM43-.LFBB4
+ 574               	.LM43:
+ 575 00e0 812F      		mov r24,r17
+ 576 00e2 64E4      		ldi r22,lo8(68)
+ 577 00e4 00D0      		rcall one_write_byte
+ 578               	/* epilogue start */
+  98:_ds1820.c     **** }
+ 579               		.stabn	68,0,99,.LM44-.LFBB4
+ 580               	.LM44:
+ 581 00e6 1F91      		pop r17
+GAS LISTING /tmp/ccnrqgD2.s 			page 15
+
+
+ 582 00e8 0895      		ret
+ 583               		.size	send_convert, .-send_convert
+ 584               	.Lscope4:
+ 585               		.stabs	"",36,0,0,.Lscope4-.LFBB4
+ 586               		.stabd	78,0,0
+ 587               		.stabs	"send_getTemp:F(0,15)",36,0,108,send_getTemp
+ 588               		.stabs	"DQ:P(0,2)",64,0,107,17
+ 589               	.global	send_getTemp
+ 590               		.type	send_getTemp, @function
+ 591               	send_getTemp:
+ 592               		.stabd	46,0,0
+  99:_ds1820.c     **** 
+ 100:_ds1820.c     **** /*
+ 101:_ds1820.c     ****    Funkcia:	 void send_getTemp(void)
+ 102:_ds1820.c     ****    Funkcia vysle prikaz pre obdrzanie teploty
+ 103:_ds1820.c     ****    Pre DS1820 je nutne pockat min 400ms na skonvertovanie
+ 104:_ds1820.c     **** */
+ 105:_ds1820.c     **** 
+ 106:_ds1820.c     **** void send_getTemp(uchar DQ)
+ 107:_ds1820.c     **** {
+ 593               		.stabn	68,0,108,.LM45-.LFBB5
+ 594               	.LM45:
+ 595               	.LFBB5:
+ 596 00ea 1F93      		push r17
+ 597               	/* prologue: function */
+ 598               	/* frame size = 0 */
+ 599 00ec 182F      		mov r17,r24
+ 108:_ds1820.c     ****   one_write_byte(DQ, 0xcc);
+ 600               		.stabn	68,0,109,.LM46-.LFBB5
+ 601               	.LM46:
+ 602 00ee 6CEC      		ldi r22,lo8(-52)
+ 603 00f0 00D0      		rcall one_write_byte
+ 109:_ds1820.c     ****   one_write_byte(DQ, 0xbe);
+ 604               		.stabn	68,0,110,.LM47-.LFBB5
+ 605               	.LM47:
+ 606 00f2 812F      		mov r24,r17
+ 607 00f4 6EEB      		ldi r22,lo8(-66)
+ 608 00f6 00D0      		rcall one_write_byte
+ 609               	/* epilogue start */
+ 110:_ds1820.c     **** }
+ 610               		.stabn	68,0,111,.LM48-.LFBB5
+ 611               	.LM48:
+ 612 00f8 1F91      		pop r17
+ 613 00fa 0895      		ret
+ 614               		.size	send_getTemp, .-send_getTemp
+ 615               	.Lscope5:
+ 616               		.stabs	"",36,0,0,.Lscope5-.LFBB5
+ 617               		.stabd	78,0,0
+ 618               		.stabs	"init_595:F(0,15)",36,0,22,init_595
+ 619               	.global	init_595
+ 620               		.type	init_595, @function
+ 621               	init_595:
+ 622               		.stabd	46,0,0
+ 623               		.stabs	"74hc595.c",132,0,0,.Ltext24
+ 624               	.Ltext24:
+   0:74hc595.c     **** /*
+   1:74hc595.c     **** *  DS     -  PB0
+GAS LISTING /tmp/ccnrqgD2.s 			page 16
+
+
+   2:74hc595.c     **** *  SH_CP  -  PB1
+   3:74hc595.c     **** *  ST_CP  -  PB2
+   4:74hc595.c     **** */
+   5:74hc595.c     **** #include <avr/io.h>
+   6:74hc595.c     **** 
+   7:74hc595.c     **** #define DS 0
+   8:74hc595.c     **** #define SH_CP 1
+   9:74hc595.c     **** #define ST_CP 2
+  10:74hc595.c     **** 
+  11:74hc595.c     **** #define SegA 1
+  12:74hc595.c     **** #define SegB 2
+  13:74hc595.c     **** #define SegC 4
+  14:74hc595.c     **** #define SegD 8
+  15:74hc595.c     **** #define SegE 16
+  16:74hc595.c     **** #define SegF 32
+  17:74hc595.c     **** #define SegG 64
+  18:74hc595.c     **** #define SegH 128
+  19:74hc595.c     **** 
+  20:74hc595.c     **** void init_595(void)
+  21:74hc595.c     **** {
+ 625               		.stabn	68,0,22,.LM49-.LFBB6
+ 626               	.LM49:
+ 627               	.LFBB6:
+ 628               	/* prologue: function */
+ 629               	/* frame size = 0 */
+  22:74hc595.c     ****   DDRB |= ((1 << DS) | (1 << SH_CP) | (1 << ST_CP));
+ 630               		.stabn	68,0,23,.LM50-.LFBB6
+ 631               	.LM50:
+ 632 00fc 87B3      		in r24,55-32
+ 633 00fe 8760      		ori r24,lo8(7)
+ 634 0100 87BB      		out 55-32,r24
+  23:74hc595.c     ****   PORTB &= ~((1 << DS) | (1 << SH_CP) | (1 << ST_CP));
+ 635               		.stabn	68,0,24,.LM51-.LFBB6
+ 636               	.LM51:
+ 637 0102 88B3      		in r24,56-32
+ 638 0104 887F      		andi r24,lo8(-8)
+ 639 0106 88BB      		out 56-32,r24
+ 640               	/* epilogue start */
+  24:74hc595.c     **** }
+ 641               		.stabn	68,0,25,.LM52-.LFBB6
+ 642               	.LM52:
+ 643 0108 0895      		ret
+ 644               		.size	init_595, .-init_595
+ 645               	.Lscope6:
+ 646               		.stabs	"",36,0,0,.Lscope6-.LFBB6
+ 647               		.stabd	78,0,0
+ 648               		.stabs	"zapis_seg:F(0,15)",36,0,28,zapis_seg
+ 649               		.stabs	"d:P(0,16)=*(0,11)",64,0,27,24
+ 650               	.global	zapis_seg
+ 651               		.type	zapis_seg, @function
+ 652               	zapis_seg:
+ 653               		.stabd	46,0,0
+  25:74hc595.c     **** 
+  26:74hc595.c     **** void zapis_seg(unsigned char *d, int l)
+  27:74hc595.c     **** {
+ 654               		.stabn	68,0,28,.LM53-.LFBB7
+ 655               	.LM53:
+GAS LISTING /tmp/ccnrqgD2.s 			page 17
+
+
+ 656               	.LFBB7:
+ 657 010a 00C0      		rjmp .L31
+ 658               	/* prologue: function */
+ 659               	/* frame size = 0 */
+ 660               	.L27:
+  28:74hc595.c     ****   unsigned char j, i;
+  29:74hc595.c     **** 
+  30:74hc595.c     ****   for (i = (l-1); (i < 5) && (i >= 0); i--) {
+  31:74hc595.c     ****     for (j = 0; j < 8; j++) {
+  32:74hc595.c     ****       if ((d[i] & 128)) 
+ 661               		.stabn	68,0,33,.LM54-.LFBB7
+ 662               	.LM54:
+ 663 010c 27FF      		sbrs r18,7
+ 664 010e 00C0      		rjmp .L25
+  33:74hc595.c     **** 	PORTB |= (1 << DS);
+ 665               		.stabn	68,0,34,.LM55-.LFBB7
+ 666               	.LM55:
+ 667 0110 C09A      		sbi 56-32,0
+ 668 0112 00C0      		rjmp .L26
+ 669               	.L25:
+  34:74hc595.c     ****       else 
+  35:74hc595.c     **** 	PORTB &= ~(1 << DS);
+ 670               		.stabn	68,0,36,.LM56-.LFBB7
+ 671               	.LM56:
+ 672 0114 C098      		cbi 56-32,0
+ 673               	.L26:
+  36:74hc595.c     **** 
+  37:74hc595.c     ****        PORTB |= (1 << SH_CP);
+ 674               		.stabn	68,0,38,.LM57-.LFBB7
+ 675               	.LM57:
+ 676 0116 C19A      		sbi 56-32,1
+  38:74hc595.c     ****        PORTB &= ~(1 << SH_CP);
+ 677               		.stabn	68,0,39,.LM58-.LFBB7
+ 678               	.LM58:
+ 679 0118 C198      		cbi 56-32,1
+  39:74hc595.c     ****        d[i] = d[i]<<1;
+ 680               		.stabn	68,0,40,.LM59-.LFBB7
+ 681               	.LM59:
+ 682 011a 220F      		lsl r18
+  32:74hc595.c     ****     for (j = 0; j < 8; j++) {
+ 683               		.stabn	68,0,32,.LM60-.LFBB7
+ 684               	.LM60:
+ 685 011c 3F5F      		subi r19,lo8(-(1))
+ 686 011e 3830      		cpi r19,lo8(8)
+ 687 0120 01F4      		brne .L27
+ 688 0122 2083      		st Z,r18
+ 689               	.L31:
+  31:74hc595.c     ****   for (i = (l-1); (i < 5) && (i >= 0); i--) {
+ 690               		.stabn	68,0,31,.LM61-.LFBB7
+ 691               	.LM61:
+ 692 0124 6150      		subi r22,lo8(-(-1))
+ 693 0126 6530      		cpi r22,lo8(5)
+ 694 0128 00F4      		brsh .L29
+  33:74hc595.c     ****       if ((d[i] & 128)) 
+ 695               		.stabn	68,0,33,.LM62-.LFBB7
+ 696               	.LM62:
+ 697 012a FC01      		movw r30,r24
+GAS LISTING /tmp/ccnrqgD2.s 			page 18
+
+
+ 698 012c E60F      		add r30,r22
+ 699 012e F11D      		adc r31,__zero_reg__
+ 700 0130 2081      		ld r18,Z
+ 701 0132 30E0      		ldi r19,lo8(0)
+ 702 0134 00C0      		rjmp .L27
+ 703               	.L29:
+ 704 0136 0895      		ret
+ 705               		.size	zapis_seg, .-zapis_seg
+ 706               		.stabs	"j:r(0,11)",64,0,29,19
+ 707               		.stabs	"i:r(0,11)",64,0,29,22
+ 708               		.stabn	192,0,0,.LFBB7-.LFBB7
+ 709               		.stabn	224,0,0,.Lscope7-.LFBB7
+ 710               	.Lscope7:
+ 711               		.stabs	"",36,0,0,.Lscope7-.LFBB7
+ 712               		.stabd	78,0,0
+ 713               		.stabs	"zobraz_dis:F(0,15)",36,0,46,zobraz_dis
+ 714               	.global	zobraz_dis
+ 715               		.type	zobraz_dis, @function
+ 716               	zobraz_dis:
+ 717               		.stabd	46,0,0
+  40:74hc595.c     ****     }
+  41:74hc595.c     ****   }
+  42:74hc595.c     **** }
+  43:74hc595.c     **** 
+  44:74hc595.c     **** void zobraz_dis(void)
+  45:74hc595.c     **** {
+ 718               		.stabn	68,0,46,.LM63-.LFBB8
+ 719               	.LM63:
+ 720               	.LFBB8:
+ 721               	/* prologue: function */
+ 722               	/* frame size = 0 */
+  46:74hc595.c     ****   PORTB |= (1 << ST_CP);
+ 723               		.stabn	68,0,47,.LM64-.LFBB8
+ 724               	.LM64:
+ 725 0138 C29A      		sbi 56-32,2
+  47:74hc595.c     ****   PORTB &= ~(1 << ST_CP);
+ 726               		.stabn	68,0,48,.LM65-.LFBB8
+ 727               	.LM65:
+ 728 013a C298      		cbi 56-32,2
+ 729               	/* epilogue start */
+  48:74hc595.c     **** }
+ 730               		.stabn	68,0,49,.LM66-.LFBB8
+ 731               	.LM66:
+ 732 013c 0895      		ret
+ 733               		.size	zobraz_dis, .-zobraz_dis
+ 734               	.Lscope8:
+ 735               		.stabs	"",36,0,0,.Lscope8-.LFBB8
+ 736               		.stabd	78,0,0
+ 737               		.stabs	"chartoled:F(0,11)",36,0,39,chartoled
+ 738               		.stabs	"d:P(0,11)",64,0,38,30
+ 739               	.global	chartoled
+ 740               		.type	chartoled, @function
+ 741               	chartoled:
+ 742               		.stabd	46,0,0
+ 743               		.stabs	"moje.c",132,0,0,.Ltext25
+ 744               	.Ltext25:
+   0:moje.c        **** unsigned char chartoled(unsigned char d);
+GAS LISTING /tmp/ccnrqgD2.s 			page 19
+
+
+   1:moje.c        **** unsigned char *strtoled(unsigned char *d, unsigned char l);
+   2:moje.c        **** void nastav_casovac(void);
+   3:moje.c        **** void zobraz_teploty(void);
+   4:moje.c        **** void vypis(unsigned char data, unsigned char priznak, unsigned char priznak_des);
+   5:moje.c        **** void nastav(void);
+   6:moje.c        **** 
+   7:moje.c        **** unsigned char LED_num_table[] = {~0x3f, ~0x06, ~0x5b, ~0x4f, ~0x66, ~0x6d, ~0x7d, ~0x27, ~0x7f, ~0x
+   8:moje.c        **** unsigned char LED_alph_table[] = {~0x77, ~0x7f, ~0x39, ~0x5e, ~0x79, ~0x71, ~0x3d, ~0x76, ~0x30, ~0
+   9:moje.c        **** 
+  10:moje.c        **** unsigned char m[4];
+  11:moje.c        **** volatile unsigned char casovac = 0, stopky, scitac = 0;
+  12:moje.c        **** 
+  13:moje.c        **** typedef struct {
+  14:moje.c        ****   volatile unsigned char von_L;
+  15:moje.c        ****   volatile unsigned char von_H;
+  16:moje.c        ****   volatile unsigned char vnut_L;
+  17:moje.c        ****   volatile unsigned char vnut_H;
+  18:moje.c        ****   volatile unsigned char alarm;
+  19:moje.c        ****   volatile unsigned char alarm_sign;
+  20:moje.c        **** } TEPLOTY;
+  21:moje.c        **** 
+  22:moje.c        **** TEPLOTY teploty;
+  23:moje.c        **** 
+  24:moje.c        **** typedef struct {
+  25:moje.c        ****   unsigned char tep : 1;
+  26:moje.c        ****   unsigned char init : 1;
+  27:moje.c        ****   unsigned char btn1 : 1;
+  28:moje.c        ****   unsigned char start : 1;
+  29:moje.c        ****   volatile unsigned char nastav : 1;
+  30:moje.c        ****   unsigned char alarm : 1;
+  31:moje.c        ****   unsigned char mrzlo : 1;
+  32:moje.c        ****   unsigned char mrzne : 1;
+  33:moje.c        **** } FLAGS;
+  34:moje.c        **** 
+  35:moje.c        **** FLAGS flags;
+  36:moje.c        **** 
+  37:moje.c        **** unsigned char chartoled(unsigned char d)
+  38:moje.c        **** {
+ 745               		.stabn	68,0,39,.LM67-.LFBB9
+ 746               	.LM67:
+ 747               	.LFBB9:
+ 748               	/* prologue: function */
+ 749               	/* frame size = 0 */
+ 750 013e E82F      		mov r30,r24
+  39:moje.c        ****   if ((d >= '0') && (d <= '9')) {
+ 751               		.stabn	68,0,40,.LM68-.LFBB9
+ 752               	.LM68:
+ 753 0140 8053      		subi r24,lo8(-(-48))
+ 754 0142 8A30      		cpi r24,lo8(10)
+ 755 0144 00F4      		brsh .L35
+  40:moje.c        ****     return LED_num_table[d - '0'];
+ 756               		.stabn	68,0,41,.LM69-.LFBB9
+ 757               	.LM69:
+ 758 0146 F0E0      		ldi r31,lo8(0)
+ 759 0148 E050      		subi r30,lo8(-(LED_num_table-48))
+ 760 014a F040      		sbci r31,hi8(-(LED_num_table-48))
+ 761 014c 8081      		ld r24,Z
+GAS LISTING /tmp/ccnrqgD2.s 			page 20
+
+
+ 762 014e 0895      		ret
+ 763               	.L35:
+  41:moje.c        ****   } else if (((d >= 'A') && (d <= 'Z')) || ((d >= 'a') && (d <= 'z'))) {
+ 764               		.stabn	68,0,42,.LM70-.LFBB9
+ 765               	.LM70:
+ 766 0150 8E2F      		mov r24,r30
+ 767 0152 8154      		subi r24,lo8(-(-65))
+ 768 0154 8A31      		cpi r24,lo8(26)
+ 769 0156 00F0      		brlo .L37
+ 770 0158 8052      		subi r24,lo8(-(-32))
+ 771 015a 8A31      		cpi r24,lo8(26)
+ 772 015c 00F0      		brlo .L37
+ 773 015e 80E0      		ldi r24,lo8(0)
+ 774 0160 0895      		ret
+ 775               	.L37:
+  42:moje.c        ****     d &= ~0x20;
+  43:moje.c        ****     return LED_alph_table[d - 'A'];
+ 776               		.stabn	68,0,44,.LM71-.LFBB9
+ 777               	.LM71:
+ 778 0162 EF7D      		andi r30,lo8(-33)
+ 779 0164 F0E0      		ldi r31,lo8(0)
+ 780 0166 E050      		subi r30,lo8(-(LED_alph_table-65))
+ 781 0168 F040      		sbci r31,hi8(-(LED_alph_table-65))
+ 782 016a 8081      		ld r24,Z
+  44:moje.c        ****   } else {
+  45:moje.c        ****     return 0;
+  46:moje.c        ****   }
+  47:moje.c        **** }
+ 783               		.stabn	68,0,48,.LM72-.LFBB9
+ 784               	.LM72:
+ 785 016c 0895      		ret
+ 786               		.size	chartoled, .-chartoled
+ 787               	.Lscope9:
+ 788               		.stabs	"",36,0,0,.Lscope9-.LFBB9
+ 789               		.stabd	78,0,0
+ 790               		.stabs	"strtoled:F(0,16)",36,0,51,strtoled
+ 791               		.stabs	"l:P(0,11)",64,0,50,22
+ 792               	.global	strtoled
+ 793               		.type	strtoled, @function
+ 794               	strtoled:
+ 795               		.stabd	46,0,0
+  48:moje.c        **** 
+  49:moje.c        **** unsigned char *strtoled(unsigned char *d, unsigned char l)
+  50:moje.c        **** {
+ 796               		.stabn	68,0,51,.LM73-.LFBB10
+ 797               	.LM73:
+ 798               	.LFBB10:
+ 799               	/* prologue: function */
+ 800               	/* frame size = 0 */
+ 801 016e AC01      		movw r20,r24
+ 802               		.stabn	68,0,51,.LM74-.LFBB10
+ 803               	.LM74:
+ 804 0170 DC01      		movw r26,r24
+ 805 0172 90E0      		ldi r25,lo8(0)
+ 806 0174 00C0      		rjmp .L40
+ 807               	.L44:
+  51:moje.c        ****   unsigned char i;
+GAS LISTING /tmp/ccnrqgD2.s 			page 21
+
+
+  52:moje.c        **** 
+  53:moje.c        ****   for (i = 0; i < l; i++) {
+  54:moje.c        ****     d[i] = chartoled(d[i]);
+ 808               		.stabn	68,0,55,.LM75-.LFBB10
+ 809               	.LM75:
+ 810 0176 EC91      		ld r30,X
+ 811               	.LBB200:
+ 812               	.LBB201:
+  40:moje.c        ****   if ((d >= '0') && (d <= '9')) {
+ 813               		.stabn	68,0,40,.LM76-.LFBB10
+ 814               	.LM76:
+ 815 0178 8E2F      		mov r24,r30
+ 816 017a 8053      		subi r24,lo8(-(-48))
+ 817 017c 8A30      		cpi r24,lo8(10)
+ 818 017e 00F4      		brsh .L41
+  41:moje.c        ****     return LED_num_table[d - '0'];
+ 819               		.stabn	68,0,41,.LM77-.LFBB10
+ 820               	.LM77:
+ 821 0180 F0E0      		ldi r31,lo8(0)
+ 822 0182 E050      		subi r30,lo8(-(LED_num_table-48))
+ 823 0184 F040      		sbci r31,hi8(-(LED_num_table-48))
+ 824 0186 00C0      		rjmp .L46
+ 825               	.L41:
+  42:moje.c        ****   } else if (((d >= 'A') && (d <= 'Z')) || ((d >= 'a') && (d <= 'z'))) {
+ 826               		.stabn	68,0,42,.LM78-.LFBB10
+ 827               	.LM78:
+ 828 0188 8E2F      		mov r24,r30
+ 829 018a 8154      		subi r24,lo8(-(-65))
+ 830 018c 8A31      		cpi r24,lo8(26)
+ 831 018e 00F0      		brlo .L43
+ 832 0190 8052      		subi r24,lo8(-(-32))
+ 833 0192 8A31      		cpi r24,lo8(26)
+ 834 0194 00F0      		brlo .L43
+ 835 0196 80E0      		ldi r24,lo8(0)
+ 836 0198 00C0      		rjmp .L42
+ 837               	.L43:
+  44:moje.c        ****     return LED_alph_table[d - 'A'];
+ 838               		.stabn	68,0,44,.LM79-.LFBB10
+ 839               	.LM79:
+ 840 019a EF7D      		andi r30,lo8(-33)
+ 841 019c F0E0      		ldi r31,lo8(0)
+ 842 019e E050      		subi r30,lo8(-(LED_alph_table-65))
+ 843 01a0 F040      		sbci r31,hi8(-(LED_alph_table-65))
+ 844               	.L46:
+ 845 01a2 8081      		ld r24,Z
+ 846               	.L42:
+ 847               	.LBE201:
+ 848               	.LBE200:
+ 849               		.stabn	68,0,55,.LM80-.LFBB10
+ 850               	.LM80:
+ 851 01a4 8D93      		st X+,r24
+  54:moje.c        ****   for (i = 0; i < l; i++) {
+ 852               		.stabn	68,0,54,.LM81-.LFBB10
+ 853               	.LM81:
+ 854 01a6 9F5F      		subi r25,lo8(-(1))
+ 855               	.L40:
+ 856 01a8 9617      		cp r25,r22
+GAS LISTING /tmp/ccnrqgD2.s 			page 22
+
+
+ 857 01aa 00F0      		brlo .L44
+  55:moje.c        ****   }
+  56:moje.c        ****   return d;
+  57:moje.c        **** }
+ 858               		.stabn	68,0,58,.LM82-.LFBB10
+ 859               	.LM82:
+ 860 01ac CA01      		movw r24,r20
+ 861               	/* epilogue start */
+ 862 01ae 0895      		ret
+ 863               		.size	strtoled, .-strtoled
+ 864               		.stabs	"i:r(0,11)",64,0,52,25
+ 865               		.stabn	192,0,0,.LFBB10-.LFBB10
+ 866               		.stabn	224,0,0,.Lscope10-.LFBB10
+ 867               	.Lscope10:
+ 868               		.stabs	"",36,0,0,.Lscope10-.LFBB10
+ 869               		.stabd	78,0,0
+ 870               		.stabs	"nastav_casovac:F(0,15)",36,0,61,nastav_casovac
+ 871               	.global	nastav_casovac
+ 872               		.type	nastav_casovac, @function
+ 873               	nastav_casovac:
+ 874               		.stabd	46,0,0
+  58:moje.c        **** 
+  59:moje.c        **** void nastav_casovac(void)  //4 Mhz - cca 65ms
+  60:moje.c        **** {
+ 875               		.stabn	68,0,61,.LM83-.LFBB11
+ 876               	.LM83:
+ 877               	.LFBB11:
+ 878               	/* prologue: function */
+ 879               	/* frame size = 0 */
+  61:moje.c        ****   TCCR0A = 0;
+ 880               		.stabn	68,0,62,.LM84-.LFBB11
+ 881               	.LM84:
+ 882 01b0 10BE      		out 80-32,__zero_reg__
+  62:moje.c        ****   TCCR0B = (1 << CS02) | (1 << CS00);
+ 883               		.stabn	68,0,63,.LM85-.LFBB11
+ 884               	.LM85:
+ 885 01b2 85E0      		ldi r24,lo8(5)
+ 886 01b4 83BF      		out 83-32,r24
+  63:moje.c        ****   TCNT0 = 0;
+ 887               		.stabn	68,0,64,.LM86-.LFBB11
+ 888               	.LM86:
+ 889 01b6 12BE      		out 82-32,__zero_reg__
+  64:moje.c        ****   TIMSK |= (1 << TOIE0);
+ 890               		.stabn	68,0,65,.LM87-.LFBB11
+ 891               	.LM87:
+ 892 01b8 89B7      		in r24,89-32
+ 893 01ba 8260      		ori r24,lo8(2)
+ 894 01bc 89BF      		out 89-32,r24
+  65:moje.c        ****   asm("sei");
+ 895               		.stabn	68,0,66,.LM88-.LFBB11
+ 896               	.LM88:
+ 897               	/* #APP */
+ 898               	 ;  66 "moje.c" 1
+ 899 01be 7894      		sei
+ 900               	 ;  0 "" 2
+ 901               	/* epilogue start */
+  66:moje.c        **** }
+GAS LISTING /tmp/ccnrqgD2.s 			page 23
+
+
+ 902               		.stabn	68,0,67,.LM89-.LFBB11
+ 903               	.LM89:
+ 904               	/* #NOAPP */
+ 905 01c0 0895      		ret
+ 906               		.size	nastav_casovac, .-nastav_casovac
+ 907               	.Lscope11:
+ 908               		.stabs	"",36,0,0,.Lscope11-.LFBB11
+ 909               		.stabd	78,0,0
+ 910               		.stabs	"convert_tep:F(0,15)",36,0,70,convert_tep
+ 911               	.global	convert_tep
+ 912               		.type	convert_tep, @function
+ 913               	convert_tep:
+ 914               		.stabd	46,0,0
+  67:moje.c        **** 
+  68:moje.c        **** void convert_tep(void)
+  69:moje.c        **** {
+ 915               		.stabn	68,0,70,.LM90-.LFBB12
+ 916               	.LM90:
+ 917               	.LFBB12:
+ 918               	/* prologue: function */
+ 919               	/* frame size = 0 */
+  70:moje.c        ****   one_reset(VONK_TEP);
+ 920               		.stabn	68,0,71,.LM91-.LFBB12
+ 921               	.LM91:
+ 922 01c2 88E0      		ldi r24,lo8(8)
+ 923 01c4 00D0      		rcall one_reset
+  71:moje.c        ****   one_reset(VNUT_TEP);
+ 924               		.stabn	68,0,72,.LM92-.LFBB12
+ 925               	.LM92:
+ 926 01c6 80E1      		ldi r24,lo8(16)
+ 927 01c8 00D0      		rcall one_reset
+  72:moje.c        ****   send_convert(VONK_TEP);
+ 928               		.stabn	68,0,73,.LM93-.LFBB12
+ 929               	.LM93:
+ 930 01ca 88E0      		ldi r24,lo8(8)
+ 931 01cc 00D0      		rcall send_convert
+  73:moje.c        ****   send_convert(VNUT_TEP);
+ 932               		.stabn	68,0,74,.LM94-.LFBB12
+ 933               	.LM94:
+ 934 01ce 80E1      		ldi r24,lo8(16)
+ 935 01d0 00D0      		rcall send_convert
+ 936               	/* epilogue start */
+  74:moje.c        **** }
+ 937               		.stabn	68,0,75,.LM95-.LFBB12
+ 938               	.LM95:
+ 939 01d2 0895      		ret
+ 940               		.size	convert_tep, .-convert_tep
+ 941               	.Lscope12:
+ 942               		.stabs	"",36,0,0,.Lscope12-.LFBB12
+ 943               		.stabd	78,0,0
+ 944               		.stabs	"citaj_tep:F(0,15)",36,0,78,citaj_tep
+ 945               	.global	citaj_tep
+ 946               		.type	citaj_tep, @function
+ 947               	citaj_tep:
+ 948               		.stabd	46,0,0
+  75:moje.c        **** 
+  76:moje.c        **** void citaj_tep(void)
+GAS LISTING /tmp/ccnrqgD2.s 			page 24
+
+
+  77:moje.c        **** {
+ 949               		.stabn	68,0,78,.LM96-.LFBB13
+ 950               	.LM96:
+ 951               	.LFBB13:
+ 952               	/* prologue: function */
+ 953               	/* frame size = 0 */
+  78:moje.c        ****   one_reset(VONK_TEP);
+ 954               		.stabn	68,0,79,.LM97-.LFBB13
+ 955               	.LM97:
+ 956 01d4 88E0      		ldi r24,lo8(8)
+ 957 01d6 00D0      		rcall one_reset
+  79:moje.c        ****   one_reset(VNUT_TEP);
+ 958               		.stabn	68,0,80,.LM98-.LFBB13
+ 959               	.LM98:
+ 960 01d8 80E1      		ldi r24,lo8(16)
+ 961 01da 00D0      		rcall one_reset
+  80:moje.c        ****   send_getTemp(VONK_TEP);
+ 962               		.stabn	68,0,81,.LM99-.LFBB13
+ 963               	.LM99:
+ 964 01dc 88E0      		ldi r24,lo8(8)
+ 965 01de 00D0      		rcall send_getTemp
+  81:moje.c        ****   send_getTemp(VNUT_TEP);
+ 966               		.stabn	68,0,82,.LM100-.LFBB13
+ 967               	.LM100:
+ 968 01e0 80E1      		ldi r24,lo8(16)
+ 969 01e2 00D0      		rcall send_getTemp
+  82:moje.c        ****   teploty.von_L = one_read_byte(VONK_TEP);
+ 970               		.stabn	68,0,83,.LM101-.LFBB13
+ 971               	.LM101:
+ 972 01e4 88E0      		ldi r24,lo8(8)
+ 973 01e6 00D0      		rcall one_read_byte
+ 974 01e8 8093 0000 		sts teploty,r24
+  83:moje.c        ****   teploty.vnut_L = one_read_byte(VNUT_TEP);
+ 975               		.stabn	68,0,84,.LM102-.LFBB13
+ 976               	.LM102:
+ 977 01ec 80E1      		ldi r24,lo8(16)
+ 978 01ee 00D0      		rcall one_read_byte
+ 979 01f0 8093 0000 		sts teploty+2,r24
+  84:moje.c        ****   teploty.von_H = one_read_byte(VONK_TEP);
+ 980               		.stabn	68,0,85,.LM103-.LFBB13
+ 981               	.LM103:
+ 982 01f4 88E0      		ldi r24,lo8(8)
+ 983 01f6 00D0      		rcall one_read_byte
+ 984 01f8 8093 0000 		sts teploty+1,r24
+  85:moje.c        ****   teploty.vnut_H = one_read_byte(VNUT_TEP);
+ 985               		.stabn	68,0,86,.LM104-.LFBB13
+ 986               	.LM104:
+ 987 01fc 80E1      		ldi r24,lo8(16)
+ 988 01fe 00D0      		rcall one_read_byte
+ 989 0200 8093 0000 		sts teploty+3,r24
+  86:moje.c        ****   if (teploty.von_H) teploty.von_L = ~teploty.von_L + 1;
+ 990               		.stabn	68,0,87,.LM105-.LFBB13
+ 991               	.LM105:
+ 992 0204 8091 0000 		lds r24,teploty+1
+ 993 0208 8823      		tst r24
+ 994 020a 01F0      		breq .L52
+ 995 020c 8091 0000 		lds r24,teploty
+GAS LISTING /tmp/ccnrqgD2.s 			page 25
+
+
+ 996 0210 8195      		neg r24
+ 997 0212 8093 0000 		sts teploty,r24
+ 998               	.L52:
+  87:moje.c        ****   if (teploty.vnut_H) teploty.vnut_L = ~teploty.vnut_L + 1;
+ 999               		.stabn	68,0,88,.LM106-.LFBB13
+ 1000               	.LM106:
+ 1001 0216 8091 0000 		lds r24,teploty+3
+ 1002 021a 8823      		tst r24
+ 1003 021c 01F0      		breq .L54
+ 1004 021e 8091 0000 		lds r24,teploty+2
+ 1005 0222 8195      		neg r24
+ 1006 0224 8093 0000 		sts teploty+2,r24
+ 1007               	.L54:
+ 1008 0228 0895      		ret
+ 1009               		.size	citaj_tep, .-citaj_tep
+ 1010               	.Lscope13:
+ 1011               		.stabs	"",36,0,0,.Lscope13-.LFBB13
+ 1012               		.stabd	78,0,0
+ 1013               		.stabs	"__vector_6:F(0,15)",36,0,22,__vector_6
+ 1014               	.global	__vector_6
+ 1015               		.type	__vector_6, @function
+ 1016               	__vector_6:
+ 1017               		.stabd	46,0,0
+ 1018               		.stabs	"klima.c",132,0,0,.Ltext26
+ 1019               	.Ltext26:
+   0:klima.c       **** //  PB -> |-|-|-|Senz2|Senz1|Dis_RCK|Dis_SCK|Dis_SER|
+   1:klima.c       **** 
+   2:klima.c       **** #define F_CPU 4000000UL
+   3:klima.c       **** #define VONK_TEP 0b00001000
+   4:klima.c       **** #define VNUT_TEP 0b00010000
+   5:klima.c       **** #define BT1 0  // zobrazenie vonk. teploty / potvrdenie
+   6:klima.c       **** #define BT2 1  // ++
+   7:klima.c       **** #define BT3 2  // --
+   8:klima.c       **** #define OUT 5  //vystup
+   9:klima.c       **** #define IN 4   //vstup
+  10:klima.c       **** #define SPK 3  //speaker
+  11:klima.c       **** 
+  12:klima.c       **** #include <stdlib.h>
+  13:klima.c       **** #include <avr/io.h>
+  14:klima.c       **** #include <avr/interrupt.h>
+  15:klima.c       **** #include <util/delay.h>
+  16:klima.c       **** #include "_ds1820.h"
+  17:klima.c       **** #include "74hc595.c"
+  18:klima.c       **** #include "moje.c"
+  19:klima.c       **** 
+  20:klima.c       **** ISR(TIMER0_OVF_vect)
+  21:klima.c       **** {
+ 1020               		.stabn	68,0,22,.LM107-.LFBB14
+ 1021               	.LM107:
+ 1022               	.LFBB14:
+ 1023 022a 1F92      		push __zero_reg__
+ 1024 022c 0F92      		push r0
+ 1025 022e 0FB6      		in r0,__SREG__
+ 1026 0230 0F92      		push r0
+ 1027 0232 1124      		clr __zero_reg__
+ 1028 0234 2F93      		push r18
+ 1029 0236 6F93      		push r22
+GAS LISTING /tmp/ccnrqgD2.s 			page 26
+
+
+ 1030 0238 7F93      		push r23
+ 1031 023a 8F93      		push r24
+ 1032 023c 9F93      		push r25
+ 1033               	/* prologue: Signal */
+ 1034               	/* frame size = 0 */
+  22:klima.c       ****   casovac++;
+ 1035               		.stabn	68,0,23,.LM108-.LFBB14
+ 1036               	.LM108:
+ 1037 023e 8091 0000 		lds r24,casovac
+ 1038 0242 8F5F      		subi r24,lo8(-(1))
+ 1039 0244 8093 0000 		sts casovac,r24
+  23:klima.c       ****   if (!flags.tep) {
+ 1040               		.stabn	68,0,24,.LM109-.LFBB14
+ 1041               	.LM109:
+ 1042 0248 8091 0000 		lds r24,flags
+ 1043 024c 80FD      		sbrc r24,0
+ 1044 024e 00C0      		rjmp .L56
+  24:klima.c       ****     flags.tep = 1;
+ 1045               		.stabn	68,0,25,.LM110-.LFBB14
+ 1046               	.LM110:
+ 1047 0250 8160      		ori r24,lo8(1)
+ 1048 0252 8093 0000 		sts flags,r24
+ 1049               	.L56:
+  25:klima.c       ****   } 
+  26:klima.c       ****   if (flags.tep && (casovac % 11) == 0) {
+ 1050               		.stabn	68,0,27,.LM111-.LFBB14
+ 1051               	.LM111:
+ 1052 0256 2091 0000 		lds r18,flags
+ 1053 025a 20FF      		sbrs r18,0
+ 1054 025c 00C0      		rjmp .L57
+ 1055 025e 8091 0000 		lds r24,casovac
+ 1056 0262 6BE0      		ldi r22,lo8(11)
+ 1057 0264 00D0      		rcall __udivmodqi4
+ 1058 0266 9923      		tst r25
+ 1059 0268 01F4      		brne .L57
+  27:klima.c       ****     flags.init = 1;
+ 1060               		.stabn	68,0,28,.LM112-.LFBB14
+ 1061               	.LM112:
+ 1062 026a 2260      		ori r18,lo8(2)
+ 1063 026c 2093 0000 		sts flags,r18
+ 1064               	.L57:
+  28:klima.c       ****   }
+  29:klima.c       ****   if (!flags.nastav && bit_is_set(PIND, BT1)) {
+ 1065               		.stabn	68,0,30,.LM113-.LFBB14
+ 1066               	.LM113:
+ 1067 0270 8091 0000 		lds r24,flags
+ 1068 0274 84FD      		sbrc r24,4
+ 1069 0276 00C0      		rjmp .L58
+ 1070 0278 809B      		sbis 48-32,0
+ 1071 027a 00C0      		rjmp .L58
+  30:klima.c       ****     flags.btn1 = 1;       // pouzite pre zobraz_teploty()
+ 1072               		.stabn	68,0,31,.LM114-.LFBB14
+ 1073               	.LM114:
+ 1074 027c 8091 0000 		lds r24,flags
+ 1075 0280 8460      		ori r24,lo8(4)
+ 1076 0282 8093 0000 		sts flags,r24
+  31:klima.c       ****     stopky = casovac + 70;
+GAS LISTING /tmp/ccnrqgD2.s 			page 27
+
+
+ 1077               		.stabn	68,0,32,.LM115-.LFBB14
+ 1078               	.LM115:
+ 1079 0286 8091 0000 		lds r24,casovac
+ 1080 028a 8A5B      		subi r24,lo8(-(70))
+ 1081 028c 8093 0000 		sts stopky,r24
+ 1082               	.L58:
+  32:klima.c       ****   }
+  33:klima.c       ****   if (!flags.mrzlo && flags.start && (teploty.von_H || (!teploty.von_L && !teploty.von_H))) {
+ 1083               		.stabn	68,0,34,.LM116-.LFBB14
+ 1084               	.LM116:
+ 1085 0290 8091 0000 		lds r24,flags
+ 1086 0294 8874      		andi r24,lo8(72)
+ 1087 0296 8830      		cpi r24,lo8(8)
+ 1088 0298 01F4      		brne .L59
+ 1089 029a 8091 0000 		lds r24,teploty+1
+ 1090 029e 8823      		tst r24
+ 1091 02a0 01F4      		brne .L60
+ 1092 02a2 8091 0000 		lds r24,teploty
+ 1093 02a6 8823      		tst r24
+ 1094 02a8 01F4      		brne .L59
+ 1095 02aa 8091 0000 		lds r24,teploty+1
+ 1096 02ae 8823      		tst r24
+ 1097 02b0 01F4      		brne .L59
+ 1098               	.L60:
+  34:klima.c       ****     flags.mrzne = 1;
+ 1099               		.stabn	68,0,35,.LM117-.LFBB14
+ 1100               	.LM117:
+ 1101 02b2 8091 0000 		lds r24,flags
+ 1102 02b6 8068      		ori r24,lo8(-128)
+ 1103 02b8 8093 0000 		sts flags,r24
+ 1104               	.L59:
+  35:klima.c       ****   }
+  36:klima.c       ****   if (flags.mrzne) {
+ 1105               		.stabn	68,0,37,.LM118-.LFBB14
+ 1106               	.LM118:
+ 1107 02bc 8091 0000 		lds r24,flags
+ 1108 02c0 87FF      		sbrs r24,7
+ 1109 02c2 00C0      		rjmp .L61
+  37:klima.c       ****     if ((casovac % 10) == 0) {
+ 1110               		.stabn	68,0,38,.LM119-.LFBB14
+ 1111               	.LM119:
+ 1112 02c4 8091 0000 		lds r24,casovac
+ 1113 02c8 6AE0      		ldi r22,lo8(10)
+ 1114 02ca 00D0      		rcall __udivmodqi4
+ 1115 02cc 9923      		tst r25
+ 1116 02ce 01F4      		brne .L62
+  38:klima.c       ****       PORTD ^= (1 << SPK);
+ 1117               		.stabn	68,0,39,.LM120-.LFBB14
+ 1118               	.LM120:
+ 1119 02d0 82B3      		in r24,50-32
+ 1120 02d2 98E0      		ldi r25,lo8(8)
+ 1121 02d4 8927      		eor r24,r25
+ 1122 02d6 82BB      		out 50-32,r24
+  39:klima.c       ****       scitac++;
+ 1123               		.stabn	68,0,40,.LM121-.LFBB14
+ 1124               	.LM121:
+ 1125 02d8 8091 0000 		lds r24,scitac
+GAS LISTING /tmp/ccnrqgD2.s 			page 28
+
+
+ 1126 02dc 8F5F      		subi r24,lo8(-(1))
+ 1127 02de 8093 0000 		sts scitac,r24
+ 1128               	.L62:
+  40:klima.c       ****     }
+  41:klima.c       ****     if (scitac >= 6) {
+ 1129               		.stabn	68,0,42,.LM122-.LFBB14
+ 1130               	.LM122:
+ 1131 02e2 8091 0000 		lds r24,scitac
+ 1132 02e6 8630      		cpi r24,lo8(6)
+ 1133 02e8 00F0      		brlo .L61
+  42:klima.c       ****       flags.mrzne = 0;
+ 1134               		.stabn	68,0,43,.LM123-.LFBB14
+ 1135               	.LM123:
+ 1136 02ea 8091 0000 		lds r24,flags
+ 1137 02ee 8F77      		andi r24,lo8(127)
+  43:klima.c       ****       flags.mrzlo = 1;
+ 1138               		.stabn	68,0,44,.LM124-.LFBB14
+ 1139               	.LM124:
+ 1140 02f0 8064      		ori r24,lo8(64)
+ 1141 02f2 8093 0000 		sts flags,r24
+  44:klima.c       ****       scitac = 0;
+ 1142               		.stabn	68,0,45,.LM125-.LFBB14
+ 1143               	.LM125:
+ 1144 02f6 1092 0000 		sts scitac,__zero_reg__
+ 1145               	.L61:
+  45:klima.c       ****     }
+  46:klima.c       ****   }
+  47:klima.c       ****   if (flags.mrzlo) {
+ 1146               		.stabn	68,0,48,.LM126-.LFBB14
+ 1147               	.LM126:
+ 1148 02fa 9091 0000 		lds r25,flags
+ 1149 02fe 96FF      		sbrs r25,6
+ 1150 0300 00C0      		rjmp .L64
+  48:klima.c       ****     if (!teploty.von_H && (teploty.von_L >= 4))
+ 1151               		.stabn	68,0,49,.LM127-.LFBB14
+ 1152               	.LM127:
+ 1153 0302 8091 0000 		lds r24,teploty+1
+ 1154 0306 8823      		tst r24
+ 1155 0308 01F4      		brne .L64
+ 1156 030a 8091 0000 		lds r24,teploty
+ 1157 030e 8430      		cpi r24,lo8(4)
+ 1158 0310 00F0      		brlo .L64
+  49:klima.c       ****       flags.mrzlo = 0;
+ 1159               		.stabn	68,0,50,.LM128-.LFBB14
+ 1160               	.LM128:
+ 1161 0312 9F7B      		andi r25,lo8(-65)
+ 1162 0314 9093 0000 		sts flags,r25
+ 1163               	.L64:
+ 1164               	/* epilogue start */
+  50:klima.c       ****   }
+  51:klima.c       **** }
+ 1165               		.stabn	68,0,52,.LM129-.LFBB14
+ 1166               	.LM129:
+ 1167 0318 9F91      		pop r25
+ 1168 031a 8F91      		pop r24
+ 1169 031c 7F91      		pop r23
+ 1170 031e 6F91      		pop r22
+GAS LISTING /tmp/ccnrqgD2.s 			page 29
+
+
+ 1171 0320 2F91      		pop r18
+ 1172 0322 0F90      		pop r0
+ 1173 0324 0FBE      		out __SREG__,r0
+ 1174 0326 0F90      		pop r0
+ 1175 0328 1F90      		pop __zero_reg__
+ 1176 032a 1895      		reti
+ 1177               		.size	__vector_6, .-__vector_6
+ 1178               	.Lscope14:
+ 1179               		.stabs	"",36,0,0,.Lscope14-.LFBB14
+ 1180               		.stabd	78,0,0
+ 1181               		.stabs	"vypis:F(0,15)",36,0,105,vypis
+ 1182               		.stabs	"data:P(0,11)",64,0,104,17
+ 1183               		.stabs	"priznak_znam:P(0,11)",64,0,104,15
+ 1184               		.stabs	"priznak_des:P(0,11)",64,0,104,16
+ 1185               	.global	vypis
+ 1186               		.type	vypis, @function
+ 1187               	vypis:
+ 1188               		.stabd	46,0,0
+ 1189               		.stabs	"moje.c",132,0,0,.Ltext27
+ 1190               	.Ltext27:
+  88:moje.c        **** }
+  89:moje.c        **** 
+  90:moje.c        **** void zobraz_teploty(void)
+  91:moje.c        **** {
+  92:moje.c        ****   if (!flags.btn1) {
+  93:moje.c        ****     if ((casovac % 15) == 0)
+  94:moje.c        ****       vypis(teploty.vnut_L >> 1, teploty.vnut_H, teploty.vnut_L & 1);
+  95:moje.c        ****   } else {
+  96:moje.c        ****     if ((casovac % 15) == 0)
+  97:moje.c        ****       vypis(teploty.von_L >> 1, teploty.von_H, teploty.von_L & 1);
+  98:moje.c        ****       if (casovac == stopky)
+  99:moje.c        ****          flags.btn1 = 0;
+ 100:moje.c        ****   }
+ 101:moje.c        **** }
+ 102:moje.c        **** 
+ 103:moje.c        **** void vypis(unsigned char data, unsigned char priznak_znam, unsigned char priznak_des)
+ 104:moje.c        **** {
+ 1191               		.stabn	68,0,105,.LM130-.LFBB15
+ 1192               	.LM130:
+ 1193               	.LFBB15:
+ 1194 032c FF92      		push r15
+ 1195 032e 0F93      		push r16
+ 1196 0330 1F93      		push r17
+ 1197               	/* prologue: function */
+ 1198               	/* frame size = 0 */
+ 1199 0332 182F      		mov r17,r24
+ 1200 0334 F62E      		mov r15,r22
+ 1201 0336 042F      		mov r16,r20
+ 105:moje.c        ****    if (data >= 10)
+ 1202               		.stabn	68,0,106,.LM131-.LFBB15
+ 1203               	.LM131:
+ 1204 0338 8A30      		cpi r24,lo8(10)
+ 1205 033a 00F0      		brlo .L66
+ 106:moje.c        ****      itoa((int) data, &m[1], 10);
+ 1206               		.stabn	68,0,107,.LM132-.LFBB15
+ 1207               	.LM132:
+ 1208 033c 90E0      		ldi r25,lo8(0)
+GAS LISTING /tmp/ccnrqgD2.s 			page 30
+
+
+ 1209 033e 60E0      		ldi r22,lo8(m+1)
+ 1210 0340 70E0      		ldi r23,hi8(m+1)
+ 1211 0342 00C0      		rjmp .L77
+ 1212               	.L66:
+ 107:moje.c        ****    else 
+ 108:moje.c        ****      itoa((int) data, &m[2], 10);
+ 1213               		.stabn	68,0,109,.LM133-.LFBB15
+ 1214               	.LM133:
+ 1215 0344 90E0      		ldi r25,lo8(0)
+ 1216 0346 60E0      		ldi r22,lo8(m+2)
+ 1217 0348 70E0      		ldi r23,hi8(m+2)
+ 1218               	.L77:
+ 1219 034a 4AE0      		ldi r20,lo8(10)
+ 1220 034c 50E0      		ldi r21,hi8(10)
+ 1221 034e 00D0      		rcall itoa
+ 109:moje.c        ****   if (priznak_des)
+ 1222               		.stabn	68,0,110,.LM134-.LFBB15
+ 1223               	.LM134:
+ 1224 0350 0023      		tst r16
+ 1225 0352 01F0      		breq .L68
+ 110:moje.c        ****     m[3] = '5';
+ 1226               		.stabn	68,0,111,.LM135-.LFBB15
+ 1227               	.LM135:
+ 1228 0354 85E3      		ldi r24,lo8(53)
+ 1229 0356 00C0      		rjmp .L78
+ 1230               	.L68:
+ 111:moje.c        ****   else m[3] = '0';
+ 1231               		.stabn	68,0,112,.LM136-.LFBB15
+ 1232               	.LM136:
+ 1233 0358 80E3      		ldi r24,lo8(48)
+ 1234               	.L78:
+ 1235 035a 8093 0000 		sts m+3,r24
+ 112:moje.c        ****   strtoled(m, 4);
+ 1236               		.stabn	68,0,113,.LM137-.LFBB15
+ 1237               	.LM137:
+ 1238 035e 80E0      		ldi r24,lo8(m)
+ 1239 0360 90E0      		ldi r25,hi8(m)
+ 1240 0362 64E0      		ldi r22,lo8(4)
+ 1241 0364 00D0      		rcall strtoled
+ 113:moje.c        ****   m[2] &= ~128;  // bodka
+ 1242               		.stabn	68,0,114,.LM138-.LFBB15
+ 1243               	.LM138:
+ 1244 0366 8091 0000 		lds r24,m+2
+ 1245 036a 8F77      		andi r24,lo8(127)
+ 1246 036c 8093 0000 		sts m+2,r24
+ 114:moje.c        ****   if (data >= 10) {
+ 1247               		.stabn	68,0,115,.LM139-.LFBB15
+ 1248               	.LM139:
+ 1249 0370 1A30      		cpi r17,lo8(10)
+ 1250 0372 00F0      		brlo .L70
+ 115:moje.c        ****     m[0] = (priznak_znam) ? ~64 : 255; // minus / plus
+ 1251               		.stabn	68,0,116,.LM140-.LFBB15
+ 1252               	.LM140:
+ 1253 0374 FF20      		tst r15
+ 1254 0376 01F4      		brne .L71
+ 1255 0378 8FEF      		ldi r24,lo8(-1)
+ 1256 037a 00C0      		rjmp .L72
+GAS LISTING /tmp/ccnrqgD2.s 			page 31
+
+
+ 1257               	.L71:
+ 1258 037c 8FEB      		ldi r24,lo8(-65)
+ 1259               	.L72:
+ 1260 037e 8093 0000 		sts m,r24
+ 1261 0382 00C0      		rjmp .L73
+ 1262               	.L70:
+ 116:moje.c        ****   }
+ 117:moje.c        ****   else 
+ 118:moje.c        ****     m[1] |= (priznak_znam) ? ~64 : 255;
+ 1263               		.stabn	68,0,119,.LM141-.LFBB15
+ 1264               	.LM141:
+ 1265 0384 9091 0000 		lds r25,m+1
+ 1266 0388 FF20      		tst r15
+ 1267 038a 01F4      		brne .L74
+ 1268 038c 8FEF      		ldi r24,lo8(-1)
+ 1269 038e 00C0      		rjmp .L75
+ 1270               	.L74:
+ 1271 0390 8FEB      		ldi r24,lo8(-65)
+ 1272               	.L75:
+ 1273 0392 892B      		or r24,r25
+ 1274 0394 8093 0000 		sts m+1,r24
+ 1275               	.L73:
+ 119:moje.c        ****   zapis_seg(m, 4);
+ 1276               		.stabn	68,0,120,.LM142-.LFBB15
+ 1277               	.LM142:
+ 1278 0398 80E0      		ldi r24,lo8(m)
+ 1279 039a 90E0      		ldi r25,hi8(m)
+ 1280 039c 64E0      		ldi r22,lo8(4)
+ 1281 039e 70E0      		ldi r23,hi8(4)
+ 1282 03a0 00D0      		rcall zapis_seg
+ 1283               	.LBB202:
+ 1284               	.LBB203:
+ 1285               		.stabs	"74hc595.c",132,0,0,.Ltext28
+ 1286               	.Ltext28:
+  47:74hc595.c     ****   PORTB |= (1 << ST_CP);
+ 1287               		.stabn	68,0,47,.LM143-.LFBB15
+ 1288               	.LM143:
+ 1289 03a2 C29A      		sbi 56-32,2
+  48:74hc595.c     ****   PORTB &= ~(1 << ST_CP);
+ 1290               		.stabn	68,0,48,.LM144-.LFBB15
+ 1291               	.LM144:
+ 1292 03a4 C298      		cbi 56-32,2
+ 1293               	/* epilogue start */
+ 1294               	.LBE203:
+ 1295               	.LBE202:
+ 1296               		.stabs	"moje.c",132,0,0,.Ltext29
+ 1297               	.Ltext29:
+ 120:moje.c        ****   zobraz_dis();
+ 121:moje.c        **** }
+ 1298               		.stabn	68,0,122,.LM145-.LFBB15
+ 1299               	.LM145:
+ 1300 03a6 1F91      		pop r17
+ 1301 03a8 0F91      		pop r16
+ 1302 03aa FF90      		pop r15
+ 1303 03ac 0895      		ret
+ 1304               		.size	vypis, .-vypis
+ 1305               	.Lscope15:
+GAS LISTING /tmp/ccnrqgD2.s 			page 32
+
+
+ 1306               		.stabs	"",36,0,0,.Lscope15-.LFBB15
+ 1307               		.stabd	78,0,0
+ 1308               		.stabs	"nastav:F(0,15)",36,0,125,nastav
+ 1309               	.global	nastav
+ 1310               		.type	nastav, @function
+ 1311               	nastav:
+ 1312               		.stabd	46,0,0
+ 122:moje.c        **** 
+ 123:moje.c        **** void nastav(void)
+ 124:moje.c        **** {
+ 1313               		.stabn	68,0,125,.LM146-.LFBB16
+ 1314               	.LM146:
+ 1315               	.LFBB16:
+ 1316 03ae FF92      		push r15
+ 1317 03b0 0F93      		push r16
+ 1318 03b2 1F93      		push r17
+ 1319 03b4 CF93      		push r28
+ 1320 03b6 DF93      		push r29
+ 1321               	/* prologue: function */
+ 1322               	/* frame size = 0 */
+ 125:moje.c        ****   unsigned char stopky_nastav;
+ 126:moje.c        ****   flags.nastav = 1;
+ 1323               		.stabn	68,0,127,.LM147-.LFBB16
+ 1324               	.LM147:
+ 1325 03b8 8091 0000 		lds r24,flags
+ 1326 03bc 8061      		ori r24,lo8(16)
+ 1327 03be 8093 0000 		sts flags,r24
+ 127:moje.c        ****   stopky_nastav = casovac + 70;
+ 1328               		.stabn	68,0,128,.LM148-.LFBB16
+ 1329               	.LM148:
+ 1330 03c2 1091 0000 		lds r17,casovac
+ 1331 03c6 1A5B      		subi r17,lo8(-(70))
+ 1332               	.LBB204:
+ 1333               	.LBB205:
+ 1334               	.LBB206:
+ 1335               	.LBB207:
+ 1336               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h",132,0,0,.Ltext30
+ 1337               	.Ltext30:
+ 1338               		.stabn	68,0,105,.LM149-.LFBB16
+ 1339               	.LM149:
+ 1340 03c8 C4E6      		ldi r28,lo8(100)
+ 1341 03ca D0E0      		ldi r29,hi8(100)
+ 1342               	.LBE207:
+ 1343               	.LBE206:
+ 1344               	.LBE205:
+ 1345               	.LBE204:
+ 1346               		.stabs	"moje.c",132,0,0,.Ltext31
+ 1347               	.Ltext31:
+ 128:moje.c        **** 
+ 129:moje.c        ****   while (flags.nastav) {
+ 130:moje.c        ****     if (bit_is_set(PIND, BT2)) { 
+ 131:moje.c        ****       teploty.alarm++; 
+ 132:moje.c        ****       stopky_nastav = casovac + 70;
+ 133:moje.c        ****       _delay_ms(150);
+ 134:moje.c        ****     }
+ 135:moje.c        ****     if (bit_is_set(PIND, BT3)) { 
+ 136:moje.c        ****       teploty.alarm--;
+GAS LISTING /tmp/ccnrqgD2.s 			page 33
+
+
+ 137:moje.c        ****       stopky_nastav = casovac + 70;
+ 138:moje.c        ****       _delay_ms(150);
+ 139:moje.c        ****     }
+ 140:moje.c        ****     if (teploty.alarm > 120) 
+ 141:moje.c        ****       teploty.alarm = 6;
+ 1348               		.stabn	68,0,142,.LM150-.LFBB16
+ 1349               	.LM150:
+ 1350 03cc 86E0      		ldi r24,lo8(6)
+ 1351 03ce F82E      		mov r15,r24
+ 142:moje.c        ****     if (teploty.alarm < 6)
+ 143:moje.c        ****       teploty.alarm = 120;
+ 1352               		.stabn	68,0,144,.LM151-.LFBB16
+ 1353               	.LM151:
+ 1354 03d0 08E7      		ldi r16,lo8(120)
+ 1355 03d2 00C0      		rjmp .L93
+ 1356               	.L87:
+ 131:moje.c        ****     if (bit_is_set(PIND, BT2)) { 
+ 1357               		.stabn	68,0,131,.LM152-.LFBB16
+ 1358               	.LM152:
+ 1359 03d4 819B      		sbis 48-32,1
+ 1360 03d6 00C0      		rjmp .L81
+ 132:moje.c        ****       teploty.alarm++; 
+ 1361               		.stabn	68,0,132,.LM153-.LFBB16
+ 1362               	.LM153:
+ 1363 03d8 8091 0000 		lds r24,teploty+4
+ 1364 03dc 8F5F      		subi r24,lo8(-(1))
+ 1365 03de 8093 0000 		sts teploty+4,r24
+ 133:moje.c        ****       stopky_nastav = casovac + 70;
+ 1366               		.stabn	68,0,133,.LM154-.LFBB16
+ 1367               	.LM154:
+ 1368 03e2 2091 0000 		lds r18,casovac
+ 1369 03e6 8CED      		ldi r24,lo8(1500)
+ 1370 03e8 95E0      		ldi r25,hi8(1500)
+ 1371               	.L82:
+ 1372               	.LBB211:
+ 1373               	.LBB210:
+ 1374               	.LBB209:
+ 1375               	.LBB208:
+ 1376               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h",132,0,0,.Ltext32
+ 1377               	.Ltext32:
+ 1378               		.stabn	68,0,105,.LM155-.LFBB16
+ 1379               	.LM155:
+ 1380 03ea FE01      		movw r30,r28
+ 1381               	/* #APP */
+ 1382               	 ;  105 "/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h" 1
+ 1383 03ec 3197      		1: sbiw r30,1
+ 1384 03ee 01F4      		brne 1b
+ 1385               	 ;  0 "" 2
+ 1386               	/* #NOAPP */
+ 1387               	.LBE208:
+ 1388               	.LBE209:
+ 1389               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h",132,0,0,.Ltext33
+ 1390               	.Ltext33:
+   0:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** /* Copyright (c) 2002, Marek Michalkiewicz
+   1:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****    Copyright (c) 2004,2005,2007 Joerg Wunsch
+   2:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****    Copyright (c) 2007  Florin-Viorel Petrov
+   3:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****    All rights reserved.
+GAS LISTING /tmp/ccnrqgD2.s 			page 34
+
+
+   4:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 
+   5:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****    Redistribution and use in source and binary forms, with or without
+   6:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****    modification, are permitted provided that the following conditions are met:
+   7:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 
+   8:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****    * Redistributions of source code must retain the above copyright
+   9:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****      notice, this list of conditions and the following disclaimer.
+  10:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 
+  11:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****    * Redistributions in binary form must reproduce the above copyright
+  12:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****      notice, this list of conditions and the following disclaimer in
+  13:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****      the documentation and/or other materials provided with the
+  14:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****      distribution.
+  15:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 
+  16:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****    * Neither the name of the copyright holders nor the names of
+  17:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****      contributors may be used to endorse or promote products derived
+  18:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****      from this software without specific prior written permission.
+  19:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 
+  20:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+  21:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****   AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+  22:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****   IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+  23:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****   ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+  24:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****   LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+  25:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****   CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+  26:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****   SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+  27:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****   INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+  28:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****   CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+  29:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****   ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+  30:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****   POSSIBILITY OF SUCH DAMAGE. */
+  31:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 
+  32:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** /* $Id: delay.h,v 1.5.2.1 2009/02/25 10:14:03 joerg_wunsch Exp $ */
+  33:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 
+  34:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** #ifndef _UTIL_DELAY_H_
+  35:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** #define _UTIL_DELAY_H_ 1
+  36:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 
+  37:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** #include <inttypes.h>
+  38:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** #include <util/delay_basic.h>
+  39:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 
+  40:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** /** \file */
+  41:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** /** \defgroup util_delay <util/delay.h>: Convenience functions for busy-wait delay loops
+  42:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     \code
+  43:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     #define F_CPU 1000000UL  // 1 MHz
+  44:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     //#define F_CPU 14.7456E6
+  45:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     #include <util/delay.h>
+  46:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     \endcode
+  47:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 
+  48:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     \note As an alternative method, it is possible to pass the
+  49:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     F_CPU macro down to the compiler from the Makefile.
+  50:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     Obviously, in that case, no \c \#define statement should be
+  51:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     used.
+  52:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 
+  53:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     The functions in this header file are wrappers around the basic
+  54:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     busy-wait functions from <util/delay_basic.h>.  They are meant as
+  55:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     convenience functions where actual time values can be specified
+  56:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     rather than a number of cycles to wait for.  The idea behind is
+  57:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     that compile-time constant expressions will be eliminated by
+  58:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     compiler optimization so floating-point expressions can be used
+  59:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     to calculate the number of delay cycles needed based on the CPU
+  60:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     frequency passed by the macro F_CPU.
+GAS LISTING /tmp/ccnrqgD2.s 			page 35
+
+
+  61:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 
+  62:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     \note In order for these functions to work as intended, compiler
+  63:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     optimizations <em>must</em> be enabled, and the delay time
+  64:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     <em>must</em> be an expression that is a known constant at
+  65:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     compile-time.  If these requirements are not met, the resulting
+  66:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     delay will be much longer (and basically unpredictable), and
+  67:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     applications that otherwise do not use floating-point calculations
+  68:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     will experience severe code bloat by the floating-point library
+  69:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     routines linked into the application.
+  70:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 
+  71:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     The functions available allow the specification of microsecond, and
+  72:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     millisecond delays directly, using the application-supplied macro
+  73:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****     F_CPU as the CPU clock frequency (in Hertz).
+  74:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 
+  75:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** */
+  76:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 
+  77:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** #if !defined(__DOXYGEN__)
+  78:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** static inline void _delay_us(double __us) __attribute__((always_inline));
+  79:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** static inline void _delay_ms(double __ms) __attribute__((always_inline));
+  80:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** #endif
+  81:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 
+  82:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** #ifndef F_CPU
+  83:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** /* prevent compiler error by supplying a default */
+  84:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** # warning "F_CPU not defined for <util/delay.h>"
+  85:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** # define F_CPU 1000000UL
+  86:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** #endif
+  87:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 
+  88:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** #ifndef __OPTIMIZE__
+  89:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** # warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+  90:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** #endif
+  91:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 
+  92:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** /**
+  93:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****    \ingroup util_delay
+  94:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 
+  95:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****    Perform a delay of \c __ms milliseconds, using _delay_loop_2().
+  96:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 
+  97:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****    The macro F_CPU is supposed to be defined to a
+  98:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****    constant defining the CPU clock frequency (in Hertz).
+  99:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 
+ 100:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****    The maximal possible delay is 262.14 ms / F_CPU in MHz.
+ 101:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 
+ 102:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****    When the user request delay which exceed the maximum possible one,
+ 103:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****    _delay_ms() provides a decreased resolution functionality. In this
+ 104:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****    mode _delay_ms() will work with a resolution of 1/10 ms, providing
+ 105:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****    delays up to 6.5535 seconds (independent from CPU frequency).  The
+ 106:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****    user will not be informed about decreased resolution.
+ 107:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h ****  */
+ 108:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** void
+ 109:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** _delay_ms(double __ms)
+ 110:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** {
+ 111:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 	uint16_t __ticks;
+ 112:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 	double __tmp = ((F_CPU) / 4e3) * __ms;
+ 113:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 	if (__tmp < 1.0)
+ 114:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 		__ticks = 1;
+ 115:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 	else if (__tmp > 65535)
+ 116:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 	{
+ 117:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 		//	__ticks = requested delay in 1/10 ms
+GAS LISTING /tmp/ccnrqgD2.s 			page 36
+
+
+ 118:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 		__ticks = (uint16_t) (__ms * 10.0);
+ 119:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 		while(__ticks)
+ 120:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 		{
+ 121:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 			// wait 1/10 ms
+ 122:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 			_delay_loop_2(((F_CPU) / 4e3) / 10);
+ 123:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 			__ticks --;
+ 1391               		.stabn	68,0,124,.LM156-.LFBB16
+ 1392               	.LM156:
+ 1393 03f0 0197      		sbiw r24,1
+ 120:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 		while(__ticks)
+ 1394               		.stabn	68,0,120,.LM157-.LFBB16
+ 1395               	.LM157:
+ 1396 03f2 01F4      		brne .L82
+ 1397               	.LBE210:
+ 1398               	.LBE211:
+ 1399               		.stabs	"moje.c",132,0,0,.Ltext34
+ 1400               	.Ltext34:
+ 133:moje.c        ****       stopky_nastav = casovac + 70;
+ 1401               		.stabn	68,0,133,.LM158-.LFBB16
+ 1402               	.LM158:
+ 1403 03f4 122F      		mov r17,r18
+ 1404 03f6 1A5B      		subi r17,lo8(-(70))
+ 1405               	.L81:
+ 136:moje.c        ****     if (bit_is_set(PIND, BT3)) { 
+ 1406               		.stabn	68,0,136,.LM159-.LFBB16
+ 1407               	.LM159:
+ 1408 03f8 829B      		sbis 48-32,2
+ 1409 03fa 00C0      		rjmp .L83
+ 137:moje.c        ****       teploty.alarm--;
+ 1410               		.stabn	68,0,137,.LM160-.LFBB16
+ 1411               	.LM160:
+ 1412 03fc 8091 0000 		lds r24,teploty+4
+ 1413 0400 8150      		subi r24,lo8(-(-1))
+ 1414 0402 8093 0000 		sts teploty+4,r24
+ 138:moje.c        ****       stopky_nastav = casovac + 70;
+ 1415               		.stabn	68,0,138,.LM161-.LFBB16
+ 1416               	.LM161:
+ 1417 0406 2091 0000 		lds r18,casovac
+ 1418 040a 8CED      		ldi r24,lo8(1500)
+ 1419 040c 95E0      		ldi r25,hi8(1500)
+ 1420               	.L84:
+ 1421               	.LBB212:
+ 1422               	.LBB213:
+ 1423               	.LBB214:
+ 1424               	.LBB215:
+ 1425               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h",132,0,0,.Ltext35
+ 1426               	.Ltext35:
+ 1427               		.stabn	68,0,105,.LM162-.LFBB16
+ 1428               	.LM162:
+ 1429 040e FE01      		movw r30,r28
+ 1430               	/* #APP */
+ 1431               	 ;  105 "/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h" 1
+ 1432 0410 3197      		1: sbiw r30,1
+ 1433 0412 01F4      		brne 1b
+ 1434               	 ;  0 "" 2
+ 1435               	/* #NOAPP */
+ 1436               	.LBE215:
+GAS LISTING /tmp/ccnrqgD2.s 			page 37
+
+
+ 1437               	.LBE214:
+ 1438               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h",132,0,0,.Ltext36
+ 1439               	.Ltext36:
+ 1440               		.stabn	68,0,124,.LM163-.LFBB16
+ 1441               	.LM163:
+ 1442 0414 0197      		sbiw r24,1
+ 120:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 		while(__ticks)
+ 1443               		.stabn	68,0,120,.LM164-.LFBB16
+ 1444               	.LM164:
+ 1445 0416 01F4      		brne .L84
+ 1446               	.LBE213:
+ 1447               	.LBE212:
+ 1448               		.stabs	"moje.c",132,0,0,.Ltext37
+ 1449               	.Ltext37:
+ 138:moje.c        ****       stopky_nastav = casovac + 70;
+ 1450               		.stabn	68,0,138,.LM165-.LFBB16
+ 1451               	.LM165:
+ 1452 0418 122F      		mov r17,r18
+ 1453 041a 1A5B      		subi r17,lo8(-(70))
+ 1454               	.L83:
+ 141:moje.c        ****     if (teploty.alarm > 120) 
+ 1455               		.stabn	68,0,141,.LM166-.LFBB16
+ 1456               	.LM166:
+ 1457 041c 8091 0000 		lds r24,teploty+4
+ 1458 0420 8937      		cpi r24,lo8(121)
+ 1459 0422 00F0      		brlo .L85
+ 142:moje.c        ****       teploty.alarm = 6;
+ 1460               		.stabn	68,0,142,.LM167-.LFBB16
+ 1461               	.LM167:
+ 1462 0424 F092 0000 		sts teploty+4,r15
+ 1463               	.L85:
+ 143:moje.c        ****     if (teploty.alarm < 6)
+ 1464               		.stabn	68,0,143,.LM168-.LFBB16
+ 1465               	.LM168:
+ 1466 0428 8091 0000 		lds r24,teploty+4
+ 1467 042c 8630      		cpi r24,lo8(6)
+ 1468 042e 00F4      		brsh .L86
+ 1469               		.stabn	68,0,144,.LM169-.LFBB16
+ 1470               	.LM169:
+ 1471 0430 0093 0000 		sts teploty+4,r16
+ 1472               	.L86:
+ 144:moje.c        ****     vypis(teploty.alarm >> 1, teploty.alarm_sign, teploty.alarm & 1);
+ 1473               		.stabn	68,0,145,.LM170-.LFBB16
+ 1474               	.LM170:
+ 1475 0434 8091 0000 		lds r24,teploty+4
+ 1476 0438 6091 0000 		lds r22,teploty+5
+ 1477 043c 4091 0000 		lds r20,teploty+4
+ 1478 0440 4170      		andi r20,lo8(1)
+ 1479 0442 8695      		lsr r24
+ 1480 0444 00D0      		rcall vypis
+ 145:moje.c        ****     if (stopky_nastav == casovac) { flags.nastav = 0; flags.alarm = 1;}
+ 1481               		.stabn	68,0,146,.LM171-.LFBB16
+ 1482               	.LM171:
+ 1483 0446 8091 0000 		lds r24,casovac
+ 1484 044a 1817      		cp r17,r24
+ 1485 044c 01F4      		brne .L93
+ 1486 044e 8091 0000 		lds r24,flags
+GAS LISTING /tmp/ccnrqgD2.s 			page 38
+
+
+ 1487 0452 8F7E      		andi r24,lo8(-17)
+ 1488 0454 8093 0000 		sts flags,r24
+ 1489 0458 8091 0000 		lds r24,flags
+ 1490 045c 8062      		ori r24,lo8(32)
+ 1491 045e 8093 0000 		sts flags,r24
+ 1492               	.L93:
+ 130:moje.c        ****   while (flags.nastav) {
+ 1493               		.stabn	68,0,130,.LM172-.LFBB16
+ 1494               	.LM172:
+ 1495 0462 8091 0000 		lds r24,flags
+ 1496 0466 84FD      		sbrc r24,4
+ 1497 0468 00C0      		rjmp .L87
+ 1498               	/* epilogue start */
+ 146:moje.c        ****   }
+ 147:moje.c        **** }
+ 1499               		.stabn	68,0,148,.LM173-.LFBB16
+ 1500               	.LM173:
+ 1501 046a DF91      		pop r29
+ 1502 046c CF91      		pop r28
+ 1503 046e 1F91      		pop r17
+ 1504 0470 0F91      		pop r16
+ 1505 0472 FF90      		pop r15
+ 1506 0474 0895      		ret
+ 1507               		.size	nastav, .-nastav
+ 1508               		.stabs	"stopky_nastav:r(0,11)",64,0,126,17
+ 1509               		.stabn	192,0,0,.LFBB16-.LFBB16
+ 1510               		.stabs	"__ticks:r(6,4)",64,0,112,24
+ 1511               		.stabn	192,0,0,.LBB205-.LFBB16
+ 1512               		.stabs	"__count:r(6,4)",64,0,123,30
+ 1513               		.stabn	192,0,0,.LBB206-.LFBB16
+ 1514               		.stabn	224,0,0,.LBE206-.LFBB16
+ 1515               		.stabs	"__count:r(6,4)",64,0,123,30
+ 1516               		.stabn	192,0,0,.LBB209-.LFBB16
+ 1517               		.stabn	224,0,0,.LBE209-.LFBB16
+ 1518               		.stabn	224,0,0,.LBE205-.LFBB16
+ 1519               		.stabs	"__ticks:r(6,4)",64,0,112,24
+ 1520               		.stabn	192,0,0,.LBB210-.LFBB16
+ 1521               		.stabn	224,0,0,.LBE210-.LFBB16
+ 1522               		.stabs	"__ticks:r(6,4)",64,0,112,24
+ 1523               		.stabn	192,0,0,.LBB213-.LFBB16
+ 1524               		.stabs	"__count:r(6,4)",64,0,123,30
+ 1525               		.stabn	192,0,0,.LBB214-.LFBB16
+ 1526               		.stabn	224,0,0,.LBE214-.LFBB16
+ 1527               		.stabn	224,0,0,.LBE213-.LFBB16
+ 1528               		.stabn	224,0,0,.Lscope16-.LFBB16
+ 1529               	.Lscope16:
+ 1530               		.stabs	"",36,0,0,.Lscope16-.LFBB16
+ 1531               		.stabd	78,0,0
+ 1532               		.stabs	"zobraz_teploty:F(0,15)",36,0,92,zobraz_teploty
+ 1533               	.global	zobraz_teploty
+ 1534               		.type	zobraz_teploty, @function
+ 1535               	zobraz_teploty:
+ 1536               		.stabd	46,0,0
+  92:moje.c        **** {
+ 1537               		.stabn	68,0,92,.LM174-.LFBB17
+ 1538               	.LM174:
+ 1539               	.LFBB17:
+GAS LISTING /tmp/ccnrqgD2.s 			page 39
+
+
+ 1540               	/* prologue: function */
+ 1541               	/* frame size = 0 */
+  93:moje.c        ****   if (!flags.btn1) {
+ 1542               		.stabn	68,0,93,.LM175-.LFBB17
+ 1543               	.LM175:
+ 1544 0476 8091 0000 		lds r24,flags
+ 1545 047a 82FD      		sbrc r24,2
+ 1546 047c 00C0      		rjmp .L95
+  94:moje.c        ****     if ((casovac % 15) == 0)
+ 1547               		.stabn	68,0,94,.LM176-.LFBB17
+ 1548               	.LM176:
+ 1549 047e 8091 0000 		lds r24,casovac
+ 1550 0482 6FE0      		ldi r22,lo8(15)
+ 1551 0484 00D0      		rcall __udivmodqi4
+ 1552 0486 9923      		tst r25
+ 1553 0488 01F4      		brne .L98
+  95:moje.c        ****       vypis(teploty.vnut_L >> 1, teploty.vnut_H, teploty.vnut_L & 1);
+ 1554               		.stabn	68,0,95,.LM177-.LFBB17
+ 1555               	.LM177:
+ 1556 048a 8091 0000 		lds r24,teploty+2
+ 1557 048e 6091 0000 		lds r22,teploty+3
+ 1558 0492 4091 0000 		lds r20,teploty+2
+ 1559 0496 4170      		andi r20,lo8(1)
+ 1560 0498 8695      		lsr r24
+ 1561 049a 00D0      		rcall vypis
+ 1562 049c 0895      		ret
+ 1563               	.L95:
+  97:moje.c        ****     if ((casovac % 15) == 0)
+ 1564               		.stabn	68,0,97,.LM178-.LFBB17
+ 1565               	.LM178:
+ 1566 049e 8091 0000 		lds r24,casovac
+ 1567 04a2 6FE0      		ldi r22,lo8(15)
+ 1568 04a4 00D0      		rcall __udivmodqi4
+ 1569 04a6 9923      		tst r25
+ 1570 04a8 01F4      		brne .L97
+  98:moje.c        ****       vypis(teploty.von_L >> 1, teploty.von_H, teploty.von_L & 1);
+ 1571               		.stabn	68,0,98,.LM179-.LFBB17
+ 1572               	.LM179:
+ 1573 04aa 8091 0000 		lds r24,teploty
+ 1574 04ae 6091 0000 		lds r22,teploty+1
+ 1575 04b2 4091 0000 		lds r20,teploty
+ 1576 04b6 4170      		andi r20,lo8(1)
+ 1577 04b8 8695      		lsr r24
+ 1578 04ba 00D0      		rcall vypis
+ 1579               	.L97:
+  99:moje.c        ****       if (casovac == stopky)
+ 1580               		.stabn	68,0,99,.LM180-.LFBB17
+ 1581               	.LM180:
+ 1582 04bc 9091 0000 		lds r25,casovac
+ 1583 04c0 8091 0000 		lds r24,stopky
+ 1584 04c4 9817      		cp r25,r24
+ 1585 04c6 01F4      		brne .L98
+ 100:moje.c        ****          flags.btn1 = 0;
+ 1586               		.stabn	68,0,100,.LM181-.LFBB17
+ 1587               	.LM181:
+ 1588 04c8 8091 0000 		lds r24,flags
+ 1589 04cc 8B7F      		andi r24,lo8(-5)
+GAS LISTING /tmp/ccnrqgD2.s 			page 40
+
+
+ 1590 04ce 8093 0000 		sts flags,r24
+ 1591               	.L98:
+ 1592 04d2 0895      		ret
+ 1593               		.size	zobraz_teploty, .-zobraz_teploty
+ 1594               	.Lscope17:
+ 1595               		.stabs	"",36,0,0,.Lscope17-.LFBB17
+ 1596               		.stabd	78,0,0
+ 1597               		.stabs	"main:F(0,1)",36,0,55,main
+ 1598               	.global	main
+ 1599               		.type	main, @function
+ 1600               	main:
+ 1601               		.stabd	46,0,0
+ 1602               		.stabs	"klima.c",132,0,0,.Ltext38
+ 1603               	.Ltext38:
+  52:klima.c       **** 
+  53:klima.c       **** int main(void)
+  54:klima.c       **** {
+ 1604               		.stabn	68,0,55,.LM182-.LFBB18
+ 1605               	.LM182:
+ 1606               	.LFBB18:
+ 1607 04d4 CF93      		push r28
+ 1608 04d6 DF93      		push r29
+ 1609               	/* prologue: function */
+ 1610               	/* frame size = 0 */
+  55:klima.c       ****   DDRD = 0b0101000;	// PD -> |-|OUT|IN|SP|BT3|BT2|BT1|
+ 1611               		.stabn	68,0,56,.LM183-.LFBB18
+ 1612               	.LM183:
+ 1613 04d8 88E2      		ldi r24,lo8(40)
+ 1614 04da 81BB      		out 49-32,r24
+  56:klima.c       ****   PORTD &= ~0b0101000;
+ 1615               		.stabn	68,0,57,.LM184-.LFBB18
+ 1616               	.LM184:
+ 1617 04dc 82B3      		in r24,50-32
+ 1618 04de 877D      		andi r24,lo8(-41)
+ 1619 04e0 82BB      		out 50-32,r24
+ 1620               	.LBB216:
+ 1621               	.LBB217:
+ 1622               		.stabs	"74hc595.c",132,0,0,.Ltext39
+ 1623               	.Ltext39:
+  23:74hc595.c     ****   DDRB |= ((1 << DS) | (1 << SH_CP) | (1 << ST_CP));
+ 1624               		.stabn	68,0,23,.LM185-.LFBB18
+ 1625               	.LM185:
+ 1626 04e2 87B3      		in r24,55-32
+ 1627 04e4 8760      		ori r24,lo8(7)
+ 1628 04e6 87BB      		out 55-32,r24
+  24:74hc595.c     ****   PORTB &= ~((1 << DS) | (1 << SH_CP) | (1 << ST_CP));
+ 1629               		.stabn	68,0,24,.LM186-.LFBB18
+ 1630               	.LM186:
+ 1631 04e8 88B3      		in r24,56-32
+ 1632 04ea 887F      		andi r24,lo8(-8)
+ 1633 04ec 88BB      		out 56-32,r24
+ 1634               	.LBE217:
+ 1635               	.LBE216:
+ 1636               		.stabs	"klima.c",132,0,0,.Ltext40
+ 1637               	.Ltext40:
+  57:klima.c       **** 
+  58:klima.c       ****   init_595();
+GAS LISTING /tmp/ccnrqgD2.s 			page 41
+
+
+  59:klima.c       ****   flags.tep = 0;
+ 1638               		.stabn	68,0,60,.LM187-.LFBB18
+ 1639               	.LM187:
+ 1640 04ee 8091 0000 		lds r24,flags
+  60:klima.c       ****   flags.init = 0;
+  61:klima.c       ****   flags.start = 0;
+ 1641               		.stabn	68,0,62,.LM188-.LFBB18
+ 1642               	.LM188:
+ 1643 04f2 847F      		andi r24,lo8(-12)
+ 1644 04f4 8093 0000 		sts flags,r24
+  62:klima.c       ****   teploty.alarm = 46;      // nastavenie teploty na 23Â°C pri spusteni
+ 1645               		.stabn	68,0,63,.LM189-.LFBB18
+ 1646               	.LM189:
+ 1647 04f8 8EE2      		ldi r24,lo8(46)
+ 1648 04fa 8093 0000 		sts teploty+4,r24
+  63:klima.c       ****   teploty.alarm_sign = 0;
+ 1649               		.stabn	68,0,64,.LM190-.LFBB18
+ 1650               	.LM190:
+ 1651 04fe 1092 0000 		sts teploty+5,__zero_reg__
+ 1652               	.LBB218:
+ 1653               	.LBB219:
+ 1654               		.stabs	"moje.c",132,0,0,.Ltext41
+ 1655               	.Ltext41:
+  62:moje.c        ****   TCCR0A = 0;
+ 1656               		.stabn	68,0,62,.LM191-.LFBB18
+ 1657               	.LM191:
+ 1658 0502 10BE      		out 80-32,__zero_reg__
+  63:moje.c        ****   TCCR0B = (1 << CS02) | (1 << CS00);
+ 1659               		.stabn	68,0,63,.LM192-.LFBB18
+ 1660               	.LM192:
+ 1661 0504 85E0      		ldi r24,lo8(5)
+ 1662 0506 83BF      		out 83-32,r24
+  64:moje.c        ****   TCNT0 = 0;
+ 1663               		.stabn	68,0,64,.LM193-.LFBB18
+ 1664               	.LM193:
+ 1665 0508 12BE      		out 82-32,__zero_reg__
+  65:moje.c        ****   TIMSK |= (1 << TOIE0);
+ 1666               		.stabn	68,0,65,.LM194-.LFBB18
+ 1667               	.LM194:
+ 1668 050a 89B7      		in r24,89-32
+ 1669 050c 8260      		ori r24,lo8(2)
+ 1670 050e 89BF      		out 89-32,r24
+  66:moje.c        ****   asm("sei");
+ 1671               		.stabn	68,0,66,.LM195-.LFBB18
+ 1672               	.LM195:
+ 1673               	/* #APP */
+ 1674               	 ;  66 "moje.c" 1
+ 1675 0510 7894      		sei
+ 1676               	 ;  0 "" 2
+ 1677               	/* #NOAPP */
+ 1678               	.LBE219:
+ 1679               	.LBE218:
+ 1680               	.LBB220:
+ 1681               	.LBB221:
+ 1682               	.LBB222:
+ 1683               	.LBB223:
+ 1684               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h",132,0,0,.Ltext42
+GAS LISTING /tmp/ccnrqgD2.s 			page 42
+
+
+ 1685               	.Ltext42:
+ 1686               		.stabn	68,0,105,.LM196-.LFBB18
+ 1687               	.LM196:
+ 1688 0512 C4E6      		ldi r28,lo8(100)
+ 1689 0514 D0E0      		ldi r29,hi8(100)
+ 1690               	.L114:
+ 1691               	.LBE223:
+ 1692               	.LBE222:
+ 1693               	.LBE221:
+ 1694               	.LBE220:
+ 1695               		.stabs	"klima.c",132,0,0,.Ltext43
+ 1696               	.Ltext43:
+  64:klima.c       ****   nastav_casovac();
+  65:klima.c       **** 
+  66:klima.c       ****   while (1) {
+  67:klima.c       ****     if (flags.tep) {
+ 1697               		.stabn	68,0,68,.LM197-.LFBB18
+ 1698               	.LM197:
+ 1699 0516 8091 0000 		lds r24,flags
+ 1700 051a 80FD      		sbrc r24,0
+  68:klima.c       ****       convert_tep();
+ 1701               		.stabn	68,0,69,.LM198-.LFBB18
+ 1702               	.LM198:
+ 1703 051c 00D0      		rcall convert_tep
+ 1704               	.L100:
+  69:klima.c       ****     }
+  70:klima.c       ****     if (flags.init) {
+ 1705               		.stabn	68,0,71,.LM199-.LFBB18
+ 1706               	.LM199:
+ 1707 051e 8091 0000 		lds r24,flags
+ 1708 0522 81FF      		sbrs r24,1
+ 1709 0524 00C0      		rjmp .L101
+  71:klima.c       ****       citaj_tep();
+ 1710               		.stabn	68,0,72,.LM200-.LFBB18
+ 1711               	.LM200:
+ 1712 0526 00D0      		rcall citaj_tep
+  72:klima.c       ****       flags.init = 0; flags.tep = 0; flags.start = 1;
+ 1713               		.stabn	68,0,73,.LM201-.LFBB18
+ 1714               	.LM201:
+ 1715 0528 8091 0000 		lds r24,flags
+ 1716 052c 8C7F      		andi r24,lo8(-4)
+ 1717 052e 8860      		ori r24,lo8(8)
+ 1718 0530 8093 0000 		sts flags,r24
+ 1719               	.L101:
+  73:klima.c       ****     }
+  74:klima.c       ****     if (flags.start)
+ 1720               		.stabn	68,0,75,.LM202-.LFBB18
+ 1721               	.LM202:
+ 1722 0534 8091 0000 		lds r24,flags
+ 1723 0538 83FD      		sbrc r24,3
+  75:klima.c       ****       zobraz_teploty();
+ 1724               		.stabn	68,0,76,.LM203-.LFBB18
+ 1725               	.LM203:
+ 1726 053a 00D0      		rcall zobraz_teploty
+ 1727               	.L102:
+  76:klima.c       ****     if (bit_is_set(PIND, BT2) || bit_is_set(PIND, BT3)) {
+ 1728               		.stabn	68,0,77,.LM204-.LFBB18
+GAS LISTING /tmp/ccnrqgD2.s 			page 43
+
+
+ 1729               	.LM204:
+ 1730 053c 8199      		sbic 48-32,1
+ 1731 053e 00C0      		rjmp .L103
+ 1732 0540 829B      		sbis 48-32,2
+ 1733 0542 00C0      		rjmp .L104
+ 1734               	.L103:
+ 1735 0544 8CED      		ldi r24,lo8(1500)
+ 1736 0546 95E0      		ldi r25,hi8(1500)
+ 1737               	.L105:
+ 1738               	.LBB227:
+ 1739               	.LBB226:
+ 1740               	.LBB225:
+ 1741               	.LBB224:
+ 1742               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h",132,0,0,.Ltext44
+ 1743               	.Ltext44:
+ 1744               		.stabn	68,0,105,.LM205-.LFBB18
+ 1745               	.LM205:
+ 1746 0548 FE01      		movw r30,r28
+ 1747               	/* #APP */
+ 1748               	 ;  105 "/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay_basic.h" 1
+ 1749 054a 3197      		1: sbiw r30,1
+ 1750 054c 01F4      		brne 1b
+ 1751               	 ;  0 "" 2
+ 1752               	/* #NOAPP */
+ 1753               	.LBE224:
+ 1754               	.LBE225:
+ 1755               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h",132,0,0,.Ltext45
+ 1756               	.Ltext45:
+ 1757               		.stabn	68,0,124,.LM206-.LFBB18
+ 1758               	.LM206:
+ 1759 054e 0197      		sbiw r24,1
+ 120:/usr/lib/gcc/avr/4.3.4/../../../avr/include/util/delay.h **** 		while(__ticks)
+ 1760               		.stabn	68,0,120,.LM207-.LFBB18
+ 1761               	.LM207:
+ 1762 0550 01F4      		brne .L105
+ 1763               	.LBE226:
+ 1764               	.LBE227:
+ 1765               		.stabs	"klima.c",132,0,0,.Ltext46
+ 1766               	.Ltext46:
+  77:klima.c       ****       _delay_ms(150);
+  78:klima.c       ****       nastav();
+ 1767               		.stabn	68,0,79,.LM208-.LFBB18
+ 1768               	.LM208:
+ 1769 0552 00D0      		rcall nastav
+ 1770               	.L104:
+  79:klima.c       ****     }
+  80:klima.c       ****     if (bit_is_set(PIND, IN)) {
+ 1771               		.stabn	68,0,81,.LM209-.LFBB18
+ 1772               	.LM209:
+ 1773 0554 849B      		sbis 48-32,4
+ 1774 0556 00C0      		rjmp .L106
+  81:klima.c       ****       if ((teploty.alarm <= teploty.vnut_L) && (teploty.alarm_sign == teploty.vnut_H)) {
+ 1775               		.stabn	68,0,82,.LM210-.LFBB18
+ 1776               	.LM210:
+ 1777 0558 9091 0000 		lds r25,teploty+4
+ 1778 055c 8091 0000 		lds r24,teploty+2
+ 1779 0560 8917      		cp r24,r25
+GAS LISTING /tmp/ccnrqgD2.s 			page 44
+
+
+ 1780 0562 00F0      		brlo .L107
+ 1781 0564 9091 0000 		lds r25,teploty+5
+ 1782 0568 8091 0000 		lds r24,teploty+3
+ 1783 056c 9817      		cp r25,r24
+ 1784 056e 01F4      		brne .L107
+  82:klima.c       ****         PORTD |= (1 << OUT);
+ 1785               		.stabn	68,0,83,.LM211-.LFBB18
+ 1786               	.LM211:
+ 1787 0570 959A      		sbi 50-32,5
+ 1788               	.L107:
+  83:klima.c       ****       }
+  84:klima.c       ****       if ((teploty.vnut_L <= (teploty.alarm - 6)) || flags.alarm) {  //klesne o 6/2 = 3Â°C alebo sa
+ 1789               		.stabn	68,0,85,.LM212-.LFBB18
+ 1790               	.LM212:
+ 1791 0572 8091 0000 		lds r24,teploty+4
+ 1792 0576 2091 0000 		lds r18,teploty+2
+ 1793 057a 90E0      		ldi r25,lo8(0)
+ 1794 057c 0597      		sbiw r24,5
+ 1795 057e 30E0      		ldi r19,lo8(0)
+ 1796 0580 2817      		cp r18,r24
+ 1797 0582 3907      		cpc r19,r25
+ 1798 0584 04F0      		brlt .L108
+ 1799 0586 8091 0000 		lds r24,flags
+ 1800 058a 85FF      		sbrs r24,5
+ 1801 058c 00C0      		rjmp .L114
+ 1802               	.L108:
+  85:klima.c       ****         PORTD &= ~(1 << OUT);
+ 1803               		.stabn	68,0,86,.LM213-.LFBB18
+ 1804               	.LM213:
+ 1805 058e 9598      		cbi 50-32,5
+  86:klima.c       ****         flags.alarm = 0;
+ 1806               		.stabn	68,0,87,.LM214-.LFBB18
+ 1807               	.LM214:
+ 1808 0590 8091 0000 		lds r24,flags
+ 1809 0594 8F7D      		andi r24,lo8(-33)
+ 1810 0596 8093 0000 		sts flags,r24
+ 1811 059a 00C0      		rjmp .L114
+ 1812               	.L106:
+  87:klima.c       ****       }
+  88:klima.c       ****     } 
+  89:klima.c       ****     else PORTD &= ~(1 << OUT);
+ 1813               		.stabn	68,0,90,.LM215-.LFBB18
+ 1814               	.LM215:
+ 1815 059c 9598      		cbi 50-32,5
+ 1816 059e 00C0      		rjmp .L114
+ 1817               		.size	main, .-main
+ 1818               		.stabs	"__ticks:r(6,4)",64,0,112,24
+ 1819               		.stabn	192,0,0,.LBB221-.LFBB18
+ 1820               		.stabs	"__count:r(6,4)",64,0,123,30
+ 1821               		.stabn	192,0,0,.LBB222-.LFBB18
+ 1822               		.stabn	224,0,0,.LBE222-.LFBB18
+ 1823               		.stabs	"__count:r(6,4)",64,0,123,30
+ 1824               		.stabn	192,0,0,.LBB225-.LFBB18
+ 1825               		.stabn	224,0,0,.LBE225-.LFBB18
+ 1826               		.stabn	224,0,0,.LBE221-.LFBB18
+ 1827               		.stabs	"__ticks:r(6,4)",64,0,112,24
+ 1828               		.stabn	192,0,0,.LBB226-.LFBB18
+GAS LISTING /tmp/ccnrqgD2.s 			page 45
+
+
+ 1829               		.stabn	224,0,0,.LBE226-.LFBB18
+ 1830               	.Lscope18:
+ 1831               		.stabs	"",36,0,0,.Lscope18-.LFBB18
+ 1832               		.stabd	78,0,0
+ 1833               	.global	LED_num_table
+ 1834               		.data
+ 1835               		.type	LED_num_table, @object
+ 1836               		.size	LED_num_table, 10
+ 1837               	LED_num_table:
+ 1838 0000 C0        		.byte	-64
+ 1839 0001 F9        		.byte	-7
+ 1840 0002 A4        		.byte	-92
+ 1841 0003 B0        		.byte	-80
+ 1842 0004 99        		.byte	-103
+ 1843 0005 92        		.byte	-110
+ 1844 0006 82        		.byte	-126
+ 1845 0007 D8        		.byte	-40
+ 1846 0008 80        		.byte	-128
+ 1847 0009 90        		.byte	-112
+ 1848               	.global	LED_alph_table
+ 1849               		.type	LED_alph_table, @object
+ 1850               		.size	LED_alph_table, 26
+ 1851               	LED_alph_table:
+ 1852 000a 88        		.byte	-120
+ 1853 000b 80        		.byte	-128
+ 1854 000c C6        		.byte	-58
+ 1855 000d A1        		.byte	-95
+ 1856 000e 86        		.byte	-122
+ 1857 000f 8E        		.byte	-114
+ 1858 0010 C2        		.byte	-62
+ 1859 0011 89        		.byte	-119
+ 1860 0012 CF        		.byte	-49
+ 1861 0013 E1        		.byte	-31
+ 1862 0014 8A        		.byte	-118
+ 1863 0015 C7        		.byte	-57
+ 1864 0016 AA        		.byte	-86
+ 1865 0017 AB        		.byte	-85
+ 1866 0018 A3        		.byte	-93
+ 1867 0019 8C        		.byte	-116
+ 1868 001a 98        		.byte	-104
+ 1869 001b AF        		.byte	-81
+ 1870 001c 92        		.byte	-110
+ 1871 001d 87        		.byte	-121
+ 1872 001e E3        		.byte	-29
+ 1873 001f D5        		.byte	-43
+ 1874 0020 95        		.byte	-107
+ 1875 0021 89        		.byte	-119
+ 1876 0022 91        		.byte	-111
+ 1877 0023 A4        		.byte	-92
+ 1878               	.global	casovac
+ 1879               	.global	casovac
+ 1880               		.section .bss
+ 1881               		.type	casovac, @object
+ 1882               		.size	casovac, 1
+ 1883               	casovac:
+ 1884 0000 00        		.skip 1,0
+ 1885               	.global	scitac
+GAS LISTING /tmp/ccnrqgD2.s 			page 46
+
+
+ 1886               	.global	scitac
+ 1887               		.type	scitac, @object
+ 1888               		.size	scitac, 1
+ 1889               	scitac:
+ 1890 0001 00        		.skip 1,0
+ 1891               		.comm m,4,1
+ 1892               		.comm stopky,1,1
+ 1893               		.comm teploty,6,1
+ 1894               		.comm flags,1,1
+ 1895               		.stabs	"LED_num_table:G(0,17)=ar(0,18)=r(0,18);0;0177777;;0;9;(0,11)",32,0,8,0
+ 1896               		.stabs	"LED_alph_table:G(0,19)=ar(0,18);0;25;(0,11)",32,0,9,0
+ 1897               		.stabs	"m:G(0,20)=ar(0,18);0;3;(0,11)",32,0,11,0
+ 1898               		.stabs	"casovac:G(8,3)",32,0,12,0
+ 1899               		.stabs	"stopky:G(8,3)",32,0,12,0
+ 1900               		.stabs	"scitac:G(8,3)",32,0,12,0
+ 1901               		.stabs	"teploty:G(8,1)",32,0,23,0
+ 1902               		.stabs	"flags:G(8,4)",32,0,36,0
+ 1903               		.text
+ 1904               		.stabs	"",100,0,0,.Letext0
+ 1905               	.Letext0:
+GAS LISTING /tmp/ccnrqgD2.s 			page 47
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 klima.c
+     /tmp/ccnrqgD2.s:2      *ABS*:0000003f __SREG__
+     /tmp/ccnrqgD2.s:3      *ABS*:0000003e __SP_H__
+     /tmp/ccnrqgD2.s:4      *ABS*:0000003d __SP_L__
+     /tmp/ccnrqgD2.s:5      *ABS*:00000034 __CCP__
+     /tmp/ccnrqgD2.s:6      *ABS*:00000000 __tmp_reg__
+     /tmp/ccnrqgD2.s:7      *ABS*:00000001 __zero_reg__
+     /tmp/ccnrqgD2.s:88     .text:00000000 one_reset
+     /tmp/ccnrqgD2.s:222    .text:0000003e one_read_byte
+     /tmp/ccnrqgD2.s:384    .text:0000008a one_write_byte
+     /tmp/ccnrqgD2.s:560    .text:000000d8 send_convert
+     /tmp/ccnrqgD2.s:591    .text:000000ea send_getTemp
+     /tmp/ccnrqgD2.s:621    .text:000000fc init_595
+     /tmp/ccnrqgD2.s:652    .text:0000010a zapis_seg
+     /tmp/ccnrqgD2.s:716    .text:00000138 zobraz_dis
+     /tmp/ccnrqgD2.s:741    .text:0000013e chartoled
+     /tmp/ccnrqgD2.s:1837   .data:00000000 LED_num_table
+     /tmp/ccnrqgD2.s:1851   .data:0000000a LED_alph_table
+     /tmp/ccnrqgD2.s:794    .text:0000016e strtoled
+     /tmp/ccnrqgD2.s:873    .text:000001b0 nastav_casovac
+     /tmp/ccnrqgD2.s:913    .text:000001c2 convert_tep
+     /tmp/ccnrqgD2.s:947    .text:000001d4 citaj_tep
+                            *COM*:00000006 teploty
+     /tmp/ccnrqgD2.s:1016   .text:0000022a __vector_6
+     /tmp/ccnrqgD2.s:1883   .bss:00000000 casovac
+                            *COM*:00000001 flags
+                            *COM*:00000001 stopky
+     /tmp/ccnrqgD2.s:1889   .bss:00000001 scitac
+     /tmp/ccnrqgD2.s:1187   .text:0000032c vypis
+                            *COM*:00000004 m
+     /tmp/ccnrqgD2.s:1311   .text:000003ae nastav
+     /tmp/ccnrqgD2.s:1535   .text:00000476 zobraz_teploty
+     /tmp/ccnrqgD2.s:1600   .text:000004d4 main
+
+UNDEFINED SYMBOLS
+__do_copy_data
+__do_clear_bss
+__udivmodqi4
+itoa

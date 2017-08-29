@@ -1,0 +1,10 @@
+Address = 0x00000080  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tst\default/../test.c:7:0:-1
+Address = 0x0000008c  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tst\default/../test.c:8:0:-1
+Address = 0x00000092  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tst\default/../test.c:9:0:-1
+Address = 0x00000094  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tst\default/../test.c:10:0:-1
+Address = 0x000000a0  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tst\default/../test.c:14:0:-1
+Address = 0x000000a2  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tst\default/../test.c:15:0:-1
+Address = 0x000000a6  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tst\default/../test.c:16:0:-1
+Address = 0x000000a8  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tst\default/../test.c:17:0:-1
+Address = 0x000000ae  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tst\default/../test.c:19:0:-1
+Address = 0x000000b2  File:line:col:begin = C:\Documents and Settings\Jergus\Plocha\tests\tst\default/../test.c:19:0:-1

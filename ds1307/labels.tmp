@@ -1,0 +1,50 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.30</VERSION>
+ <DEVICE>ATmega8</DEVICE>
+ <WORKING_DIR>C:\Documents and Settings\Jergus\Plocha\tests\ds1307</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <_uart_init><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</FILE><LINE>48</LINE></_uart_init>
+  <_i2c_init><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</FILE><LINE>103</LINE></_i2c_init>
+  <_ds1307_write><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</FILE><LINE>198</LINE></_ds1307_write>
+  <main><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</FILE><LINE>27</LINE></main>
+  <_ds1307_read><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</FILE><LINE>209</LINE></_ds1307_read>
+  <_putchar><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</FILE><LINE>42</LINE></_putchar>
+  <_delay><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</FILE><LINE>60</LINE></_delay>
+  <_getchar><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</FILE><LINE>36</LINE></_getchar>
+  <__delay><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</FILE><LINE>62</LINE></__delay>
+  <_delay1><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</FILE><LINE>77</LINE></_delay1>
+  <__delay1><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</FILE><LINE>80</LINE></__delay1>
+  <__i2c_delay2><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</FILE><LINE>89</LINE></__i2c_delay2>
+  <___i2c_delay2><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</FILE><LINE>91</LINE></___i2c_delay2>
+  <__i2c_delay1><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</FILE><LINE>96</LINE></__i2c_delay1>
+  <___i2c_delay1><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</FILE><LINE>98</LINE></___i2c_delay1>
+  <_i2c_start><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</FILE><LINE>111</LINE></_i2c_start>
+  <_i2c_stop><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</FILE><LINE>127</LINE></_i2c_stop>
+  <_i2c_read><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</FILE><LINE>136</LINE></_i2c_read>
+  <__i2c_read0><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</FILE><LINE>138</LINE></__i2c_read0>
+  <__i2c_read3><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</FILE><LINE>141</LINE></__i2c_read3>
+  <__i2c_read1><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</FILE><LINE>157</LINE></__i2c_read1>
+  <__i2c_read2><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</FILE><LINE>159</LINE></__i2c_read2>
+  <_i2c_write><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</FILE><LINE>168</LINE></_i2c_write>
+  <__i2c_write0><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</FILE><LINE>170</LINE></__i2c_write0>
+  <__i2c_write1><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</FILE><LINE>175</LINE></__i2c_write1>
+  <__i2c_write2><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</FILE><LINE>177</LINE></__i2c_write2>
+  <__i2c_write3><FILE>C:\Documents and Settings\Jergus\Plocha\tests\ds1307\ds1307.asm</FILE><LINE>181</LINE></__i2c_write3>
+ </LABELS>
+</ASSEMBLER_INFO>

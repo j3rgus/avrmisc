@@ -1,0 +1,116 @@
+
+test.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         000000b6  00000000  00000000  00000054  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .debug_aranges 00000020  00000000  00000000  0000010a  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  2 .debug_pubnames 0000002b  00000000  00000000  0000012a  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  3 .debug_info   00000089  00000000  00000000  00000155  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  4 .debug_abbrev 00000054  00000000  00000000  000001de  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_line   0000009e  00000000  00000000  00000232  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_frame  00000030  00000000  00000000  000002d0  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_str    00000094  00000000  00000000  00000300  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 34 00 	jmp	0x68	; 0x68 <__ctors_end>
+   4:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+   8:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+   c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  10:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  14:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  18:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  1c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  20:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  24:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  28:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  2c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  30:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  34:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  38:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  3c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  40:	0c 94 40 00 	jmp	0x80	; 0x80 <__vector_16>
+  44:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  48:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  4c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  50:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  54:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  58:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  5c:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  60:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+  64:	0c 94 3e 00 	jmp	0x7c	; 0x7c <__bad_interrupt>
+
+00000068 <__ctors_end>:
+  68:	11 24       	eor	r1, r1
+  6a:	1f be       	out	0x3f, r1	; 63
+  6c:	cf ef       	ldi	r28, 0xFF	; 255
+  6e:	d4 e0       	ldi	r29, 0x04	; 4
+  70:	de bf       	out	0x3e, r29	; 62
+  72:	cd bf       	out	0x3d, r28	; 61
+  74:	0e 94 50 00 	call	0xa0	; 0xa0 <main>
+  78:	0c 94 59 00 	jmp	0xb2	; 0xb2 <_exit>
+
+0000007c <__bad_interrupt>:
+  7c:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+00000080 <__vector_16>:
+#include <avr\interrupt.h>
+
+#define XTAL 8000000UL
+
+ISR(TIMER0_OVF_vect) 
+{
+  80:	1f 92       	push	r1
+  82:	0f 92       	push	r0
+  84:	0f b6       	in	r0, 0x3f	; 63
+  86:	0f 92       	push	r0
+  88:	11 24       	eor	r1, r1
+  8a:	8f 93       	push	r24
+  DDRD ^= 0xff;
+  8c:	8a b1       	in	r24, 0x0a	; 10
+  8e:	80 95       	com	r24
+  90:	8a b9       	out	0x0a, r24	; 10
+  TCNT0=0x00;
+  92:	16 bc       	out	0x26, r1	; 38
+}
+  94:	8f 91       	pop	r24
+  96:	0f 90       	pop	r0
+  98:	0f be       	out	0x3f, r0	; 63
+  9a:	0f 90       	pop	r0
+  9c:	1f 90       	pop	r1
+  9e:	18 95       	reti
+
+000000a0 <main>:
+
+int main()
+{
+  TCCR0A=0x00;
+  a0:	14 bc       	out	0x24, r1	; 36
+  TCCR0B=0x03;
+  a2:	83 e0       	ldi	r24, 0x03	; 3
+  a4:	85 bd       	out	0x25, r24	; 37
+  TCNT0=0x00;
+  a6:	16 bc       	out	0x26, r1	; 38
+  TIMSK0=0x01;
+  a8:	81 e0       	ldi	r24, 0x01	; 1
+  aa:	80 93 6e 00 	sts	0x006E, r24
+
+  asm("sei");
+  ae:	78 94       	sei
+  b0:	ff cf       	rjmp	.-2      	; 0xb0 <main+0x10>
+
+000000b2 <_exit>:
+  b2:	f8 94       	cli
+
+000000b4 <__stop_program>:
+  b4:	ff cf       	rjmp	.-2      	; 0xb4 <__stop_program>

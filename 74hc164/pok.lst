@@ -1,0 +1,554 @@
+GAS LISTING /tmp/cc0I6jay.s 			page 1
+
+
+   1               		.file	"pok.c"
+   2               	__SREG__ = 0x3f
+   3               	__SP_H__ = 0x3e
+   4               	__SP_L__ = 0x3d
+   5               	__CCP__  = 0x34
+   6               	__tmp_reg__ = 0
+   7               	__zero_reg__ = 1
+   8               		.global __do_copy_data
+   9               		.global __do_clear_bss
+  10               		.stabs	"/home/jergus/Plocha/tests/74hc164/",100,0,2,.Ltext0
+  11               		.stabs	"pok.c",100,0,2,.Ltext0
+  12               		.text
+  13               	.Ltext0:
+  14               		.stabs	"gcc2_compiled.",60,0,0,0
+  15               		.stabs	"int:t(0,1)=r(0,1);-32768;32767;",128,0,1,0
+  16               		.stabs	"char:t(0,2)=@s8;r(0,2);0;255;",128,0,1,0
+  17               		.stabs	"long int:t(0,3)=@s32;r(0,3);020000000000;017777777777;",128,0,1,0
+  18               		.stabs	"unsigned int:t(0,4)=r(0,4);0;0177777;",128,0,1,0
+  19               		.stabs	"long unsigned int:t(0,5)=@s32;r(0,5);0;037777777777;",128,0,1,0
+  20               		.stabs	"long long int:t(0,6)=@s64;r(0,6);01000000000000000000000;0777777777777777777777;",128,0,1,
+  21               		.stabs	"long long unsigned int:t(0,7)=@s64;r(0,7);0;01777777777777777777777;",128,0,1,0
+  22               		.stabs	"short int:t(0,8)=r(0,8);-32768;32767;",128,0,1,0
+  23               		.stabs	"short unsigned int:t(0,9)=r(0,9);0;0177777;",128,0,1,0
+  24               		.stabs	"signed char:t(0,10)=@s8;r(0,10);-128;127;",128,0,1,0
+  25               		.stabs	"unsigned char:t(0,11)=@s8;r(0,11);0;255;",128,0,1,0
+  26               		.stabs	"float:t(0,12)=r(0,1);4;0;",128,0,1,0
+  27               		.stabs	"double:t(0,13)=r(0,1);4;0;",128,0,1,0
+  28               		.stabs	"long double:t(0,14)=r(0,1);4;0;",128,0,1,0
+  29               		.stabs	"void:t(0,15)=(0,15)",128,0,1,0
+  30               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/avr/io.h",130,0,0,0
+  31               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/avr/sfr_defs.h",130,0,0,0
+  32               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/inttypes.h",130,0,0,0
+  33               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/stdint.h",130,0,0,0
+  34               		.stabs	"int8_t:t(4,1)=(0,10)",128,0,121,0
+  35               		.stabs	"uint8_t:t(4,2)=(0,11)",128,0,122,0
+  36               		.stabs	"int16_t:t(4,3)=(0,1)",128,0,123,0
+  37               		.stabs	"uint16_t:t(4,4)=(0,4)",128,0,124,0
+  38               		.stabs	"int32_t:t(4,5)=(0,3)",128,0,125,0
+  39               		.stabs	"uint32_t:t(4,6)=(0,5)",128,0,126,0
+  40               		.stabs	"int64_t:t(4,7)=(0,6)",128,0,128,0
+  41               		.stabs	"uint64_t:t(4,8)=(0,7)",128,0,129,0
+  42               		.stabs	"intptr_t:t(4,9)=(4,3)",128,0,142,0
+  43               		.stabs	"uintptr_t:t(4,10)=(4,4)",128,0,147,0
+  44               		.stabs	"int_least8_t:t(4,11)=(4,1)",128,0,159,0
+  45               		.stabs	"uint_least8_t:t(4,12)=(4,2)",128,0,164,0
+  46               		.stabs	"int_least16_t:t(4,13)=(4,3)",128,0,169,0
+  47               		.stabs	"uint_least16_t:t(4,14)=(4,4)",128,0,174,0
+  48               		.stabs	"int_least32_t:t(4,15)=(4,5)",128,0,179,0
+  49               		.stabs	"uint_least32_t:t(4,16)=(4,6)",128,0,184,0
+  50               		.stabs	"int_least64_t:t(4,17)=(4,7)",128,0,192,0
+  51               		.stabs	"uint_least64_t:t(4,18)=(4,8)",128,0,199,0
+  52               		.stabs	"int_fast8_t:t(4,19)=(4,1)",128,0,213,0
+  53               		.stabs	"uint_fast8_t:t(4,20)=(4,2)",128,0,218,0
+  54               		.stabs	"int_fast16_t:t(4,21)=(4,3)",128,0,223,0
+  55               		.stabs	"uint_fast16_t:t(4,22)=(4,4)",128,0,228,0
+  56               		.stabs	"int_fast32_t:t(4,23)=(4,5)",128,0,233,0
+  57               		.stabs	"uint_fast32_t:t(4,24)=(4,6)",128,0,238,0
+GAS LISTING /tmp/cc0I6jay.s 			page 2
+
+
+  58               		.stabs	"int_fast64_t:t(4,25)=(4,7)",128,0,246,0
+  59               		.stabs	"uint_fast64_t:t(4,26)=(4,8)",128,0,253,0
+  60               		.stabs	"intmax_t:t(4,27)=(4,7)",128,0,273,0
+  61               		.stabs	"uintmax_t:t(4,28)=(4,8)",128,0,278,0
+  62               		.stabn	162,0,0,0
+  63               		.stabs	"int_farptr_t:t(3,1)=(4,5)",128,0,77,0
+  64               		.stabs	"uint_farptr_t:t(3,2)=(4,6)",128,0,81,0
+  65               		.stabn	162,0,0,0
+  66               		.stabn	162,0,0,0
+  67               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/avr/fuse.h",130,0,0,0
+  68               		.stabs	"__fuse_t:t(5,1)=(5,2)=s3low:(0,11),0,8;high:(0,11),8,8;extended:(0,11),16,8;;",128,0,239,0
+  69               		.stabn	162,0,0,0
+  70               		.stabn	162,0,0,0
+  71               		.stabs	"hc164_init:F(0,15)",36,0,18,hc164_init
+  72               	.global	hc164_init
+  73               		.type	hc164_init, @function
+  74               	hc164_init:
+  75               		.stabd	46,0,0
+  76               		.stabs	"74hc164.c",132,0,0,.Ltext1
+  77               	.Ltext1:
+   0:74hc164.c     **** //*****************************************************************************
+   1:74hc164.c     **** //									                                                          *
+   2:74hc164.c     **** // Meno súboru		: '74hc164.c'					                                      *
+   3:74hc164.c     **** // Popis		: Funkcie pre obsluhu posuvnych registrov 74HC164                 *
+   4:74hc164.c     **** // Autor		: Jergu Lysý				                                    	      *
+   5:74hc164.c     **** // Vytvorené		: 1.9.2010					                                          *
+   6:74hc164.c     **** //									                                                          *
+   7:74hc164.c     **** //									                                                          *
+   8:74hc164.c     **** //*****************************************************************************
+   9:74hc164.c     **** 
+  10:74hc164.c     **** /*
+  11:74hc164.c     ****    Funkcia:	 void hc164_init(void)
+  12:74hc164.c     ****    Funkcia nastavi prislune porty (nutne zavolat pred samotnou pracou s IO)
+  13:74hc164.c     **** 	 Neprebieha ziadna obojsmerna komunikacia => Nevrati ziadnu hodnotu
+  14:74hc164.c     **** */
+  15:74hc164.c     **** 
+  16:74hc164.c     **** void hc164_init(void)
+  17:74hc164.c     **** {
+  78               		.stabn	68,0,18,.LM0-.LFBB1
+  79               	.LM0:
+  80               	.LFBB1:
+  81               	/* prologue: function */
+  82               	/* frame size = 0 */
+  18:74hc164.c     ****   HC164_DDR |= ((1 << CP) | (1 << DATA));
+  83               		.stabn	68,0,19,.LM1-.LFBB1
+  84               	.LM1:
+  85 0000 87B3      		in r24,55-32
+  86 0002 8660      		ori r24,lo8(6)
+  87 0004 87BB      		out 55-32,r24
+  19:74hc164.c     ****   HC164_PORT &= ~((1 << CP) | (1 << DATA));
+  88               		.stabn	68,0,20,.LM2-.LFBB1
+  89               	.LM2:
+  90 0006 88B3      		in r24,56-32
+  91 0008 897F      		andi r24,lo8(-7)
+  92 000a 88BB      		out 56-32,r24
+  93               	/* epilogue start */
+  20:74hc164.c     **** #ifdef _MR_
+GAS LISTING /tmp/cc0I6jay.s 			page 3
+
+
+  21:74hc164.c     **** 	HC164_DDR |= (1 << _MR_);
+  22:74hc164.c     ****   HC164_PORT |= (1 << _MR_);
+  23:74hc164.c     **** #endif
+  24:74hc164.c     **** }
+  94               		.stabn	68,0,25,.LM3-.LFBB1
+  95               	.LM3:
+  96 000c 0895      		ret
+  97               		.size	hc164_init, .-hc164_init
+  98               	.Lscope1:
+  99               		.stabs	"",36,0,0,.Lscope1-.LFBB1
+ 100               		.stabd	78,0,0
+ 101               		.stabs	"hc164_send:F(0,15)",36,0,52,hc164_send
+ 102               		.stabs	"data:P(0,11)",64,0,51,24
+ 103               	.global	hc164_send
+ 104               		.type	hc164_send, @function
+ 105               	hc164_send:
+ 106               		.stabd	46,0,0
+  25:74hc164.c     **** 
+  26:74hc164.c     **** /*
+  27:74hc164.c     ****    Funkcia:	 void hc164_clr(void)
+  28:74hc164.c     ****    Funkcia restartuje IO (vystupy budu na log 0)
+  29:74hc164.c     **** 	 Nevrati ziadnu hodnotu
+  30:74hc164.c     **** */
+  31:74hc164.c     **** 
+  32:74hc164.c     **** void hc164_clr(unsigned char len)
+  33:74hc164.c     **** {
+  34:74hc164.c     **** 	unsigned char i;
+  35:74hc164.c     **** #ifdef _MR_
+  36:74hc164.c     **** 	HC164_PORT &= ~(1 << _MR_);
+  37:74hc164.c     **** 	HC164_PORT |= (1 << _MR_);
+  38:74hc164.c     **** #else
+  39:74hc164.c     **** 	for (i = 0; i < len; i++)
+  40:74hc164.c     **** 		hc164_send(0);
+  41:74hc164.c     **** #endif
+  42:74hc164.c     **** }
+  43:74hc164.c     **** 
+  44:74hc164.c     **** /*
+  45:74hc164.c     ****    Funkcia:	 void hc164_send(unsigned char data)
+  46:74hc164.c     ****    Funkcia odosle byte na IO
+  47:74hc164.c     **** 	 Nevrati ziadnu hodnotu
+  48:74hc164.c     **** */
+  49:74hc164.c     **** 
+  50:74hc164.c     **** void hc164_send(unsigned char data)
+  51:74hc164.c     **** {
+ 107               		.stabn	68,0,52,.LM4-.LFBB2
+ 108               	.LM4:
+ 109               	.LFBB2:
+ 110               	/* prologue: function */
+ 111               	/* frame size = 0 */
+ 112               		.stabn	68,0,52,.LM5-.LFBB2
+ 113               	.LM5:
+ 114 000e 90E0      		ldi r25,lo8(0)
+ 115               	.L7:
+  52:74hc164.c     ****   unsigned char i;
+  53:74hc164.c     **** 
+  54:74hc164.c     ****   for (i = 0; i < 8; i++) {
+  55:74hc164.c     **** 		if (data & 0x80)
+GAS LISTING /tmp/cc0I6jay.s 			page 4
+
+
+ 116               		.stabn	68,0,56,.LM6-.LFBB2
+ 117               	.LM6:
+ 118 0010 87FF      		sbrs r24,7
+ 119 0012 00C0      		rjmp .L4
+  56:74hc164.c     **** 			HC164_PORT |= (1 << DATA);
+ 120               		.stabn	68,0,57,.LM7-.LFBB2
+ 121               	.LM7:
+ 122 0014 C29A      		sbi 56-32,2
+ 123 0016 00C0      		rjmp .L5
+ 124               	.L4:
+  57:74hc164.c     **** 		else 
+  58:74hc164.c     **** 			HC164_PORT &= ~(1 << DATA);
+ 125               		.stabn	68,0,59,.LM8-.LFBB2
+ 126               	.LM8:
+ 127 0018 C298      		cbi 56-32,2
+ 128               	.L5:
+  59:74hc164.c     **** 		HC164_PORT |= (1 << CP);
+ 129               		.stabn	68,0,60,.LM9-.LFBB2
+ 130               	.LM9:
+ 131 001a C19A      		sbi 56-32,1
+  60:74hc164.c     **** 		HC164_PORT &= ~(1 << CP);
+ 132               		.stabn	68,0,61,.LM10-.LFBB2
+ 133               	.LM10:
+ 134 001c C198      		cbi 56-32,1
+  55:74hc164.c     ****   for (i = 0; i < 8; i++) {
+ 135               		.stabn	68,0,55,.LM11-.LFBB2
+ 136               	.LM11:
+ 137 001e 9F5F      		subi r25,lo8(-(1))
+ 138 0020 9830      		cpi r25,lo8(8)
+ 139 0022 01F0      		breq .L8
+  61:74hc164.c     **** 		data <<= 1;
+ 140               		.stabn	68,0,62,.LM12-.LFBB2
+ 141               	.LM12:
+ 142 0024 880F      		lsl r24
+ 143 0026 00C0      		rjmp .L7
+ 144               	.L8:
+ 145 0028 0895      		ret
+ 146               		.size	hc164_send, .-hc164_send
+ 147               		.stabs	"i:r(0,11)",64,0,53,25
+ 148               		.stabn	192,0,0,.LFBB2-.LFBB2
+ 149               		.stabn	224,0,0,.Lscope2-.LFBB2
+ 150               	.Lscope2:
+ 151               		.stabs	"",36,0,0,.Lscope2-.LFBB2
+ 152               		.stabd	78,0,0
+ 153               		.stabs	"hc164_clr:F(0,15)",36,0,34,hc164_clr
+ 154               		.stabs	"len:P(0,11)",64,0,33,16
+ 155               	.global	hc164_clr
+ 156               		.type	hc164_clr, @function
+ 157               	hc164_clr:
+ 158               		.stabd	46,0,0
+  34:74hc164.c     **** {
+ 159               		.stabn	68,0,34,.LM13-.LFBB3
+ 160               	.LM13:
+ 161               	.LFBB3:
+ 162 002a 0F93      		push r16
+ 163 002c 1F93      		push r17
+ 164               	/* prologue: function */
+GAS LISTING /tmp/cc0I6jay.s 			page 5
+
+
+ 165               	/* frame size = 0 */
+ 166 002e 082F      		mov r16,r24
+  34:74hc164.c     **** {
+ 167               		.stabn	68,0,34,.LM14-.LFBB3
+ 168               	.LM14:
+ 169 0030 10E0      		ldi r17,lo8(0)
+ 170 0032 00C0      		rjmp .L10
+ 171               	.L11:
+  41:74hc164.c     **** 		hc164_send(0);
+ 172               		.stabn	68,0,41,.LM15-.LFBB3
+ 173               	.LM15:
+ 174 0034 80E0      		ldi r24,lo8(0)
+ 175 0036 00D0      		rcall hc164_send
+  40:74hc164.c     **** 	for (i = 0; i < len; i++)
+ 176               		.stabn	68,0,40,.LM16-.LFBB3
+ 177               	.LM16:
+ 178 0038 1F5F      		subi r17,lo8(-(1))
+ 179               	.L10:
+ 180 003a 1017      		cp r17,r16
+ 181 003c 00F0      		brlo .L11
+ 182               	/* epilogue start */
+  43:74hc164.c     **** }
+ 183               		.stabn	68,0,43,.LM17-.LFBB3
+ 184               	.LM17:
+ 185 003e 1F91      		pop r17
+ 186 0040 0F91      		pop r16
+ 187 0042 0895      		ret
+ 188               		.size	hc164_clr, .-hc164_clr
+ 189               		.stabs	"i:r(0,11)",64,0,35,17
+ 190               		.stabn	192,0,0,.LFBB3-.LFBB3
+ 191               		.stabn	224,0,0,.Lscope3-.LFBB3
+ 192               	.Lscope3:
+ 193               		.stabs	"",36,0,0,.Lscope3-.LFBB3
+ 194               		.stabd	78,0,0
+ 195               		.stabs	"hc164_string:F(0,15)",36,0,74,hc164_string
+ 196               		.stabs	"data:P(0,16)=*(0,11)",64,0,73,12
+ 197               		.stabs	"len:P(0,11)",64,0,73,22
+ 198               	.global	hc164_string
+ 199               		.type	hc164_string, @function
+ 200               	hc164_string:
+ 201               		.stabd	46,0,0
+  62:74hc164.c     ****   }
+  63:74hc164.c     **** }
+  64:74hc164.c     **** 
+  65:74hc164.c     **** /*
+  66:74hc164.c     ****    Funkcia:	 void hc164_string(unsigned char *data)
+  67:74hc164.c     ****    Funkcia odosle retazec na IO (pocet IO zavisi na konst. NUMBER def. v hlav. subore)
+  68:74hc164.c     **** 	 Plati LIFO - pricom posledny odoslany byte je na vystupe posledneho pripojeneho IO 
+  69:74hc164.c     **** 	 Nevrati ziadnu hodnotu
+  70:74hc164.c     **** */
+  71:74hc164.c     **** 
+  72:74hc164.c     **** void hc164_string(unsigned char *data, unsigned char len)
+  73:74hc164.c     **** {
+ 202               		.stabn	68,0,74,.LM18-.LFBB4
+ 203               	.LM18:
+ 204               	.LFBB4:
+ 205 0044 CF92      		push r12
+GAS LISTING /tmp/cc0I6jay.s 			page 6
+
+
+ 206 0046 DF92      		push r13
+ 207 0048 EF92      		push r14
+ 208 004a FF92      		push r15
+ 209 004c 0F93      		push r16
+ 210 004e 1F93      		push r17
+ 211 0050 CF93      		push r28
+ 212 0052 DF93      		push r29
+ 213               	/* prologue: function */
+ 214               	/* frame size = 0 */
+ 215 0054 6C01      		movw r12,r24
+ 216               		.stabn	68,0,74,.LM19-.LFBB4
+ 217               	.LM19:
+ 218 0056 00E0      		ldi r16,lo8(0)
+  74:74hc164.c     **** 	unsigned char i, j;
+  75:74hc164.c     **** 
+  76:74hc164.c     **** 	for (i = 0; i < (len-1); i++) {
+ 219               		.stabn	68,0,77,.LM20-.LFBB4
+ 220               	.LM20:
+ 221 0058 C62F      		mov r28,r22
+ 222 005a D0E0      		ldi r29,lo8(0)
+ 223 005c 2197      		sbiw r28,1
+ 224 005e 00C0      		rjmp .L14
+ 225               	.L16:
+ 226 0060 10E0      		ldi r17,lo8(0)
+  77:74hc164.c     **** 		for (j = 0; j < 8; j++) {
+  78:74hc164.c     **** 			hc164_send(data[i]);
+ 227               		.stabn	68,0,79,.LM21-.LFBB4
+ 228               	.LM21:
+ 229 0062 7601      		movw r14,r12
+ 230 0064 EE0E      		add r14,r30
+ 231 0066 FF1E      		adc r15,r31
+ 232               	.L15:
+ 233 0068 F701      		movw r30,r14
+ 234 006a 8081      		ld r24,Z
+ 235 006c 00D0      		rcall hc164_send
+  78:74hc164.c     **** 			hc164_send(data[i]);
+ 236               		.stabn	68,0,78,.LM22-.LFBB4
+ 237               	.LM22:
+ 238 006e 1F5F      		subi r17,lo8(-(1))
+ 239 0070 1830      		cpi r17,lo8(8)
+ 240 0072 01F4      		brne .L15
+  77:74hc164.c     **** 		for (j = 0; j < 8; j++) {
+ 241               		.stabn	68,0,77,.LM23-.LFBB4
+ 242               	.LM23:
+ 243 0074 0F5F      		subi r16,lo8(-(1))
+ 244               	.L14:
+ 245 0076 E02F      		mov r30,r16
+ 246 0078 F0E0      		ldi r31,lo8(0)
+ 247 007a EC17      		cp r30,r28
+ 248 007c FD07      		cpc r31,r29
+ 249 007e 04F0      		brlt .L16
+  79:74hc164.c     **** 		}
+  80:74hc164.c     **** 	}
+  81:74hc164.c     **** 	hc164_send(data[i]);
+ 250               		.stabn	68,0,82,.LM24-.LFBB4
+ 251               	.LM24:
+ 252 0080 EC0D      		add r30,r12
+GAS LISTING /tmp/cc0I6jay.s 			page 7
+
+
+ 253 0082 FD1D      		adc r31,r13
+ 254 0084 8081      		ld r24,Z
+ 255 0086 00D0      		rcall hc164_send
+ 256               	/* epilogue start */
+  82:74hc164.c     **** }
+ 257               		.stabn	68,0,83,.LM25-.LFBB4
+ 258               	.LM25:
+ 259 0088 DF91      		pop r29
+ 260 008a CF91      		pop r28
+ 261 008c 1F91      		pop r17
+ 262 008e 0F91      		pop r16
+ 263 0090 FF90      		pop r15
+ 264 0092 EF90      		pop r14
+ 265 0094 DF90      		pop r13
+ 266 0096 CF90      		pop r12
+ 267 0098 0895      		ret
+ 268               		.size	hc164_string, .-hc164_string
+ 269               		.stabs	"i:r(0,11)",64,0,75,16
+ 270               		.stabs	"j:r(0,11)",64,0,75,17
+ 271               		.stabn	192,0,0,.LFBB4-.LFBB4
+ 272               		.stabn	224,0,0,.Lscope4-.LFBB4
+ 273               	.Lscope4:
+ 274               		.stabs	"",36,0,0,.Lscope4-.LFBB4
+ 275               		.stabd	78,0,0
+ 276               		.stabs	"chartoled:F(0,11)",36,0,86,chartoled
+ 277               		.stabs	"d:P(0,11)",64,0,85,30
+ 278               	.global	chartoled
+ 279               		.type	chartoled, @function
+ 280               	chartoled:
+ 281               		.stabd	46,0,0
+  83:74hc164.c     **** 
+  84:74hc164.c     **** unsigned char chartoled(unsigned char d)
+  85:74hc164.c     **** {
+ 282               		.stabn	68,0,86,.LM26-.LFBB5
+ 283               	.LM26:
+ 284               	.LFBB5:
+ 285               	/* prologue: function */
+ 286               	/* frame size = 0 */
+ 287 009a E82F      		mov r30,r24
+  86:74hc164.c     **** 	if ((d >= '0') && (d <= '9')) {
+ 288               		.stabn	68,0,87,.LM27-.LFBB5
+ 289               	.LM27:
+ 290 009c 8053      		subi r24,lo8(-(-48))
+ 291 009e 8A30      		cpi r24,lo8(10)
+ 292 00a0 00F4      		brsh .L20
+  87:74hc164.c     **** 		return LED_num_table[d - '0'];
+ 293               		.stabn	68,0,88,.LM28-.LFBB5
+ 294               	.LM28:
+ 295 00a2 F0E0      		ldi r31,lo8(0)
+ 296 00a4 E050      		subi r30,lo8(-(LED_num_table-48))
+ 297 00a6 F040      		sbci r31,hi8(-(LED_num_table-48))
+ 298 00a8 8081      		ld r24,Z
+ 299 00aa 0895      		ret
+ 300               	.L20:
+  88:74hc164.c     **** 	} else if (((d >= 'A') && (d <= 'Z')) || ((d >= 'a') && (d <= 'z'))) {
+ 301               		.stabn	68,0,89,.LM29-.LFBB5
+ 302               	.LM29:
+GAS LISTING /tmp/cc0I6jay.s 			page 8
+
+
+ 303 00ac 8E2F      		mov r24,r30
+ 304 00ae 8154      		subi r24,lo8(-(-65))
+ 305 00b0 8A31      		cpi r24,lo8(26)
+ 306 00b2 00F0      		brlo .L22
+ 307 00b4 8052      		subi r24,lo8(-(-32))
+ 308 00b6 8A31      		cpi r24,lo8(26)
+ 309 00b8 00F0      		brlo .L22
+ 310 00ba 80E0      		ldi r24,lo8(0)
+ 311 00bc 0895      		ret
+ 312               	.L22:
+  89:74hc164.c     **** 		d &= ~0x20;
+  90:74hc164.c     **** 	  return LED_alph_table[d - 'A'];
+ 313               		.stabn	68,0,91,.LM30-.LFBB5
+ 314               	.LM30:
+ 315 00be EF7D      		andi r30,lo8(-33)
+ 316 00c0 F0E0      		ldi r31,lo8(0)
+ 317 00c2 E050      		subi r30,lo8(-(LED_alph_table-65))
+ 318 00c4 F040      		sbci r31,hi8(-(LED_alph_table-65))
+ 319 00c6 8081      		ld r24,Z
+  91:74hc164.c     **** 	} else {
+  92:74hc164.c     **** 		return 0;
+  93:74hc164.c     **** 	}
+  94:74hc164.c     **** }
+ 320               		.stabn	68,0,95,.LM31-.LFBB5
+ 321               	.LM31:
+ 322 00c8 0895      		ret
+ 323               		.size	chartoled, .-chartoled
+ 324               	.Lscope5:
+ 325               		.stabs	"",36,0,0,.Lscope5-.LFBB5
+ 326               		.stabd	78,0,0
+ 327               		.stabs	"main:F(0,1)",36,0,7,main
+ 328               	.global	main
+ 329               		.type	main, @function
+ 330               	main:
+ 331               		.stabd	46,0,0
+ 332               		.stabs	"pok.c",132,0,0,.Ltext2
+ 333               	.Ltext2:
+   0:pok.c         **** #define F_CPU 4000000UL
+   1:pok.c         **** 
+   2:pok.c         **** #include <avr/io.h>
+   3:pok.c         **** #include "74hc164.h"
+   4:pok.c         **** 
+   5:pok.c         **** int main(void)
+   6:pok.c         **** {
+ 334               		.stabn	68,0,7,.LM32-.LFBB6
+ 335               	.LM32:
+ 336               	.LFBB6:
+ 337               	/* prologue: function */
+ 338               	/* frame size = 0 */
+ 339               	.L25:
+ 340 00ca 00C0      		rjmp .L25
+ 341               		.size	main, .-main
+ 342               	.Lscope6:
+ 343               		.stabs	"",36,0,0,.Lscope6-.LFBB6
+ 344               		.stabd	78,0,0
+ 345               	.global	LED_num_table
+ 346               		.data
+GAS LISTING /tmp/cc0I6jay.s 			page 9
+
+
+ 347               		.type	LED_num_table, @object
+ 348               		.size	LED_num_table, 10
+ 349               	LED_num_table:
+ 350 0000 3F        		.byte	63
+ 351 0001 06        		.byte	6
+ 352 0002 5B        		.byte	91
+ 353 0003 4F        		.byte	79
+ 354 0004 66        		.byte	102
+ 355 0005 67        		.byte	103
+ 356 0006 7D        		.byte	125
+ 357 0007 27        		.byte	39
+ 358 0008 7F        		.byte	127
+ 359 0009 6F        		.byte	111
+ 360               	.global	LED_alph_table
+ 361               		.type	LED_alph_table, @object
+ 362               		.size	LED_alph_table, 26
+ 363               	LED_alph_table:
+ 364 000a 77        		.byte	119
+ 365 000b 7F        		.byte	127
+ 366 000c 39        		.byte	57
+ 367 000d 5E        		.byte	94
+ 368 000e 79        		.byte	121
+ 369 000f 71        		.byte	113
+ 370 0010 3D        		.byte	61
+ 371 0011 76        		.byte	118
+ 372 0012 30        		.byte	48
+ 373 0013 1E        		.byte	30
+ 374 0014 75        		.byte	117
+ 375 0015 38        		.byte	56
+ 376 0016 55        		.byte	85
+ 377 0017 54        		.byte	84
+ 378 0018 5C        		.byte	92
+ 379 0019 73        		.byte	115
+ 380 001a 67        		.byte	103
+ 381 001b 50        		.byte	80
+ 382 001c 6D        		.byte	109
+ 383 001d 78        		.byte	120
+ 384 001e 1C        		.byte	28
+ 385 001f 2A        		.byte	42
+ 386 0020 6A        		.byte	106
+ 387 0021 76        		.byte	118
+ 388 0022 6E        		.byte	110
+ 389 0023 5B        		.byte	91
+ 390               		.stabs	"LED_num_table:G(0,17)=ar(0,18)=r(0,18);0;0177777;;0;9;(0,11)",32,0,21,0
+ 391               		.stabs	"LED_alph_table:G(0,19)=ar(0,18);0;25;(0,11)",32,0,22,0
+ 392               		.text
+ 393               		.stabs	"",100,0,0,.Letext0
+ 394               	.Letext0:
+GAS LISTING /tmp/cc0I6jay.s 			page 10
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 pok.c
+     /tmp/cc0I6jay.s:2      *ABS*:0000003f __SREG__
+     /tmp/cc0I6jay.s:3      *ABS*:0000003e __SP_H__
+     /tmp/cc0I6jay.s:4      *ABS*:0000003d __SP_L__
+     /tmp/cc0I6jay.s:5      *ABS*:00000034 __CCP__
+     /tmp/cc0I6jay.s:6      *ABS*:00000000 __tmp_reg__
+     /tmp/cc0I6jay.s:7      *ABS*:00000001 __zero_reg__
+     /tmp/cc0I6jay.s:74     .text:00000000 hc164_init
+     /tmp/cc0I6jay.s:105    .text:0000000e hc164_send
+     /tmp/cc0I6jay.s:157    .text:0000002a hc164_clr
+     /tmp/cc0I6jay.s:200    .text:00000044 hc164_string
+     /tmp/cc0I6jay.s:280    .text:0000009a chartoled
+     /tmp/cc0I6jay.s:349    .data:00000000 LED_num_table
+     /tmp/cc0I6jay.s:363    .data:0000000a LED_alph_table
+     /tmp/cc0I6jay.s:330    .text:000000ca main
+
+UNDEFINED SYMBOLS
+__do_copy_data
+__do_clear_bss

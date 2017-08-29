@@ -1,0 +1,327 @@
+GAS LISTING /tmp/ccb6MKzf.s 			page 1
+
+
+   1               		.file	"pok.c"
+   2               	__SREG__ = 0x3f
+   3               	__SP_H__ = 0x3e
+   4               	__SP_L__ = 0x3d
+   5               	__CCP__  = 0x34
+   6               	__tmp_reg__ = 0
+   7               	__zero_reg__ = 1
+   8               		.global __do_copy_data
+   9               		.global __do_clear_bss
+  10               		.stabs	"/home/jergus/Plocha/tests/74hc595/",100,0,2,.Ltext0
+  11               		.stabs	"pok.c",100,0,2,.Ltext0
+  12               		.text
+  13               	.Ltext0:
+  14               		.stabs	"gcc2_compiled.",60,0,0,0
+  15               		.stabs	"int:t(0,1)=r(0,1);-32768;32767;",128,0,1,0
+  16               		.stabs	"char:t(0,2)=@s8;r(0,2);0;255;",128,0,1,0
+  17               		.stabs	"long int:t(0,3)=@s32;r(0,3);020000000000;017777777777;",128,0,1,0
+  18               		.stabs	"unsigned int:t(0,4)=r(0,4);0;0177777;",128,0,1,0
+  19               		.stabs	"long unsigned int:t(0,5)=@s32;r(0,5);0;037777777777;",128,0,1,0
+  20               		.stabs	"long long int:t(0,6)=@s64;r(0,6);01000000000000000000000;0777777777777777777777;",128,0,1,
+  21               		.stabs	"long long unsigned int:t(0,7)=@s64;r(0,7);0;01777777777777777777777;",128,0,1,0
+  22               		.stabs	"short int:t(0,8)=r(0,8);-32768;32767;",128,0,1,0
+  23               		.stabs	"short unsigned int:t(0,9)=r(0,9);0;0177777;",128,0,1,0
+  24               		.stabs	"signed char:t(0,10)=@s8;r(0,10);-128;127;",128,0,1,0
+  25               		.stabs	"unsigned char:t(0,11)=@s8;r(0,11);0;255;",128,0,1,0
+  26               		.stabs	"float:t(0,12)=r(0,1);4;0;",128,0,1,0
+  27               		.stabs	"double:t(0,13)=r(0,1);4;0;",128,0,1,0
+  28               		.stabs	"long double:t(0,14)=r(0,1);4;0;",128,0,1,0
+  29               		.stabs	"void:t(0,15)=(0,15)",128,0,1,0
+  30               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/avr/io.h",130,0,0,0
+  31               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/avr/sfr_defs.h",130,0,0,0
+  32               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/inttypes.h",130,0,0,0
+  33               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/stdint.h",130,0,0,0
+  34               		.stabs	"int8_t:t(4,1)=(0,10)",128,0,121,0
+  35               		.stabs	"uint8_t:t(4,2)=(0,11)",128,0,122,0
+  36               		.stabs	"int16_t:t(4,3)=(0,1)",128,0,123,0
+  37               		.stabs	"uint16_t:t(4,4)=(0,4)",128,0,124,0
+  38               		.stabs	"int32_t:t(4,5)=(0,3)",128,0,125,0
+  39               		.stabs	"uint32_t:t(4,6)=(0,5)",128,0,126,0
+  40               		.stabs	"int64_t:t(4,7)=(0,6)",128,0,128,0
+  41               		.stabs	"uint64_t:t(4,8)=(0,7)",128,0,129,0
+  42               		.stabs	"intptr_t:t(4,9)=(4,3)",128,0,142,0
+  43               		.stabs	"uintptr_t:t(4,10)=(4,4)",128,0,147,0
+  44               		.stabs	"int_least8_t:t(4,11)=(4,1)",128,0,159,0
+  45               		.stabs	"uint_least8_t:t(4,12)=(4,2)",128,0,164,0
+  46               		.stabs	"int_least16_t:t(4,13)=(4,3)",128,0,169,0
+  47               		.stabs	"uint_least16_t:t(4,14)=(4,4)",128,0,174,0
+  48               		.stabs	"int_least32_t:t(4,15)=(4,5)",128,0,179,0
+  49               		.stabs	"uint_least32_t:t(4,16)=(4,6)",128,0,184,0
+  50               		.stabs	"int_least64_t:t(4,17)=(4,7)",128,0,192,0
+  51               		.stabs	"uint_least64_t:t(4,18)=(4,8)",128,0,199,0
+  52               		.stabs	"int_fast8_t:t(4,19)=(4,1)",128,0,213,0
+  53               		.stabs	"uint_fast8_t:t(4,20)=(4,2)",128,0,218,0
+  54               		.stabs	"int_fast16_t:t(4,21)=(4,3)",128,0,223,0
+  55               		.stabs	"uint_fast16_t:t(4,22)=(4,4)",128,0,228,0
+  56               		.stabs	"int_fast32_t:t(4,23)=(4,5)",128,0,233,0
+  57               		.stabs	"uint_fast32_t:t(4,24)=(4,6)",128,0,238,0
+GAS LISTING /tmp/ccb6MKzf.s 			page 2
+
+
+  58               		.stabs	"int_fast64_t:t(4,25)=(4,7)",128,0,246,0
+  59               		.stabs	"uint_fast64_t:t(4,26)=(4,8)",128,0,253,0
+  60               		.stabs	"intmax_t:t(4,27)=(4,7)",128,0,273,0
+  61               		.stabs	"uintmax_t:t(4,28)=(4,8)",128,0,278,0
+  62               		.stabn	162,0,0,0
+  63               		.stabs	"int_farptr_t:t(3,1)=(4,5)",128,0,77,0
+  64               		.stabs	"uint_farptr_t:t(3,2)=(4,6)",128,0,81,0
+  65               		.stabn	162,0,0,0
+  66               		.stabn	162,0,0,0
+  67               		.stabs	"/usr/lib/gcc/avr/4.3.4/../../../avr/include/avr/fuse.h",130,0,0,0
+  68               		.stabs	"__fuse_t:t(5,1)=(5,2)=s3low:(0,11),0,8;high:(0,11),8,8;extended:(0,11),16,8;;",128,0,239,0
+  69               		.stabn	162,0,0,0
+  70               		.stabn	162,0,0,0
+  71               		.stabs	"zapis_seg:F(0,15)",36,0,23,zapis_seg
+  72               		.stabs	"d:P(0,16)=*(0,11)",64,0,22,24
+  73               	.global	zapis_seg
+  74               		.type	zapis_seg, @function
+  75               	zapis_seg:
+  76               		.stabd	46,0,0
+   0:pok.c         **** #define F_CPU 4000000UL
+   1:pok.c         **** /*
+   2:pok.c         **** *  DS     -  PB0
+   3:pok.c         **** *  SH_CP  -  PB1
+   4:pok.c         **** *  ST_CP  -  PB2
+   5:pok.c         **** */
+   6:pok.c         **** #include <avr/io.h>
+   7:pok.c         **** 
+   8:pok.c         **** #define DS 0
+   9:pok.c         **** #define SH_CP 1
+  10:pok.c         **** #define ST_CP 2
+  11:pok.c         **** 
+  12:pok.c         **** #define SegA 1
+  13:pok.c         **** #define SegB 2
+  14:pok.c         **** #define SegC 4
+  15:pok.c         **** #define SegD 8
+  16:pok.c         **** #define SegE 16
+  17:pok.c         **** #define SegF 32
+  18:pok.c         **** #define SegG 64
+  19:pok.c         **** #define SegH 128
+  20:pok.c         **** 
+  21:pok.c         **** void zapis_seg(unsigned char *d, int l)
+  22:pok.c         **** {
+  77               		.stabn	68,0,23,.LM0-.LFBB1
+  78               	.LM0:
+  79               	.LFBB1:
+  80 0000 00C0      		rjmp .L9
+  81               	/* prologue: function */
+  82               	/* frame size = 0 */
+  83               	.L5:
+  23:pok.c         ****   unsigned char j, i;
+  24:pok.c         **** 
+  25:pok.c         ****   for (i = (l-1); (i < 5) && (i >= 0); i--) {
+  26:pok.c         ****     for (j = 0; j < 8; j++) {
+  27:pok.c         ****       if ((d[i] & 128)) 
+  84               		.stabn	68,0,28,.LM1-.LFBB1
+  85               	.LM1:
+  86 0002 27FF      		sbrs r18,7
+GAS LISTING /tmp/ccb6MKzf.s 			page 3
+
+
+  87 0004 00C0      		rjmp .L3
+  28:pok.c         **** 	PORTB |= (1 << DS);
+  88               		.stabn	68,0,29,.LM2-.LFBB1
+  89               	.LM2:
+  90 0006 C09A      		sbi 56-32,0
+  91 0008 00C0      		rjmp .L4
+  92               	.L3:
+  29:pok.c         ****       else 
+  30:pok.c         **** 	PORTB &= ~(1 << DS);
+  93               		.stabn	68,0,31,.LM3-.LFBB1
+  94               	.LM3:
+  95 000a C098      		cbi 56-32,0
+  96               	.L4:
+  31:pok.c         **** 
+  32:pok.c         ****        PORTB |= (1 << SH_CP);
+  97               		.stabn	68,0,33,.LM4-.LFBB1
+  98               	.LM4:
+  99 000c C19A      		sbi 56-32,1
+  33:pok.c         ****        PORTB &= ~(1 << SH_CP);
+ 100               		.stabn	68,0,34,.LM5-.LFBB1
+ 101               	.LM5:
+ 102 000e C198      		cbi 56-32,1
+  34:pok.c         ****        d[i] = d[i]<<1;
+ 103               		.stabn	68,0,35,.LM6-.LFBB1
+ 104               	.LM6:
+ 105 0010 220F      		lsl r18
+  27:pok.c         ****     for (j = 0; j < 8; j++) {
+ 106               		.stabn	68,0,27,.LM7-.LFBB1
+ 107               	.LM7:
+ 108 0012 3F5F      		subi r19,lo8(-(1))
+ 109 0014 3830      		cpi r19,lo8(8)
+ 110 0016 01F4      		brne .L5
+ 111 0018 2083      		st Z,r18
+ 112               	.L9:
+  26:pok.c         ****   for (i = (l-1); (i < 5) && (i >= 0); i--) {
+ 113               		.stabn	68,0,26,.LM8-.LFBB1
+ 114               	.LM8:
+ 115 001a 6150      		subi r22,lo8(-(-1))
+ 116 001c 6530      		cpi r22,lo8(5)
+ 117 001e 00F4      		brsh .L7
+  28:pok.c         ****       if ((d[i] & 128)) 
+ 118               		.stabn	68,0,28,.LM9-.LFBB1
+ 119               	.LM9:
+ 120 0020 FC01      		movw r30,r24
+ 121 0022 E60F      		add r30,r22
+ 122 0024 F11D      		adc r31,__zero_reg__
+ 123 0026 2081      		ld r18,Z
+ 124 0028 30E0      		ldi r19,lo8(0)
+ 125 002a 00C0      		rjmp .L5
+ 126               	.L7:
+ 127 002c 0895      		ret
+ 128               		.size	zapis_seg, .-zapis_seg
+ 129               		.stabs	"j:r(0,11)",64,0,24,19
+ 130               		.stabs	"i:r(0,11)",64,0,24,22
+ 131               		.stabn	192,0,0,.LFBB1-.LFBB1
+ 132               		.stabn	224,0,0,.Lscope1-.LFBB1
+ 133               	.Lscope1:
+GAS LISTING /tmp/ccb6MKzf.s 			page 4
+
+
+ 134               		.stabs	"",36,0,0,.Lscope1-.LFBB1
+ 135               		.stabd	78,0,0
+ 136               		.stabs	"zobraz:F(0,15)",36,0,41,zobraz
+ 137               	.global	zobraz
+ 138               		.type	zobraz, @function
+ 139               	zobraz:
+ 140               		.stabd	46,0,0
+  35:pok.c         ****     }
+  36:pok.c         ****   }
+  37:pok.c         **** }
+  38:pok.c         **** 
+  39:pok.c         **** void zobraz(void)
+  40:pok.c         **** {
+ 141               		.stabn	68,0,41,.LM10-.LFBB2
+ 142               	.LM10:
+ 143               	.LFBB2:
+ 144               	/* prologue: function */
+ 145               	/* frame size = 0 */
+  41:pok.c         ****   PORTB |= (1 << ST_CP);
+ 146               		.stabn	68,0,42,.LM11-.LFBB2
+ 147               	.LM11:
+ 148 002e C29A      		sbi 56-32,2
+  42:pok.c         ****   PORTB &= ~(1 << ST_CP);
+ 149               		.stabn	68,0,43,.LM12-.LFBB2
+ 150               	.LM12:
+ 151 0030 C298      		cbi 56-32,2
+ 152               	/* epilogue start */
+  43:pok.c         **** }
+ 153               		.stabn	68,0,44,.LM13-.LFBB2
+ 154               	.LM13:
+ 155 0032 0895      		ret
+ 156               		.size	zobraz, .-zobraz
+ 157               	.Lscope2:
+ 158               		.stabs	"",36,0,0,.Lscope2-.LFBB2
+ 159               		.stabd	78,0,0
+ 160               		.stabs	"main:F(0,1)",36,0,47,main
+ 161               	.global	main
+ 162               		.type	main, @function
+ 163               	main:
+ 164               		.stabd	46,0,0
+  44:pok.c         **** 
+  45:pok.c         **** int main(void)
+  46:pok.c         **** {
+ 165               		.stabn	68,0,47,.LM14-.LFBB3
+ 166               	.LM14:
+ 167               	.LFBB3:
+ 168 0034 DF93      		push r29
+ 169 0036 CF93      		push r28
+ 170 0038 00D0      		rcall .
+ 171 003a 00D0      		rcall .
+ 172 003c CDB7      		in r28,__SP_L__
+ 173 003e DEB7      		in r29,__SP_H__
+ 174               	/* prologue: function */
+ 175               	/* frame size = 4 */
+  47:pok.c         ****   unsigned char pom[4];
+  48:pok.c         **** 
+  49:pok.c         ****   DDRB |= ((1 << DS) | (1 << SH_CP) | (1 << ST_CP));
+GAS LISTING /tmp/ccb6MKzf.s 			page 5
+
+
+ 176               		.stabn	68,0,50,.LM15-.LFBB3
+ 177               	.LM15:
+ 178 0040 87B3      		in r24,55-32
+ 179 0042 8760      		ori r24,lo8(7)
+ 180 0044 87BB      		out 55-32,r24
+  50:pok.c         ****   PORTB &= ~((1 << DS) | (1 << SH_CP) | (1 << ST_CP));
+ 181               		.stabn	68,0,51,.LM16-.LFBB3
+ 182               	.LM16:
+ 183 0046 88B3      		in r24,56-32
+ 184 0048 887F      		andi r24,lo8(-8)
+ 185 004a 88BB      		out 56-32,r24
+  51:pok.c         **** 
+  52:pok.c         ****   pom[0] = 0xff ^ SegD;
+ 186               		.stabn	68,0,53,.LM17-.LFBB3
+ 187               	.LM17:
+ 188 004c 87EF      		ldi r24,lo8(-9)
+ 189 004e 8983      		std Y+1,r24
+  53:pok.c         ****   pom[1] = 0x7f ^ SegA ^ SegD;
+ 190               		.stabn	68,0,54,.LM18-.LFBB3
+ 191               	.LM18:
+ 192 0050 86E7      		ldi r24,lo8(118)
+ 193 0052 8A83      		std Y+2,r24
+  54:pok.c         ****   pom[2] = 0x7f ^ SegG;
+ 194               		.stabn	68,0,55,.LM19-.LFBB3
+ 195               	.LM19:
+ 196 0054 8FE3      		ldi r24,lo8(63)
+ 197 0056 8B83      		std Y+3,r24
+  55:pok.c         ****   pom[3] = 0x7f ^ SegF ^ SegG;
+ 198               		.stabn	68,0,56,.LM20-.LFBB3
+ 199               	.LM20:
+ 200 0058 8FE1      		ldi r24,lo8(31)
+ 201 005a 8C83      		std Y+4,r24
+  56:pok.c         ****   zapis_seg(pom, 4);
+ 202               		.stabn	68,0,57,.LM21-.LFBB3
+ 203               	.LM21:
+ 204 005c CE01      		movw r24,r28
+ 205 005e 0196      		adiw r24,1
+ 206 0060 64E0      		ldi r22,lo8(4)
+ 207 0062 70E0      		ldi r23,hi8(4)
+ 208 0064 00D0      		rcall zapis_seg
+ 209               	.LBB4:
+ 210               	.LBB5:
+  42:pok.c         ****   PORTB |= (1 << ST_CP);
+ 211               		.stabn	68,0,42,.LM22-.LFBB3
+ 212               	.LM22:
+ 213 0066 C29A      		sbi 56-32,2
+  43:pok.c         ****   PORTB &= ~(1 << ST_CP);
+ 214               		.stabn	68,0,43,.LM23-.LFBB3
+ 215               	.LM23:
+ 216 0068 C298      		cbi 56-32,2
+ 217               	.L13:
+ 218 006a 00C0      		rjmp .L13
+ 219               	.LBE5:
+ 220               	.LBE4:
+ 221               		.size	main, .-main
+ 222               		.stabs	"pom:(0,17)=ar(0,18)=r(0,18);0;0177777;;0;3;(0,11)",128,0,48,1
+ 223               		.stabn	192,0,0,.LFBB3-.LFBB3
+GAS LISTING /tmp/ccb6MKzf.s 			page 6
+
+
+ 224               		.stabn	224,0,0,.Lscope3-.LFBB3
+ 225               	.Lscope3:
+ 226               		.stabs	"",36,0,0,.Lscope3-.LFBB3
+ 227               		.stabd	78,0,0
+ 228               		.stabs	"",100,0,0,.Letext0
+ 229               	.Letext0:
+GAS LISTING /tmp/ccb6MKzf.s 			page 7
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 pok.c
+     /tmp/ccb6MKzf.s:2      *ABS*:0000003f __SREG__
+     /tmp/ccb6MKzf.s:3      *ABS*:0000003e __SP_H__
+     /tmp/ccb6MKzf.s:4      *ABS*:0000003d __SP_L__
+     /tmp/ccb6MKzf.s:5      *ABS*:00000034 __CCP__
+     /tmp/ccb6MKzf.s:6      *ABS*:00000000 __tmp_reg__
+     /tmp/ccb6MKzf.s:7      *ABS*:00000001 __zero_reg__
+     /tmp/ccb6MKzf.s:75     .text:00000000 zapis_seg
+     /tmp/ccb6MKzf.s:139    .text:0000002e zobraz
+     /tmp/ccb6MKzf.s:163    .text:00000034 main
+
+UNDEFINED SYMBOLS
+__do_copy_data
+__do_clear_bss
